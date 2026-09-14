@@ -1,0 +1,998 @@
+Item,Mins,Secs,Bonus,Effect,Total Sec,Bonus * Total Sec,Type
+'Apple' Cake of Lost Souls,10,00,6226,% Flora Analysis Rewards,600,"3,735,600",Edible Product
+'Apple' Curiosity,10,00,6537,% Flora Analysis Rewards,600,"3,922,200",Edible Product
+'Apple' Ice Cream,10,00,59,% Cold Resistance,600,"35,400",Edible Product
+'Apple' Roll,06,36,42,% Sprint Distance,396,"16,632",Edible Product
+'Legs-in-Pastry',10,00,6,% Sprint Recovery Time,600,"3,600",Edible Product
+Aberrant Duskfin,03,30,2515,% Fauna Analysis Rewards,210,"528,150",Fish
+Abyssal Crab,03,00,34,% Breathing Efficiency,180,"6,120",Fish
+Abyssal Horror Egg,03,00,2214,% Fauna Analysis Rewards,180,"398,520",Fish
+Abyssal Stew,10,00,2,Words Translated,600,"1,200",Edible Product
+Acidic Pufferfish,01,30,25,% Breathing Efficiency,90,"2,250",Fish
+All-Seeing Worm,01,00,24,% Breathing Efficiency,60,"1,440",Fish
+Aloe Flesh,02,30,24,% Heat Resistance,150,"3,600",Raw Ingredient
+Alpha Squid,03,30,33,% Breathing Efficiency,210,"6,930",Fish
+Ambrosial Curse,10,00,6523,% Fauna Analysis Rewards,600,"3,913,800",Edible Product
+Ambrosial Wonder,10,00,6293,% Mineral Analysis Rewards,600,"3,775,800",Edible Product
+Ancient Irontail,03,53,2800,% Fauna Analysis Rewards,233,"652,400",Fish
+Anemone Anomaly,01,00,31,% Breathing Efficiency,60,"1,860",Fish
+Angelic Fruitcake,10,00,6205,% Mineral Analysis Rewards,600,"3,723,000",Edible Product
+Anomalous Doughnut,10,00,6443,% Fauna Analysis Rewards,600,"3,865,800",Edible Product
+Anomalous Jam,08,00,49,% Sprint Distance,480,"23,520",Edible Product
+Anomalous Tart,10,00,54,% Resources Mined,600,"32,400",Edible Product
+Appalling Jam Sponge,10,00,6564,% Flora Analysis Rewards,600,"3,938,400",Edible Product
+Ash Snail,00,30,29,% Breathing Efficiency,30,870,Fish
+Atlantidian Crab,03,30,2607,% Fauna Analysis Rewards,210,"547,470",Fish
+Aurora Jellyfish,00,30,26,% Breathing Efficiency,30,780,Fish
+Baked Anomaly,06,36,2,Words Translated,396,792,Edible Product
+Baked Cheese Tart,10,00,30,% Hazard Protection Battery,600,"18,000",Edible Product
+Basalt-Tooth Bloater,02,00,35,% Breathing Efficiency,120,"4,200",Fish
+Bewitching Candlefish,03,00,28,% Breathing Efficiency,180,"5,040",Fish
+Bileworm,00,30,25,% Breathing Efficiency,30,750,Fish
+Bitterscale Ray,03,00,36,% Breathing Efficiency,180,"6,480",Fish
+Bittersweet Cocoa,07,00,23,% Hazard Protection Battery,420,"9,660",Edible Product
+Black-Eyed Shark,03,30,38,% Breathing Efficiency,210,"7,980",Fish
+Bladdersac,01,00,32,% Breathing Efficiency,60,"1,920",Fish
+Bleached Bonefish,03,53,2661,% Fauna Analysis Rewards,233,"620,013",Fish
+Bleached Octopus,02,00,28,% Breathing Efficiency,120,"3,360",Fish
+Blind Titancore,03,53,2807,% Fauna Analysis Rewards,233,"654,031",Fish
+Blistering Eel,01,00,24,% Breathing Efficiency,60,"1,440",Fish
+Bloated Eel,01,30,22,% Breathing Efficiency,90,"1,980",Fish
+Blue Ribbontail,01,30,32,% Breathing Efficiency,90,"2,880",Fish
+Boiled Snapper,01,00,29,% Breathing Efficiency,60,"1,740",Fish
+Boiling Shark,03,00,35,% Breathing Efficiency,180,"6,300",Fish
+Bone Broth,06,36,41,% Resources Mined,396,"16,236",Edible Product
+Bone Butter,07,00,31,% Shield Strength,420,"13,020",Edible Product
+Bone Cheese,07,00,32,% Shield Strength,420,"13,440",Edible Product
+Bone Cream,07,00,32,% Shield Strength,420,"13,440",Edible Product
+Bone Milk,07,00,32,% Shield Strength,420,"13,440",Edible Product
+Bone Nuggets,02,00,15,% Sprint Distance,120,"1,800",Raw Ingredient
+Brain Eel,03,30,2452,% Fauna Analysis Rewards,210,"514,920",Fish
+Breach Crawler,02,00,27,% Breathing Efficiency,120,"3,240",Fish
+Bread,06,00,22,% Hazard Protection Battery,360,"7,920",Edible Product
+Brineskipper,01,30,25,% Breathing Efficiency,90,"2,250",Fish
+Briney Delight,10,00,59,% Toxic Resistance,600,"35,400",Edible Product
+Briney Rime,10,00,63,% Cold Resistance,600,"37,800",Edible Product
+Briny Worm,00,30,21,% Breathing Efficiency,30,630,Fish
+Bugs-in-a-Blanket,06,30,41,% Toxic Resistance,390,"15,990",Edible Product
+Bulging Snapper,00,30,23,% Breathing Efficiency,30,690,Fish
+Burning Jam Fluffer,10,00,58,% Heat Resistance,600,"34,800",Edible Product
+Burning Jam Surprise,10,00,65,% Heat Resistance,600,"39,000",Edible Product
+Burning Surprise,06,36,45,% Heat Resistance,396,"17,820",Edible Product
+Butter Syrup,08,00,68,% Solar Panel Power,480,"32,640",Edible Product
+Cactus Jelly,08,00,51,% Cold Resistance,480,"24,480",Edible Product
+Cactus Nectar,03,00,34,% Cold Resistance,180,"6,120",Raw Ingredient
+Cadmium Pearlcase,01,00,29,% Breathing Efficiency,60,"1,740",Fish
+Cake Batter,04,00,12,% Sprint Recovery Time,240,"2,880",Edible Product
+Cake of Burning Dread,10,00,54,% Heat Resistance,600,"32,400",Edible Product
+Cake of Eternal Sleep,10,00,42,% Shield Strength,600,"25,200",Edible Product
+Cake of Glass,10,00,325,% Jetpack Tanks,600,"195,000",Edible Product
+Cake of Sin,10,00,6463,% Mineral Analysis Rewards,600,"3,877,800",Edible Product
+Cake of the Lost,10,00,6059,% Fauna Analysis Rewards,600,"3,635,400",Edible Product
+Candelabra Octopus,03,00,30,% Breathing Efficiency,180,"5,400",Fish
+Candied 'Apples',10,00,6311,% Mineral Analysis Rewards,600,"3,786,600",Edible Product
+Caramel Curiosity,10,00,6583,% Mineral Analysis Rewards,600,"3,949,800",Edible Product
+Caramel Doughnut,10,00,60,% Resources Mined,600,"36,000",Edible Product
+Caramel Ice Cream,10,00,53,% Cold Resistance,600,"31,800",Edible Product
+Caramel Tart,10,00,7,% Sprint Recovery Time,600,"4,200",Edible Product
+Caramel-Encrusted Cake,10,00,55,% Resources Mined,600,"33,000",Edible Product
+Caramelised Nightmare,10,00,97,% Solar Panel Power,600,"58,200",Edible Product
+Carbon Nanotubes,00,06,8,% Hazard Protection Battery,6,48,Crafted Technology Component
+Caustic Urchin,01,00,27,% Breathing Efficiency,60,"1,620",Fish
+Cave Prowler,03,30,39,% Breathing Efficiency,210,"8,190",Fish
+Chalkscale Nibber,01,00,22,% Breathing Efficiency,60,"1,320",Fish
+Cheese-And-Flesh Stew,10,00,60,% Sprint Distance,600,"36,000",Edible Product
+Cheesy Vegetable Pie,10,00,32,% Hazard Protection Battery,600,"19,200",Edible Product
+Chewy 'Dumpling' Stew,06,30,21,% Mining Speed,390,"8,190",Edible Product
+Chewy Biscuit,06,36,42,% Toxic Resistance,396,"16,632",Edible Product
+Chewy Organ Pie,10,00,11,% Sprint Recovery Time,600,"6,600",Edible Product
+Chewy Wires,02,00,15,% Sprint Distance,120,"1,800",Raw Ingredient
+Child of Helios,03,53,2765,% Fauna Analysis Rewards,233,"644,245",Fish
+Chocolate Cake,10,00,54,% Resources Mined,600,"32,400",Edible Product
+Chocolate Curiosity,10,00,93,% Solar Panel Power,600,"55,800",Edible Product
+Chocolate Dream,10,00,43,% Shield Strength,600,"25,800",Edible Product
+Chocolate Ice Cream,10,00,54,% Cold Resistance,600,"32,400",Edible Product
+Chocolate Oozer,10,00,6049,% Mineral Analysis Rewards,600,"3,629,400",Edible Product
+Choking Monstrosity Cake,10,00,6342,% Flora Analysis Rewards,600,"3,805,200",Edible Product
+Churned Butter,05,00,189,% Jetpack Tanks,300,"56,700",Edible Product
+Clarified Oil,05,00,207,% Jetpack Tanks,300,"62,100",Edible Product
+Clearwater Skipper,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Cocoa Creams,06,36,71,% Life Support Tanks,396,"28,116",Edible Product
+Cocoa Doughnut,10,00,-38,% Recharge Time,600,"-22,800",Edible Product
+Cocoa Tart,10,00,9,% Sprint Recovery Time,600,"5,400",Edible Product
+Colossal Jawfish,03,03,33,% Breathing Efficiency,183,"6,039",Fish
+Colossal Meltfin,03,00,32,% Breathing Efficiency,180,"5,760",Fish
+Colossal Mossback,03,30,41,% Breathing Efficiency,210,"8,610",Fish
+Colossal Shrimp,03,00,36,% Breathing Efficiency,180,"6,480",Fish
+Common Shimmertail,00,03,23,% Breathing Efficiency,3,69,Fish
+Cough Biscuits,06,36,44,% Cold Resistance,396,"17,424",Edible Product
+Crab 'Apple',02,00,17,% Sprint Distance,120,"2,040",Raw Ingredient
+Craw Milk,01,30,3,% Sprint Recovery Time,90,270,Raw Ingredient
+Cream,05,00,34,% Sprint Distance,300,"10,200",Edible Product
+Cream Buns,10,00,57,% Resources Mined,600,"34,200",Edible Product
+Cream Curiosity,10,00,43,% Shield Strength,600,"25,800",Edible Product
+Cream Fingers,06,36,22,% Hazard Protection Battery,396,"8,712",Edible Product
+Cream of Vegetable Stew,10,00,9,% Sprint Recovery Time,600,"5,400",Edible Product
+Creamed Organ Soup,10,00,62,% Sprint Distance,600,"37,200",Edible Product
+Creamy Clouds of Nectar,10,00,6156,% Mineral Analysis Rewards,600,"3,693,600",Edible Product
+Creamy Sauce,07,00,23,% Hazard Protection Battery,420,"9,660",Edible Product
+Creamy Treat,10,00,9,% Sprint Recovery Time,600,"5,400",Edible Product
+Creature Egg,01,30,13,% Sprint Distance,90,"1,170",Raw Ingredient
+Creature Pellets,00,06,1,% Life Support Tanks,6,6,Compressed Nutrients
+Crunchy Caramel,06,00,67,% Life Support Tanks,360,"24,120",Edible Product
+Crunchy Wings,01,30,4,% Sprint Recovery Time,90,360,Raw Ingredient
+Crystal Flesh,01,30,6,% Sprint Recovery Time,90,540,Raw Ingredient
+Crystal Jelly,03,00,2233,% Fauna Analysis Rewards,180,"401,940",Fish
+Crystalfin Shark,03,00,33,% Breathing Efficiency,180,"5,940",Fish
+Crystalline Soup,06,30,39,% Resources Mined,390,"15,210",Edible Product
+Curdy Cracker,06,36,235,% Jetpack Tanks,396,"93,060",Edible Product
+Custard Curiosity,10,00,6388,% Fauna Analysis Rewards,600,"3,832,800",Edible Product
+Custard Doughnut,10,00,29,% Mining Speed,600,"17,400",Edible Product
+Custard Fancy,10,00,-39,% Recharge Time,600,"-23,400",Edible Product
+Custard Tart,10,00,10,% Sprint Recovery Time,600,"6,000",Edible Product
+Cyclonic Eel,02,00,27,% Breathing Efficiency,120,"3,240",Fish
+Cyclopic Eel,03,00,28,% Breathing Efficiency,180,"5,040",Fish
+De-Pressurized Blob,00,30,20,% Breathing Efficiency,30,600,Fish
+Deathly-Cold Ice Cream,10,00,64,% Breathing Efficiency,600,"38,400",Edible Product
+Deepwater Angler,03,00,37,% Breathing Efficiency,180,"6,660",Fish
+Deepwater Minnow,00,30,23,% Breathing Efficiency,30,690,Fish
+Delicate Meringue,07,00,9,% Sprint Recovery Time,420,"3,780",Edible Product
+Delicious Vegetable Stew,10,00,42,% Shield Strength,600,"25,200",Edible Product
+Depleted Razorjaw,01,30,27,% Breathing Efficiency,90,"2,430",Fish
+Devilled Organs,10,00,54,% Heat Resistance,600,"32,400",Edible Product
+Diplo Chunks,01,30,3,% Sprint Recovery Time,90,270,Raw Ingredient
+Dirty Meat,01,30,11,% Sprint Recovery Time,90,990,Raw Ingredient
+Doomed Cream Cake,10,00,6251,% Flora Analysis Rewards,600,"3,750,600",Edible Product
+Dough,05,00,34,% Sprint Distance,300,"10,200",Edible Product
+Dragonfish,03,53,2683,% Fauna Analysis Rewards,233,"625,139",Fish
+Earthy Pie,10,00,57,% Resources Mined,600,"34,200",Edible Product
+Electric Eel,01,30,29,% Breathing Efficiency,90,"2,610",Fish
+Emeril Sunstar,03,00,2198,% Fauna Analysis Rewards,180,"395,640",Fish
+Encrusted Worm,01,00,29,% Breathing Efficiency,60,"1,740",Fish
+Enriched Biscuit,06,36,22,% Hazard Protection Battery,396,"8,712",Edible Product
+Erased Clam,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Esophageal Surprise,10,00,56,% Heat Resistance,600,"33,600",Edible Product
+Evaporating Snail,01,00,26,% Breathing Efficiency,60,"1,560",Fish
+Ever-Boiling Cake,10,00,52,% Heat Resistance,600,"31,200",Edible Product
+Ever-burning Jam,08,00,52,% Heat Resistance,480,"24,960",Edible Product
+Extra-Fluffy Batter,04,00,26,% Sprint Distance,240,"6,240",Edible Product
+Extra-Fluffy Cream Cake,10,00,6422,% Fauna Analysis Rewards,600,"3,853,200",Edible Product
+Feline Liver,01,30,10,% Sprint Recovery Time,90,900,Raw Ingredient
+Ferrite Bowfin,03,00,37,% Breathing Efficiency,180,"6,660",Fish
+Fibrous Stew,08,00,13,% Sprint Recovery Time,480,"6,240",Edible Product
+Field's Dartfish,00,30,21,% Breathing Efficiency,30,630,Fish
+Fiendish Roe,01,30,8,% Sprint Recovery Time,90,720,Raw Ingredient
+Fiery Vegetable Stew,10,00,63,% Heat Resistance,600,"37,800",Edible Product
+Fire Water,07,00,50,% Heat Resistance,420,"21,000",Edible Product
+Fireberry,02,30,24,% Heat Resistance,150,"3,600",Raw Ingredient
+Fish and Rice,07,30,44,% Breathing Efficiency,450,"19,800",Edible Product
+Fish Biscuit,06,36,47,% Breathing Efficiency,396,"18,612",Edible Product
+Fish Pie,08,00,47,% Breathing Efficiency,480,"22,560",Edible Product
+Flashfire Eel,01,30,33,% Breathing Efficiency,90,"2,970",Fish
+Flavoursome Organs,10,00,43,% Shield Strength,600,"25,800",Edible Product
+Flavoursome Sauce,07,00,24,% Hazard Protection Battery,420,"10,080",Edible Product
+Flesh Rope,00,06,-100,% Unspecified,6,-600,Intestinal Fragment
+Fleshy Cylinder,05,30,43,% Breathing Efficiency,330,"14,190",Edible Product
+Floral Wafer,06,36,4136,% Flora Analysis Rewards,396,"1,637,856",Edible Product
+Flourishing Shalefish,01,30,24,% Breathing Efficiency,90,"2,160",Fish
+Fluffy Caramel Delight,10,00,95,% Solar Panel Power,600,"57,000",Edible Product
+Fluffy Throatripper,10,00,6181,% Flora Analysis Rewards,600,"3,708,600",Edible Product
+Fool's Goldfish,00,30,20,% Breathing Efficiency,30,600,Fish
+Foraged Mushrooms,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Forktailed Splicer,01,00,32,% Breathing Efficiency,60,"1,920",Fish
+Fossilised [Something],01,00,5,% Life Support Tanks,60,300,Fossil
+Fragile Icthyoscale,03,00,2269,% Fauna Analysis Rewards,180,"408,420",Fish
+Fresh milk,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Frostbite Ray,03,00,27,% Breathing Efficiency,180,"4,860",Fish
+Frosted Mire,10,00,6123,% Fauna Analysis Rewards,600,"3,673,800",Edible Product
+Frostscale Trout,00,30,22,% Breathing Efficiency,30,660,Fish
+Frostshell Clam,01,00,23,% Breathing Efficiency,60,"1,380",Fish
+Frozen Isopod,01,00,21,% Breathing Efficiency,60,"1,260",Fish
+Frozen Knifejaw,02,00,26,% Breathing Efficiency,120,"3,120",Fish
+Frozen Tubers,02,30,22,% Cold Resistance,150,"3,300",Raw Ingredient
+Frozen Whelk,00,30,28,% Breathing Efficiency,30,840,Fish
+Fruity Ice Cream,10,00,57,% Cold Resistance,600,"34,200",Edible Product
+Fruity Pudding,10,00,61,% Heat Resistance,600,"36,600",Edible Product
+Fumarole Gulper,02,00,30,% Breathing Efficiency,120,"3,600",Fish
+Fungal Omelette,06,30,46,% Toxic Resistance,390,"17,940",Edible Product
+Fungal Tart,10,00,40,% Shield Strength,600,"24,000",Edible Product
+Furball Jelly,08,00,25,% Hazard Protection Battery,480,"12,000",Edible Product
+Gamma Squid,03,53,2680,% Fauna Analysis Rewards,233,"624,440",Fish
+Gas Worm,00,30,25,% Breathing Efficiency,30,750,Fish
+GekNip,00,06,-100,% Unspecified,6,-600,Trade commodity
+Gelatinous Goop,06,30,5,% Sprint Recovery Time,390,"1,950",Edible Product
+Gelatinous Membrane,02,00,1679,% Mineral Analysis Rewards,120,"201,480",Edible Product
+Gelatinous Sponge,10,00,-36,% Recharge Time,600,"-21,600",Edible Product
+Geno-Prawn,01,00,31,% Breathing Efficiency,60,"1,860",Fish
+Ghost Skipper,01,00,28,% Breathing Efficiency,60,"1,680",Fish
+Ghostfin,03,30,2548,% Fauna Analysis Rewards,210,"535,080",Fish
+Giant Egg,02,00,15,% Sprint Distance,120,"1,800",Raw Ingredient
+Giant Hairy Crab,02,00,33,% Breathing Efficiency,120,"3,960",Fish
+Giant Icefin,03,00,37,% Breathing Efficiency,180,"6,660",Fish
+Giant Ray,03,00,38,% Breathing Efficiency,180,"6,840",Fish
+Giant Sunray,03,00,29,% Breathing Efficiency,180,"5,220",Fish
+Giant Whiskrerfish,02,00,28,% Breathing Efficiency,120,"3,360",Fish
+Giant Witchfin,03,00,33,% Breathing Efficiency,180,"5,940",Fish
+Glacier Carp,01,30,34,% Breathing Efficiency,90,"3,060",Fish
+Glass Angel,03,00,2174,% Fauna Analysis Rewards,180,"391,320",Fish
+Glass Grains,03,00,28,% Cold Resistance,180,"5,040",Raw Ingredient
+Glittering Honey Cake,10,00,52,% Resources Mined,600,"31,200",Edible Product
+Glowing Catfish,01,30,28,% Breathing Efficiency,90,"2,520",Fish
+Glowing Pie,10,00,55,% Radiation Resistance,600,"33,000",Edible Product
+Golden Jellyfish,03,30,2548,% Fauna Analysis Rewards,210,"535,080",Fish
+Golden Urchin,01,00,23,% Breathing Efficiency,60,"1,380",Fish
+Gooey Butter,08,00,75,% Solar Panel Power,480,"36,000",Edible Product
+Gooey Caramel Cake,10,00,6208,% Mineral Analysis Rewards,600,"3,724,800",Edible Product
+Gooey Chocolate Cake,10,00,6173,% Mineral Analysis Rewards,600,"3,703,800",Edible Product
+Gooey Custard Fancy,10,00,6070,% Mineral Analysis Rewards,600,"3,642,000",Edible Product
+Gooey Fruit Surprise,10,00,6513,% Mineral Analysis Rewards,600,"3,907,800",Edible Product
+Gooey Honey Puff,10,00,6384,% Fauna Analysis Rewards,600,"3,830,400",Edible Product
+Gooey Mouthburner,10,00,51,% Heat Resistance,600,"30,600",Edible Product
+Gooey ProtoButter,06,00,55,% Solar Panel Power,360,"19,800",Edible Product
+Gooey ProtoDoughnut,10,00,28,% Mining Speed,600,"16,800",Edible Product
+Gooey Screamer,10,00,6129,% Fauna Analysis Rewards,600,"3,677,400",Edible Product
+Grahberry,02,30,23,% Radiation Resistance,150,"3,450",Raw Ingredient
+Grahj'am,08,00,43,% Radiation Resistance,480,"20,640",Edible Product
+Greater Rocktooth,02,00,30,% Breathing Efficiency,120,"3,600",Fish
+Green-Ring Octopus,01,30,31,% Breathing Efficiency,90,"2,790",Fish
+Greenscale Bloater,01,30,30,% Breathing Efficiency,90,"2,700",Fish
+Grilled Fillet,05,00,35,% Breathing Efficiency,300,"10,500",Edible Product
+Gristle Pie,10,00,56,% Resources Mined,600,"33,600",Edible Product
+Gritty Meat Pie,10,00,58,% Resources Mined,600,"34,800",Edible Product
+Hadal Core,00,06,21,% Breathing Efficiency,6,126,Horrific Sample
+Haunted Chocolate Dreams,10,00,6535,% Flora Analysis Rewards,600,"3,921,000",Edible Product
+Haunted Fillet,07,30,50,% Breathing Efficiency,450,"22,500",Edible Product
+Haunted Pie,10,00,65,% Sprint Distance,600,"39,000",Edible Product
+Haunted Wafer,06,36,44,% Toxic Resistance,396,"17,424",Edible Product
+Healthy Wheatblock,06,36,4191,% Flora Analysis Rewards,396,"1,659,636",Edible Product
+Helix Sawfish,03,53,2699,% Fauna Analysis Rewards,233,"628,867",Fish
+Hellion Bass,03,30,39,% Breathing Efficiency,210,"8,190",Fish
+Heptaploid Wheat,02,00,12,% Hazard Protection Battery,120,"1,440",Raw Ingredient
+Herb-Encrusted Flesh,10,00,42,% Shield Strength,600,"25,200",Edible Product
+Herbal Crunchie,06,36,4474,% Flora Analysis Rewards,396,"1,771,704",Edible Product
+Hexaberry,03,30,15,% Hazard Protection Battery,210,"3,150",Raw Ingredient
+Hexscale Minnow,00,30,20,% Breathing Efficiency,30,600,Fish
+High-Fibre Pie,08,00,26,% Hazard Protection Battery,480,"12,480",Edible Product
+Honey Butter,06,00,69,% Life Support Tanks,360,"24,840",Edible Product
+Honey Doughnut,10,00,28,% Mining Speed,600,"16,800",Edible Product
+Honey Ice Cream,10,00,56,% Cold Resistance,600,"33,600",Edible Product
+Honey Tart,10,00,113,% Life Support Tanks,600,"67,800",Edible Product
+Honey Waffle,06,36,5,% Sprint Recovery Time,396,"1,980",Edible Product
+Honey-Soaked Fancy,10,00,6323,% Mineral Analysis Rewards,600,"3,793,800",Edible Product
+Honeybutter Doughnut,10,00,29,% Mining Speed,600,"17,400",Edible Product
+Honied AngelCake,10,00,6214,% Flora Analysis Rewards,600,"3,728,400",Edible Product
+Honied Proto-Butter,08,00,88,% Life Support Tanks,480,"42,240",Edible Product
+Honied Proto-Cake,10,00,85,% Solar Panel Power,600,"51,000",Edible Product
+Honied Throat-Sticker,10,00,6354,% Mineral Analysis Rewards,600,"3,812,400",Edible Product
+Horrifying Mush,10,00,2,Words Translated,600,"1,200",Edible Product
+"Horrifying, Gooey Delight",10,00,326,% Jetpack Tanks,600,"195,600",Edible Product
+Hybrid Cake,10,00,6112,% Mineral Analysis Rewards,600,"3,667,200",Edible Product
+Hyper-cockle,03,53,2837,% Fauna Analysis Rewards,233,"661,021",Fish
+Hypnotic Eye,00,06,16,% Cold Resistance,6,96,Horrific Sample
+Hypnotic Octopus,01,30,27,% Breathing Efficiency,90,"2,430",Fish
+Ice Cream,10,00,65,% Cold Resistance,600,"39,000",Edible Product
+Ice Darter,00,30,24,% Breathing Efficiency,30,720,Fish
+Iceblood Gulper,03,53,2840,% Fauna Analysis Rewards,233,"661,720",Fish
+Iced Screams,10,00,54,% Cold Resistance,600,"32,400",Edible Product
+Iceshell Turtle,03,00,38,% Breathing Efficiency,180,"6,840",Fish
+Icey Marrow,10,00,52,% Resources Mined,600,"31,200",Edible Product
+Immportal Flatfish,03,00,37,% Breathing Efficiency,180,"6,660",Fish
+Impulse Beans,02,30,23,% Life Support Tanks,150,"3,450",Raw Ingredient
+Inert Whelk,00,30,25,% Breathing Efficiency,30,750,Fish
+Interstellar Curiosity,10,00,314,% Jetpack Tanks,600,"188,400",Edible Product
+Interstellar Fancy,10,00,328,% Jetpack Tanks,600,"196,800",Edible Product
+Inverted Brainfish,01,00,21,% Breathing Efficiency,60,"1,260",Fish
+Inverted Snapper,01,00,26,% Breathing Efficiency,60,"1,560",Fish
+Ionised Clam,01,00,24,% Breathing Efficiency,60,"1,440",Fish
+Ionised Oyster,01,00,27,% Breathing Efficiency,60,"1,620",Fish
+"Itching, Creeping Honey",10,00,6305,% Fauna Analysis Rewards,600,"3,783,000",Edible Product
+Jade Peas,02,30,27,% Toxic Resistance,150,"4,050",Raw Ingredient
+Jam Curiosity,10,00,6154,% Fauna Analysis Rewards,600,"3,692,400",Edible Product
+Jam Doughnut,10,00,87,% Solar Panel Power,600,"52,200",Edible Product
+Jam Fluffer,10,00,6141,% Fauna Analysis Rewards,600,"3,684,600",Edible Product
+Jam Oozers,10,00,6534,% Mineral Analysis Rewards,600,"3,920,400",Edible Product
+Jam Tart,10,00,42,% Shield Strength,600,"25,200",Edible Product
+Jammy Burster,10,00,5245,% Mineral Analysis Rewards,600,"3,147,000",Edible Product
+Jammy Rounds,06,36,41,% Sprint Distance,396,"16,236",Edible Product
+Jellied Eel,07,30,46,% Breathing Efficiency,450,"20,700",Edible Product
+Jellied Fur Tart,10,00,16,% Sprint Recovery Time,600,"9,600",Edible Product
+Jelly of the Veil,03,53,2617,% Fauna Analysis Rewards,233,"609,761",Fish
+Jelly Prawn,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Jellymeat,05,30,38,% Breathing Efficiency,330,"12,540",Edible Product
+Juicy Grub,01,30,11,% Sprint Recovery Time,90,990,Vile Larva
+Juicy Thorax,01,30,3,% Sprint Recovery Time,90,270,Raw Ingredient
+Jungle Redfin,01,30,30,% Breathing Efficiency,90,"2,700",Fish
+Kelp Rice,03,00,36,% Breathing Efficiency,180,"6,480",Raw Ingredient
+Lamptip Ray,01,00,32,% Breathing Efficiency,60,"1,920",Fish
+Larval Core,00,06,-3,% Solar Panel Power,6,-18,Monstrosity
+Latticed Sinew,01,30,3,% Sprint Recovery Time,90,270,Raw Ingredient
+Lavascale Trout,01,00,23,% Breathing Efficiency,60,"1,380",Fish
+Leathery Tart,10,00,8,% Sprint Recovery Time,600,"4,800",Edible Product
+Leg Meat,01,30,2,% Sprint Recovery Time,90,180,Raw Ingredient
+Leopard-Fruit,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Lesser Dustfin,00,30,28,% Breathing Efficiency,30,840,Fish
+Leviathan Spawn,03,53,2625,% Fauna Analysis Rewards,233,"611,625",Fish
+Longjaw Snapper,01,30,26,% Breathing Efficiency,90,"2,340",Fish
+Luminescent Coral,01,30,27,% Breathing Efficiency,90,"2,430",Fish
+Lumpen Doughnut,07,00,25,% Hazard Protection Battery,420,"10,500",Edible Product
+Lumpy Brainstem,01,30,8,% Sprint Recovery Time,90,720,Raw Ingredient
+Magma Shark,03,00,29,% Breathing Efficiency,180,"5,220",Fish
+Mandelbrot Worm,03,00,2152,% Fauna Analysis Rewards,180,"387,360",Fish
+Mantis Ray,02,00,35,% Breathing Efficiency,120,"4,200",Fish
+Many-Eyed Jellyfish,03,00,2302,% Fauna Analysis Rewards,180,"414,360",Fish
+Many-Mouthed Lunker,03,53,2616,% Fauna Analysis Rewards,233,"609,528",Fish
+Marine Glowworm,01,00,21,% Breathing Efficiency,60,"1,260",Fish
+Marine Pie,08,30,51,% Breathing Efficiency,510,"26,010",Edible Product
+Marrow Flesh,03,00,15,% Hazard Protection Battery,180,"2,700",Raw Ingredient
+Marrow Shark,02,00,24,% Breathing Efficiency,120,"2,880",Fish
+Meat Flakes,03,00,14,% Hazard Protection Battery,180,"2,520",Raw Ingredient
+Meaty Chunks,01,00,2,% Sprint Recovery Time,60,120,Raw Ingredient
+Meaty Wings,01,30,9,% Sprint Recovery Time,90,810,Raw Ingredient
+Megalodon,03,53,2805,% Fauna Analysis Rewards,233,"653,565",Fish
+Mellifluous Jellyfish,01,00,28,% Breathing Efficiency,60,"1,680",Fish
+Metallic Shrimp,01,30,33,% Breathing Efficiency,90,"2,970",Fish
+Midnight Eel,01,00,22,% Breathing Efficiency,60,"1,320",Fish
+Mineralised Jellyfish,01,30,24,% Breathing Efficiency,90,"2,160",Fish
+Mirrorscale Skipper,03,30,2476,% Fauna Analysis Rewards,210,"519,960",Fish
+Mist Serpent,03,30,2450,% Fauna Analysis Rewards,210,"514,500",Fish
+Monstrous Custard,10,00,7,% Sprint Recovery Time,600,"4,200",Edible Product
+Monstrous Doughnut,10,00,-37,% Recharge Time,600,"-22,200",Edible Product
+Monstrous Honey Cake,10,00,6218,% Fauna Analysis Rewards,600,"3,730,800",Edible Product
+Moon Turtle,03,00,30,% Breathing Efficiency,180,"5,400",Fish
+Most Curious Cake,10,00,6469,% Fauna Analysis Rewards,600,"3,881,400",Edible Product
+Mother-of-Quicksilver,03,30,2388,% Fauna Analysis Rewards,210,"501,480",Fish
+Mucal Curiosity,10,00,6160,% Fauna Analysis Rewards,600,"3,696,000",Edible Product
+Mucal Doughnut,10,00,56,% Toxic Resistance,600,"33,600",Edible Product
+Muculent Tart,10,00,120,% Life Support Tanks,600,"72,000",Edible Product
+Mud Crab,00,30,26,% Breathing Efficiency,30,780,Fish
+Murmurfish,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Mushed Root Pie,10,00,8,% Sprint Recovery Time,600,"4,800",Edible Product
+Mystery Meat Pie,08,00,26,% Hazard Protection Battery,480,"12,480",Edible Product
+Mystery Meat Stew,08,00,15,% Sprint Recovery Time,480,"7,200",Edible Product
+Nautilia,03,53,2822,% Fauna Analysis Rewards,233,"657,526",Fish
+Nectar Islands,10,00,6532,% Fauna Analysis Rewards,600,"3,919,200",Edible Product
+Nectar Sponge Cake,10,00,6440,% Fauna Analysis Rewards,600,"3,864,000",Edible Product
+Needlefish,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Nightmare Sausage,02,00,1612,% Flora Analysis Rewards,120,"193,440",Edible Product
+Nip Nip Buds,00,06,-100,% Unspecified,6,-600,Medicinal Substance
+Non-Euclidean Flatfish,02,00,25,% Breathing Efficiency,120,"3,000",Fish
+Non-Toxic Mushrooms,03,00,29,% Toxic Resistance,180,"5,220",Raw Ingredient
+Nourishing Oozer,10,00,6385,% Mineral Analysis Rewards,600,"3,831,000",Edible Product
+Nourishing Slime,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Nucleic Skipper,01,00,29,% Breathing Efficiency,60,"1,740",Fish
+Ocean's Star,03,00,37,% Breathing Efficiency,180,"6,660",Fish
+Offal Sac,01,30,5,% Sprint Recovery Time,90,450,Raw Ingredient
+Oilfin,00,30,21,% Breathing Efficiency,30,630,Fish
+Omelette,06,30,50,% Solar Panel Power,390,"19,500",Edible Product
+Ossified Deinosuchus,03,53,2780,% Fauna Analysis Rewards,233,"647,740",Fish
+Pale Snowtail,01,30,32,% Breathing Efficiency,90,"2,880",Fish
+Parasitic Omelette,06,30,54,% Solar Panel Power,390,"21,060",Edible Product
+Partially Liquid Cheese,07,00,23,% Hazard Protection Battery,420,"9,660",Edible Product
+Pastry,05,00,23,% Shield Strength,300,"6,900",Edible Product
+Perpetual Cake,10,00,329,% Jetpack Tanks,600,"197,400",Edible Product
+Perpetual Honeycake,10,00,326,% Jetpack Tanks,600,"195,600",Edible Product
+Perpetual Ice Cream,10,00,320,% Jetpack Tanks,600,"192,000",Edible Product
+Perpetual Jam Fluffer,10,00,302,% Jetpack Tanks,600,"181,200",Edible Product
+Pickled Fish,04,30,37,% Breathing Efficiency,270,"9,990",Edible Product
+Pie Case,05,00,55,% Life Support Tanks,300,"16,500",Edible Product
+Pilgrim's Tonic,07,00,77,% Life Support Tanks,420,"32,340",Edible Product
+Pilgrimberry,03,00,29,% Life Support Tanks,180,"5,220",Raw Ingredient
+Plasmatic Squid,01,30,31,% Breathing Efficiency,90,"2,790",Fish
+Pollen Puffball,10,00,-39,% Recharge Time,600,"-23,400",Edible Product
+Polyscale Bloater,02,00,24,% Breathing Efficiency,120,"2,880",Fish
+Pondskipper,00,30,23,% Breathing Efficiency,30,690,Fish
+Popping Stew,06,30,39,% Toxic Resistance,390,"15,210",Edible Product
+Pressurised Clam,00,30,20,% Breathing Efficiency,30,600,Fish
+Prickly Curiosity,10,00,64,% Heat Resistance,600,"38,400",Edible Product
+Primardial Sponge,10,00,6553,% Flora Analysis Rewards,600,"3,931,800",Edible Product
+Processed Meat,05,00,20,% Hazard Protection Battery,300,"6,000",Edible Product
+Processed Sugar,05,00,37,% Solar Panel Power,300,"11,100",Edible Product
+Proteinous Doughnut,10,00,51,% Resources Mined,600,"30,600",Edible Product
+Proto-Batter,04,00,27,% Sprint Distance,240,"6,480",Edible Product
+Proto-Beignet,08,00,26,% Hazard Protection Battery,480,"12,480",Edible Product
+Proto-Butter,06,00,227,% Jetpack Tanks,360,"81,720",Edible Product
+Proto-Cream,06,00,41,% Sprint Distance,360,"14,760",Edible Product
+Proto-Oil,06,00,228,% Jetpack Tanks,360,"82,080",Edible Product
+Proto-Omelette,06,30,62,% Solar Panel Power,390,"24,180",Edible Product
+Proto-Sausage Pie,10,00,8,% Sprint Recovery Time,600,"4,800",Edible Product
+ProtoCheese,08,00,51,% Sprint Distance,480,"24,480",Edible Product
+ProtoSausage,01,30,5,% Sprint Recovery Time,90,450,Raw Ingredient
+Pulp Urchin,01,00,32,% Breathing Efficiency,60,"1,920",Fish
+Pulpy Roots,02,00,12,% Hazard Protection Battery,120,"1,440",Raw Ingredient
+Purged Ribs,07,30,54,% Toxic Resistance,450,"24,300",Edible Product
+Pyrefin,01,00,28,% Breathing Efficiency,60,"1,680",Fish
+Quartzshell Crab,03,00,28,% Breathing Efficiency,180,"5,040",Fish
+Questionable Biscuit,06,36,14,% Sprint Recovery Time,396,"5,544",Edible Product
+Questionably Sweet Cake,10,00,64,% Resources Mined,600,"38,400",Edible Product
+Radiant Sunfish,02,00,27,% Breathing Efficiency,120,"3,240",Fish
+Rancid Flesh,01,00,5,% Life Support Tanks,60,300,Raw Ingredient
+Raw Steak,01,30,9,% Sprint Recovery Time,90,810,Raw Ingredient
+Reef eel,01,00,32,% Breathing Efficiency,60,"1,920",Fish
+Reef Guardian,03,53,2755,% Fauna Analysis Rewards,233,"641,915",Fish
+Refined Flour,18,00,108,% Sprint Distance,1080,"116,640",Edible Product
+Refreshing Drink,07,00,79,% Life Support Tanks,420,"33,180",Edible Product
+Regis Grease,01,00,5,% Life Support Tanks,60,300,Raw Ingredient
+Rimescale Snapper,01,00,21,% Breathing Efficiency,60,"1,260",Fish
+Rockfin,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Root Juice,06,00,50,% Solar Panel Power,360,"18,000",Edible Product
+Sac-fish,00,30,19,% Breathing Efficiency,30,570,Fish
+Salt-Laced Honey Cake,10,00,6214,% Mineral Analysis Rewards,600,"3,728,400",Edible Product
+Saltscale Bloater,03,00,40,% Breathing Efficiency,180,"7,200",Fish
+Salty Chunks,01,30,6,% Sprint Recovery Time,90,540,Raw Ingredient
+Salty Cruncher,06,36,22,% Hazard Protection Battery,396,"8,712",Edible Product
+Salty Custard,10,00,14,% Sprint Recovery Time,600,"8,400",Edible Product
+Salty Doughnut,10,00,30,% Mining Speed,600,"18,000",Edible Product
+Salty Juice,09,00,58,% Breathing Efficiency,540,"31,320",Edible Product
+Salty Platter,08,30,48,% Breathing Efficiency,510,"24,480",Edible Product
+Salty Surprise,10,00,6428,% Fauna Analysis Rewards,600,"3,856,800",Edible Product
+Scaly Meat,01,30,7,% Sprint Recovery Time,90,630,Raw Ingredient
+Scooped Innards,01,30,5,% Sprint Recovery Time,90,450,Raw Ingredient
+Scorching Sauce,07,00,43,% Heat Resistance,420,"18,060",Edible Product
+Scorpionfish,03,00,28,% Breathing Efficiency,180,"5,040",Fish
+Scrambled Marrow,06,30,50,% Toxic Resistance,390,"19,500",Edible Product
+Screaming Crab,03,00,31,% Breathing Efficiency,180,"5,580",Fish
+Sea Cucumber,00,30,21,% Breathing Efficiency,30,630,Fish
+Sea's Bounty,10,00,55,% Breathing Efficiency,600,"33,000",Edible Product
+Seafood Stew,08,00,58,% Breathing Efficiency,480,"27,840",Edible Product
+Seeping Pie,10,00,116,% Life Support Tanks,600,"69,600",Edible Product
+Sentient Crab,03,00,2287,% Fauna Analysis Rewards,180,"411,660",Fish
+Shadowfin,00,30,28,% Breathing Efficiency,30,840,Fish
+Shalebound Starfish,01,00,25,% Breathing Efficiency,60,"1,500",Fish
+Shell Puree,05,30,43,% Breathing Efficiency,330,"14,190",Edible Product
+Shimmering Lashtail,01,30,23,% Breathing Efficiency,90,"2,070",Fish
+Shrieking Flatfish,02,00,32,% Breathing Efficiency,120,"3,840",Fish
+Shrieking Oyster,01,00,24,% Breathing Efficiency,60,"1,440",Fish
+Shrieking Venttail,03,00,39,% Breathing Efficiency,180,"7,020",Fish
+Sievert Beans,03,00,30,% Radiation Resistance,180,"5,400",Raw Ingredient
+Silent Angler,01,00,23,% Breathing Efficiency,60,"1,380",Fish
+Silicate Crab,01,30,28,% Breathing Efficiency,90,"2,520",Fish
+Silicon Egg,04,00,16,% Hazard Protection Battery,240,"3,840",Raw Ingredient
+Simple Biscuit,04,00,16,% Hazard Protection Battery,240,"3,840",Edible Product
+Singing Sea-Snail,03,00,2241,% Fauna Analysis Rewards,180,"403,380",Fish
+Slime Pop,10,00,65,% Toxic Resistance,600,"39,000",Edible Product
+Smoked Meat,05,00,33,% Heat Resistance,300,"9,900",Edible Product
+Smokey Meat Pie,08,00,25,% Hazard Protection Battery,480,"12,000",Edible Product
+Soft and Spiky surprise,10,00,6270,% Flora Analysis Rewards,600,"3,762,000",Edible Product
+Soft Custard Fancy,10,00,6355,% Fauna Analysis Rewards,600,"3,813,000",Edible Product
+Softened Marrow,03,00,9,% Sprint Recovery Time,180,"1,620",Edible Product
+Soiled Soup,06,30,21,% Mining Speed,390,"8,190",Edible Product
+Solar Roach,01,30,30,% Breathing Efficiency,90,"2,700",Fish
+Solartillo,03,00,25,% Heat Resistance,180,"4,500",Raw Ingredient
+Solidified Grease Pie,10,00,316,% Jetpack Tanks,600,"189,600",Edible Product
+Spiced 'Apple' Cake,10,00,52,% Resources Mined,600,"31,200",Edible Product
+Spiced Ice,10,00,58,% Heat Resistance,600,"34,800",Edible Product
+Spicy Fleshballs,10,00,64,% Heat Resistance,600,"38,400",Edible Product
+Spikey Tart,10,00,62,% Heat Resistance,600,"37,200",Edible Product
+Spiny Starfish,01,00,26,% Breathing Efficiency,60,"1,560",Fish
+Splicer's Delight,10,00,6269,% Mineral Analysis Rewards,600,"3,761,400",Edible Product
+Sponge of Ambrosia,10,00,6269,% Mineral Analysis Rewards,600,"3,761,400",Edible Product
+Spore Dunkers,06,36,4233,% Flora Analysis Rewards,396,"1,676,268",Edible Product
+Spotted Protofin,00,30,30,% Breathing Efficiency,30,900,Fish
+Spratfin,01,00,29,% Breathing Efficiency,60,"1,740",Fish
+Squirming Fancy,10,00,6047,% Fauna Analysis Rewards,600,"3,628,200",Edible Product
+Starbirth Delight,10,00,313,% Jetpack Tanks,600,"187,800",Edible Product
+Starched Fish,07,30,45,% Breathing Efficiency,450,"20,250",Edible Product
+Stargazer,01,30,33,% Breathing Efficiency,90,"2,970",Fish
+Starpollen Surprise,10,00,319,% Jetpack Tanks,600,"191,400",Edible Product
+Starshell Crab,03,00,2162,% Fauna Analysis Rewards,180,"389,160",Fish
+Startling Fancy,10,00,54,% Heat Resistance,600,"32,400",Edible Product
+Steamed Vegetables,05,00,23,% Shield Strength,300,"6,900",Raw Ingredient
+Stellar Custard,10,00,9,% Sprint Recovery Time,600,"5,400",Edible Product
+Stellar Custard Tart,10,00,314,% Jetpack Tanks,600,"188,400",Edible Product
+Stellar Ice Cream,10,00,308,% Jetpack Tanks,600,"184,800",Edible Product
+Stewed Organs,06,30,9,% Sprint Recovery Time,390,"3,510",Edible Product
+Sticky Finger,06,36,74,% Life Support Tanks,396,"29,304",Edible Product
+Sticky Honey,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Stonescale Shark,02,00,34,% Breathing Efficiency,120,"4,080",Fish
+Strider Sausage,01,30,8,% Sprint Recovery Time,90,720,Raw Ingredient
+Sugar Dough,02,00,13,% Hazard Protection Battery,120,"1,560",Edible Product
+Sulphurfish,01,30,28,% Breathing Efficiency,90,"2,520",Fish
+Sunspine Basker,03,00,34,% Breathing Efficiency,180,"6,120",Fish
+Sunspot Eel,03,00,38,% Breathing Efficiency,180,"6,840",Fish
+Sweeperfish,01,00,31,% Breathing Efficiency,60,"1,860",Fish
+Sweet and Salty Puff,10,00,6287,% Mineral Analysis Rewards,600,"3,772,200",Edible Product
+Sweet Cream Dreams,10,00,6022,% Mineral Analysis Rewards,600,"3,613,200",Edible Product
+Sweetened Butter,06,00,68,% Life Support Tanks,360,"24,480",Edible Product
+Sweetened Mucous,08,00,27,% Hazard Protection Battery,480,"12,960",Edible Product
+Sweetened Proto-Butter,08,00,89,% Life Support Tanks,480,"42,720",Edible Product
+Sweetroot,02,00,12,% Hazard Protection Battery,120,"1,440",Raw Ingredient
+Sweetwater Minnow,01,00,22,% Breathing Efficiency,60,"1,320",Fish
+Synthetic Honey,05,00,37,% Solar Panel Power,300,"11,100",Edible Product
+Syrup-Drenched Delight,10,00,62,% Resources Mined,600,"37,200",Edible Product
+Syrupy Batter,04,00,28,% Sprint Distance,240,"6,720",Edible Product
+Syrupy Caramel Slice,10,00,6203,% Mineral Analysis Rewards,600,"3,721,800",Edible Product
+Syrupy Nectar,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Syrupy Proto-Butter,06,00,51,% Solar Panel Power,360,"18,360",Edible Product
+Syrupy Tingler,10,00,51,% Heat Resistance,600,"30,600",Edible Product
+Syrupy Viscera,02,00,15,% Sprint Distance,120,"1,800",Edible Product
+Tall Eggs,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Tangy Cheese,06,00,39,% Sprint Distance,360,"14,040",Edible Product
+Tangy Organ Surprise,10,00,63,% Sprint Distance,600,"37,800",Edible Product
+Tangy Vegetable Stew,10,00,63,% Sprint Distance,600,"37,800",Edible Product
+Tendrilla,03,00,39,% Breathing Efficiency,180,"7,020",Fish
+Thawed Diamondfin,01,00,25,% Breathing Efficiency,60,"1,500",Fish
+The Angler,00,06,-100,% Unspecified,6,-600,Fish
+The Hunter Below,03,53,2865,% Fauna Analysis Rewards,233,"667,545",Fish
+The Lunker,03,53,2711,% Fauna Analysis Rewards,233,"631,663",Fish
+The Maw of Titan,03,53,2771,% Fauna Analysis Rewards,233,"645,643",Fish
+The Pie of Knowledge,10,00,56,% Resources Mined,600,"33,600",Edible Product
+The Spawning Tart,10,00,61,% Sprint Distance,600,"36,600",Edible Product
+The Stellarator,10,00,64,% Resources Mined,600,"38,400",Edible Product
+The Toothbreaker,10,00,52,% Resources Mined,600,"31,200",Edible Product
+The Worst Stew,06,30,50,% Toxic Resistance,390,"19,500",Edible Product
+Thick Meat Stew,10,00,11,% Sprint Recovery Time,600,"6,600",Edible Product
+"Thick, Sweet Batter",04,00,11,% Sprint Recovery Time,240,"2,640",Edible Product
+Thunderfin,03,30,33,% Breathing Efficiency,210,"6,930",Fish
+Tiny Scuttlefish,00,30,28,% Breathing Efficiency,30,840,Fish
+Titanworm Larva,03,30,2563,% Fauna Analysis Rewards,210,"538,230",Fish
+Tooth Pickers,06,36,43,% Heat Resistance,396,"17,028",Edible Product
+Tortured Honey Cake,10,00,6139,% Fauna Analysis Rewards,600,"3,683,400",Edible Product
+Toxic Jelly,01,00,27,% Breathing Efficiency,60,"1,620",Fish
+Toxic Stonefish,01,30,27,% Breathing Efficiency,90,"2,430",Fish
+Traditional Cake,10,00,-39,% Recharge Time,600,"-23,400",Edible Product
+Translucent Gulper,03,53,2641,% Fauna Analysis Rewards,233,"615,353",Fish
+Twilight Cavefish,01,30,24,% Breathing Efficiency,90,"2,160",Fish
+Twisted Gulper,01,30,25,% Breathing Efficiency,90,"2,250",Fish
+Unbound Cream Horn,10,00,6362,% Fauna Analysis Rewards,600,"3,817,200",Edible Product
+Unbound Monstrosity,10,00,315,% Jetpack Tanks,600,"189,000",Edible Product
+Unlovable Jam Turnover,10,00,307,% Jetpack Tanks,600,"184,200",Edible Product
+Vampire Squid,03,30,2590,% Fauna Analysis Rewards,210,"543,900",Fish
+Vapourfin,02,00,26,% Breathing Efficiency,120,"3,120",Fish
+Vectorfin,00,30,21,% Breathing Efficiency,30,630,Fish
+Venomouos Triggerfin,00,30,30,% Breathing Efficiency,30,900,Fish
+Venomtooth Wriggler,02,00,29,% Breathing Efficiency,120,"3,480",Fish
+Very Thick Custard,07,00,32,% Shield Strength,420,"13,440",Edible Product
+Viper Eel,03,30,29,% Breathing Efficiency,210,"6,090",Fish
+Viscous Custard,07,00,6,% Sprint Recovery Time,420,"2,520",Edible Product
+Void Squid,03,30,30,% Breathing Efficiency,210,"6,300",Fish
+Volatile Chocolate Fancy,10,00,43,% Shield Strength,600,"25,800",Edible Product
+Vy'Ice Cream,10,00,60,% Cold Resistance,600,"36,000",Edible Product
+Wailing Batter,04,00,12,% Sprint Recovery Time,240,"2,880",Edible Product
+Wailing Caramel Cake,10,00,6068,% Flora Analysis Rewards,600,"3,640,800",Edible Product
+Wandering Kelpfin,01,00,28,% Breathing Efficiency,60,"1,680",Fish
+Wandering Shellback,01,30,25,% Breathing Efficiency,90,"2,250",Fish
+Warden Eel,02,00,34,% Breathing Efficiency,120,"4,080",Fish
+Warm Proto-Milk,02,00,16,% Sprint Distance,120,"1,920",Raw Ingredient
+Warty Frogfish,00,30,30,% Breathing Efficiency,30,900,Fish
+Waspfish,01,00,21,% Breathing Efficiency,60,"1,260",Fish
+Well-Smoked Biscuit,02,00,25,% Heat Resistance,120,"3,000",Edible Product
+Well-Stirred Stew,06,30,47,% Resources Mined,390,"18,330",Edible Product
+Weltscale Clam,01,00,24,% Breathing Efficiency,60,"1,440",Fish
+Whipscale Darter,01,00,30,% Breathing Efficiency,60,"1,800",Fish
+Whispering Bonefish,02,00,30,% Breathing Efficiency,120,"3,600",Fish
+Whispering Jelly,01,00,26,% Breathing Efficiency,60,"1,560",Fish
+Whispering Omelette,06,30,10,% Sprint Recovery Time,390,"3,900",Edible Product
+Whole Roast Fish,06,00,44,% Breathing Efficiency,360,"15,840",Edible Product
+Wild Milk,01,30,11,% Sprint Recovery Time,90,990,Edible Product
+Wild Yeast,03,00,1,Words Translated,180,180,Raw Ingredient
+Wrackjaw,03,30,39,% Breathing Efficiency,210,"8,190",Fish
+Wriggling Doughnut,10,00,6548,% Flora Analysis Rewards,600,"3,928,800",Edible Product
+Wriggling Jam,08,00,26,% Hazard Protection Battery,480,"12,480",Edible Product
+Wriggling Tack,06,36,39,% Radiation Resistance,396,"15,444",Edible Product
+Wriggling Tart,10,00,307,% Jetpack Tanks,600,"184,200",Edible Product
+Writhing Brainworm,01,30,25,% Breathing Efficiency,90,"2,250",Fish
+Writhing Jam Puff,10,00,6387,% Fauna Analysis Rewards,600,"3,832,200",Edible Product
+"Writhing, Roiling Batter",04,00,5,% Sprint Recovery Time,240,"1,200",Edible Product
+Xeno-Sponge,10,00,301,% Jetpack Tanks,600,"180,600",Edible Product
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,
+,,,,,0,,

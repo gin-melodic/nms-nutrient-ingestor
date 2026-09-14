@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>无人深空 · 营养摄入器 配方表 / 效果表</title>
+<meta name="description" content="《无人深空》营养摄入器（Nutrient Ingestor）配方表与效果表，交互式中文查询，支持搜索、筛选与排序。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%8C%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <span class="glyph" aria-hidden="true">🌌</span>
+      <div>
+        <h1>无人深空 · 营养摄入器</h1>
+        <p class="sub">Nutrient Ingestor · 配方表 &amp; 效果表 — 交互式中文查询</p>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b id="stat-count">–</b><span>物品总数</span></div>
+      <div class="stat"><b id="stat-types">–</b><span>物品类型</span></div>
+      <div class="stat"><b id="stat-effects">–</b><span>增益效果</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="toolbar" aria-label="工具栏">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-view="recipe" role="tab" aria-selected="true">配方表</button>
+      <button class="tab" data-view="effect" role="tab" aria-selected="false">效果表</button>
+    </div>
+
+    <div class="controls">
+      <div class="search">
+        <span class="search-ico" aria-hidden="true">🔎</span>
+        <input id="q" type="search" placeholder="搜索中 / 英文名、效果…（例如：苹果、Apple、寒冷抗性）" autocomplete="off" />
+        <button id="clear" class="clear" title="清空" aria-label="清空搜索">×</button>
+      </div>
+
+      <label class="select">
+        <span class="sel-label">类型</span>
+        <select id="ftype"><option value="">全部</option></select>
+      </label>
+
+      <label class="select" id="effctl">
+        <span class="sel-label">效果</span>
+        <select id="feffect"><option value="">全部</option></select>
+      </label>
+
+      <label class="select" id="sortctl">
+        <span class="sel-label">排序</span>
+        <select id="sort"></select>
+      </label>
+    </div>
+  </section>
+
+  <section class="resultbar">
+    <span id="shown">0</span> / <span id="total">0</span> 条结果
+    <button id="reset" class="reset">重置筛选</button>
+  </section>
+
+  <section class="tablecard">
+    <div class="tablescroll">
+      <table id="tbl">
+        <thead><tr id="head"></tr></thead>
+        <tbody id="body"></tbody>
+      </table>
+      <div id="empty" class="empty" hidden>
+        <div class="empty-glyph" aria-hidden="true">🛰️</div>
+        <p>没有符合条件的物品</p>
+        <small>试试清空搜索，或放宽类型 / 效果筛选</small>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="src">
+      <span class="dot"></span> 效果数据来源：<a href="https://docs.google.com/spreadsheets/d/1oiyYjbAX_pi2drhP0vxnjI1ZG14XB8VCmr5vSBH9N7g" target="_blank" rel="noopener">Nutrient Ingestor 数据表</a>
+      <span class="dot"></span> 中文术语来源：<a href="https://nms.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5" target="_blank" rel="noopener">无人深空中文维基</a>
+    </div>
+    <div class="note">
+      <b>配方表</b>：营养摄入器可生产的物品与烹饪时间。&nbsp;
+      <b>效果表</b>：食用后的增益、持续时间与「加成 × 时长」综合分（分数越高，buff 越强 / 越持久）。
+      部分鱼类名称为依据官方英文的意译，括号内为英文原名。
+    </div>
+  </footer>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

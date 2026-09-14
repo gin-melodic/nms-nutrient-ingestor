@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+
+# Windows metadata artifacts
+*:Zone.Identifier
+
+# Python
+__pycache__/
+*.pyc
+
+# Node (if any)
+node_modules/
+npm-debug.log*
