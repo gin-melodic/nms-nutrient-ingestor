@@ -651,20 +651,18 @@ def og_image():
 
 def vercel_config():
     """301 redirects from the previous URL scheme (2026-09):
-      - old Chinese item pages  /items/<slug>/   → /zh/items/<slug>/
-      - old English pages      /en/...           → ...
-    (the old root was Chinese; the new root is the English site, so it is kept as-is)."""
-    # NOTE: Vercel 59.x 的 vercel.json schema 不接受 `type: "301"`，
-    # 改用 `statusCode`（301 永久重定向，利于 SEO）。
+      - old English home   /en/     → /
+      - old English items  /en/items/<slug>/ → /items/<slug>/  （新英文页）
+    旧中文 URL（根路径与 /items/<slug>/）现在直接返回英文页（200），
+    中文版位于 /zh/ 与 /zh/items/<slug>/，由 hreflang 互相指向。"""
+    # NOTE:
+    # - Vercel 59.x 的 vercel.json schema 不接受 `type: "301"`，改用 `statusCode`（301，利于 SEO）。
+    # - Vercel 的 redirect 规则优先于静态文件：因此 /items/<slug>/ 必须留给新英文页（200），
+    #   不能同时作为旧中文页的 301 源。旧中文 URL 现在直接返回英文页（页面内含中文切换），
+    #   中文版在 /zh/items/<slug>/ 由 hreflang 指向。
+    # - Vercel 59.x 为 path-to-regexp v8 语法：:splat 只匹配单段、:splat+ 匹配多段，
+    #   且带尾斜杠的请求需源串同样带尾斜杠才匹配（/en/... 物品页因此用逐条精确规则）。
     redirects = [
-        {"source": f"/items/{d['slug']}/", "destination": f"/zh/items/{d['slug']}/", "statusCode": 301}
-        for d in ITEMS
-    ]
-    # 旧英文站只有 /en/ 与 /en/items/<slug>/ 两类真实 URL。
-    # 带尾斜杠的物品页用逐条精确规则（与上面中文物品页同样可靠）；
-    # 其余 /en/... 路径用 :splat+ 兜底（Vercel 59.x 为 path-to-regexp v8 语法：
-    # :splat 只匹配单段、:splat+ 匹配多段，且尾斜杠需源串同样带尾斜杠才匹配）。
-    redirects += [
         {"source": "/en", "destination": "/", "statusCode": 301},
         {"source": "/en/", "destination": "/", "statusCode": 301},
     ]
