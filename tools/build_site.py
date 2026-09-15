@@ -660,12 +660,21 @@ def vercel_config():
         {"source": f"/items/{d['slug']}/", "destination": f"/zh/items/{d['slug']}/", "statusCode": 301}
         for d in ITEMS
     ]
+    # 旧英文站只有 /en/ 与 /en/items/<slug>/ 两类真实 URL。
+    # 带尾斜杠的物品页用逐条精确规则（与上面中文物品页同样可靠）；
+    # 其余 /en/... 路径用 :splat+ 兜底（Vercel 59.x 为 path-to-regexp v8 语法：
+    # :splat 只匹配单段、:splat+ 匹配多段，且尾斜杠需源串同样带尾斜杠才匹配）。
     redirects += [
         {"source": "/en", "destination": "/", "statusCode": 301},
         {"source": "/en/", "destination": "/", "statusCode": 301},
-        {"source": "/en/:splat", "destination": "/:splat", "statusCode": 301},
-        # Vercel 59.x 采用 path-to-regexp v8 语法：:splat 只匹配单段，:splat+ 匹配多段
+    ]
+    redirects += [
+        {"source": f"/en/items/{d['slug']}/", "destination": f"/items/{d['slug']}/", "statusCode": 301}
+        for d in ITEMS
+    ]
+    redirects += [
         {"source": "/en/:splat+", "destination": "/:splat+", "statusCode": 301},
+        {"source": "/en/:splat+/", "destination": "/:splat+/", "statusCode": 301},
     ]
     return json.dumps({"version": 2, "redirects": redirects}, ensure_ascii=False, indent=2) + "\n"
 

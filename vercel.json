@@ -2887,13 +2887,2888 @@
       "statusCode": 301
     },
     {
-      "source": "/en/:splat",
-      "destination": "/:splat",
+      "source": "/en/items/caramel-curiosity/",
+      "destination": "/items/caramel-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/appalling-jam-sponge/",
+      "destination": "/items/appalling-jam-sponge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/primardial-sponge/",
+      "destination": "/items/primardial-sponge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wriggling-doughnut/",
+      "destination": "/items/wriggling-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/apple-curiosity/",
+      "destination": "/items/apple-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/haunted-chocolate-dreams/",
+      "destination": "/items/haunted-chocolate-dreams/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jam-oozers/",
+      "destination": "/items/jam-oozers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nectar-islands/",
+      "destination": "/items/nectar-islands/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ambrosial-curse/",
+      "destination": "/items/ambrosial-curse/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-fruit-surprise/",
+      "destination": "/items/gooey-fruit-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/most-curious-cake/",
+      "destination": "/items/most-curious-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-of-sin/",
+      "destination": "/items/cake-of-sin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/anomalous-doughnut/",
+      "destination": "/items/anomalous-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nectar-sponge-cake/",
+      "destination": "/items/nectar-sponge-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-surprise/",
+      "destination": "/items/salty-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/extra-fluffy-cream-cake/",
+      "destination": "/items/extra-fluffy-cream-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/custard-curiosity/",
+      "destination": "/items/custard-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/writhing-jam-puff/",
+      "destination": "/items/writhing-jam-puff/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nourishing-oozer/",
+      "destination": "/items/nourishing-oozer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-honey-puff/",
+      "destination": "/items/gooey-honey-puff/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/unbound-cream-horn/",
+      "destination": "/items/unbound-cream-horn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/soft-custard-fancy/",
+      "destination": "/items/soft-custard-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honied-throat-sticker/",
+      "destination": "/items/honied-throat-sticker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/choking-monstrosity-cake/",
+      "destination": "/items/choking-monstrosity-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-soaked-fancy/",
+      "destination": "/items/honey-soaked-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/candied-apples/",
+      "destination": "/items/candied-apples/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/itching-creeping-honey/",
+      "destination": "/items/itching-creeping-honey/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ambrosial-wonder/",
+      "destination": "/items/ambrosial-wonder/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweet-and-salty-puff/",
+      "destination": "/items/sweet-and-salty-puff/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/soft-and-spiky-surprise/",
+      "destination": "/items/soft-and-spiky-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/splicer-s-delight/",
+      "destination": "/items/splicer-s-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sponge-of-ambrosia/",
+      "destination": "/items/sponge-of-ambrosia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/doomed-cream-cake/",
+      "destination": "/items/doomed-cream-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/apple-cake-of-lost-souls/",
+      "destination": "/items/apple-cake-of-lost-souls/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/monstrous-honey-cake/",
+      "destination": "/items/monstrous-honey-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salt-laced-honey-cake/",
+      "destination": "/items/salt-laced-honey-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honied-angelcake/",
+      "destination": "/items/honied-angelcake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-caramel-cake/",
+      "destination": "/items/gooey-caramel-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/angelic-fruitcake/",
+      "destination": "/items/angelic-fruitcake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-caramel-slice/",
+      "destination": "/items/syrupy-caramel-slice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fluffy-throatripper/",
+      "destination": "/items/fluffy-throatripper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-chocolate-cake/",
+      "destination": "/items/gooey-chocolate-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mucal-curiosity/",
+      "destination": "/items/mucal-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creamy-clouds-of-nectar/",
+      "destination": "/items/creamy-clouds-of-nectar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jam-curiosity/",
+      "destination": "/items/jam-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jam-fluffer/",
+      "destination": "/items/jam-fluffer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tortured-honey-cake/",
+      "destination": "/items/tortured-honey-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-screamer/",
+      "destination": "/items/gooey-screamer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frosted-mire/",
+      "destination": "/items/frosted-mire/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hybrid-cake/",
+      "destination": "/items/hybrid-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-custard-fancy/",
+      "destination": "/items/gooey-custard-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wailing-caramel-cake/",
+      "destination": "/items/wailing-caramel-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-of-the-lost/",
+      "destination": "/items/cake-of-the-lost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chocolate-oozer/",
+      "destination": "/items/chocolate-oozer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/squirming-fancy/",
+      "destination": "/items/squirming-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweet-cream-dreams/",
+      "destination": "/items/sweet-cream-dreams/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jammy-burster/",
+      "destination": "/items/jammy-burster/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/herbal-crunchie/",
+      "destination": "/items/herbal-crunchie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spore-dunkers/",
+      "destination": "/items/spore-dunkers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/healthy-wheatblock/",
+      "destination": "/items/healthy-wheatblock/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/floral-wafer/",
+      "destination": "/items/floral-wafer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-hunter-below/",
+      "destination": "/items/the-hunter-below/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/iceblood-gulper/",
+      "destination": "/items/iceblood-gulper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hyper-cockle/",
+      "destination": "/items/hyper-cockle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nautilia/",
+      "destination": "/items/nautilia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/blind-titancore/",
+      "destination": "/items/blind-titancore/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/megalodon/",
+      "destination": "/items/megalodon/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ancient-irontail/",
+      "destination": "/items/ancient-irontail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ossified-deinosuchus/",
+      "destination": "/items/ossified-deinosuchus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-maw-of-titan/",
+      "destination": "/items/the-maw-of-titan/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/child-of-helios/",
+      "destination": "/items/child-of-helios/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/reef-guardian/",
+      "destination": "/items/reef-guardian/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-lunker/",
+      "destination": "/items/the-lunker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/helix-sawfish/",
+      "destination": "/items/helix-sawfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/dragonfish/",
+      "destination": "/items/dragonfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gamma-squid/",
+      "destination": "/items/gamma-squid/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bleached-bonefish/",
+      "destination": "/items/bleached-bonefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/translucent-gulper/",
+      "destination": "/items/translucent-gulper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/leviathan-spawn/",
+      "destination": "/items/leviathan-spawn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jelly-of-the-veil/",
+      "destination": "/items/jelly-of-the-veil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/many-mouthed-lunker/",
+      "destination": "/items/many-mouthed-lunker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/atlantidian-crab/",
+      "destination": "/items/atlantidian-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/vampire-squid/",
+      "destination": "/items/vampire-squid/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/titanworm-larva/",
+      "destination": "/items/titanworm-larva/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ghostfin/",
+      "destination": "/items/ghostfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/golden-jellyfish/",
+      "destination": "/items/golden-jellyfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/aberrant-duskfin/",
+      "destination": "/items/aberrant-duskfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mirrorscale-skipper/",
+      "destination": "/items/mirrorscale-skipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/brain-eel/",
+      "destination": "/items/brain-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mist-serpent/",
+      "destination": "/items/mist-serpent/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mother-of-quicksilver/",
+      "destination": "/items/mother-of-quicksilver/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/many-eyed-jellyfish/",
+      "destination": "/items/many-eyed-jellyfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sentient-crab/",
+      "destination": "/items/sentient-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fragile-icthyoscale/",
+      "destination": "/items/fragile-icthyoscale/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/singing-sea-snail/",
+      "destination": "/items/singing-sea-snail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crystal-jelly/",
+      "destination": "/items/crystal-jelly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/abyssal-horror-egg/",
+      "destination": "/items/abyssal-horror-egg/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/emeril-sunstar/",
+      "destination": "/items/emeril-sunstar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glass-angel/",
+      "destination": "/items/glass-angel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/starshell-crab/",
+      "destination": "/items/starshell-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mandelbrot-worm/",
+      "destination": "/items/mandelbrot-worm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gelatinous-membrane/",
+      "destination": "/items/gelatinous-membrane/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/perpetual-cake/",
+      "destination": "/items/perpetual-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/interstellar-fancy/",
+      "destination": "/items/interstellar-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/horrifying-gooey-delight/",
+      "destination": "/items/horrifying-gooey-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/perpetual-honeycake/",
+      "destination": "/items/perpetual-honeycake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-of-glass/",
+      "destination": "/items/cake-of-glass/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nightmare-sausage/",
+      "destination": "/items/nightmare-sausage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/perpetual-ice-cream/",
+      "destination": "/items/perpetual-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/starpollen-surprise/",
+      "destination": "/items/starpollen-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/solidified-grease-pie/",
+      "destination": "/items/solidified-grease-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/unbound-monstrosity/",
+      "destination": "/items/unbound-monstrosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stellar-custard-tart/",
+      "destination": "/items/stellar-custard-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/interstellar-curiosity/",
+      "destination": "/items/interstellar-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/starbirth-delight/",
+      "destination": "/items/starbirth-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stellar-ice-cream/",
+      "destination": "/items/stellar-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/unlovable-jam-turnover/",
+      "destination": "/items/unlovable-jam-turnover/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wriggling-tart/",
+      "destination": "/items/wriggling-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/perpetual-jam-fluffer/",
+      "destination": "/items/perpetual-jam-fluffer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/xeno-sponge/",
+      "destination": "/items/xeno-sponge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/refined-flour/",
+      "destination": "/items/refined-flour/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/curdy-cracker/",
+      "destination": "/items/curdy-cracker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-oil/",
+      "destination": "/items/proto-oil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-butter/",
+      "destination": "/items/proto-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/muculent-tart/",
+      "destination": "/items/muculent-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/seeping-pie/",
+      "destination": "/items/seeping-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-tart/",
+      "destination": "/items/honey-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/clarified-oil/",
+      "destination": "/items/clarified-oil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caramelised-nightmare/",
+      "destination": "/items/caramelised-nightmare/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fluffy-caramel-delight/",
+      "destination": "/items/fluffy-caramel-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/churned-butter/",
+      "destination": "/items/churned-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chocolate-curiosity/",
+      "destination": "/items/chocolate-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jam-doughnut/",
+      "destination": "/items/jam-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honied-proto-cake/",
+      "destination": "/items/honied-proto-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweetened-proto-butter/",
+      "destination": "/items/sweetened-proto-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honied-proto-butter/",
+      "destination": "/items/honied-proto-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ice-cream/",
+      "destination": "/items/ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/burning-jam-surprise/",
+      "destination": "/items/burning-jam-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/haunted-pie/",
+      "destination": "/items/haunted-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/slime-pop/",
+      "destination": "/items/slime-pop/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-stellarator/",
+      "destination": "/items/the-stellarator/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/prickly-curiosity/",
+      "destination": "/items/prickly-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/questionably-sweet-cake/",
+      "destination": "/items/questionably-sweet-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/deathly-cold-ice-cream/",
+      "destination": "/items/deathly-cold-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spicy-fleshballs/",
+      "destination": "/items/spicy-fleshballs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tangy-organ-surprise/",
+      "destination": "/items/tangy-organ-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tangy-vegetable-stew/",
+      "destination": "/items/tangy-vegetable-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/briney-rime/",
+      "destination": "/items/briney-rime/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fiery-vegetable-stew/",
+      "destination": "/items/fiery-vegetable-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creamed-organ-soup/",
+      "destination": "/items/creamed-organ-soup/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spikey-tart/",
+      "destination": "/items/spikey-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrup-drenched-delight/",
+      "destination": "/items/syrup-drenched-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-spawning-tart/",
+      "destination": "/items/the-spawning-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fruity-pudding/",
+      "destination": "/items/fruity-pudding/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/vy-ice-cream/",
+      "destination": "/items/vy-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caramel-doughnut/",
+      "destination": "/items/caramel-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cheese-and-flesh-stew/",
+      "destination": "/items/cheese-and-flesh-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-butter/",
+      "destination": "/items/gooey-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/briney-delight/",
+      "destination": "/items/briney-delight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/apple-ice-cream/",
+      "destination": "/items/apple-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gritty-meat-pie/",
+      "destination": "/items/gritty-meat-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/burning-jam-fluffer/",
+      "destination": "/items/burning-jam-fluffer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spiced-ice/",
+      "destination": "/items/spiced-ice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/earthy-pie/",
+      "destination": "/items/earthy-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cream-buns/",
+      "destination": "/items/cream-buns/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fruity-ice-cream/",
+      "destination": "/items/fruity-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-pie-of-knowledge/",
+      "destination": "/items/the-pie-of-knowledge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-ice-cream/",
+      "destination": "/items/honey-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gristle-pie/",
+      "destination": "/items/gristle-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/esophageal-surprise/",
+      "destination": "/items/esophageal-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mucal-doughnut/",
+      "destination": "/items/mucal-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/refreshing-drink/",
+      "destination": "/items/refreshing-drink/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glowing-pie/",
+      "destination": "/items/glowing-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sea-s-bounty/",
+      "destination": "/items/sea-s-bounty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caramel-encrusted-cake/",
+      "destination": "/items/caramel-encrusted-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/butter-syrup/",
+      "destination": "/items/butter-syrup/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/iced-screams/",
+      "destination": "/items/iced-screams/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chocolate-ice-cream/",
+      "destination": "/items/chocolate-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chocolate-cake/",
+      "destination": "/items/chocolate-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/anomalous-tart/",
+      "destination": "/items/anomalous-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/startling-fancy/",
+      "destination": "/items/startling-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-of-burning-dread/",
+      "destination": "/items/cake-of-burning-dread/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/devilled-organs/",
+      "destination": "/items/devilled-organs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pilgrim-s-tonic/",
+      "destination": "/items/pilgrim-s-tonic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caramel-ice-cream/",
+      "destination": "/items/caramel-ice-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-juice/",
+      "destination": "/items/salty-juice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/icey-marrow/",
+      "destination": "/items/icey-marrow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glittering-honey-cake/",
+      "destination": "/items/glittering-honey-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-toothbreaker/",
+      "destination": "/items/the-toothbreaker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ever-boiling-cake/",
+      "destination": "/items/ever-boiling-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spiced-apple-cake/",
+      "destination": "/items/spiced-apple-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-tingler/",
+      "destination": "/items/syrupy-tingler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proteinous-doughnut/",
+      "destination": "/items/proteinous-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-mouthburner/",
+      "destination": "/items/gooey-mouthburner/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sticky-finger/",
+      "destination": "/items/sticky-finger/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cocoa-creams/",
+      "destination": "/items/cocoa-creams/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/seafood-stew/",
+      "destination": "/items/seafood-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/marine-pie/",
+      "destination": "/items/marine-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cream-curiosity/",
+      "destination": "/items/cream-curiosity/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chocolate-dream/",
+      "destination": "/items/chocolate-dream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/volatile-chocolate-fancy/",
+      "destination": "/items/volatile-chocolate-fancy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/flavoursome-organs/",
+      "destination": "/items/flavoursome-organs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jam-tart/",
+      "destination": "/items/jam-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-of-eternal-sleep/",
+      "destination": "/items/cake-of-eternal-sleep/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/delicious-vegetable-stew/",
+      "destination": "/items/delicious-vegetable-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/herb-encrusted-flesh/",
+      "destination": "/items/herb-encrusted-flesh/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ever-burning-jam/",
+      "destination": "/items/ever-burning-jam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-butter/",
+      "destination": "/items/honey-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cactus-jelly/",
+      "destination": "/items/cactus-jelly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweetened-butter/",
+      "destination": "/items/sweetened-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/protocheese/",
+      "destination": "/items/protocheese/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-platter/",
+      "destination": "/items/salty-platter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/purged-ribs/",
+      "destination": "/items/purged-ribs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-omelette/",
+      "destination": "/items/proto-omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crunchy-caramel/",
+      "destination": "/items/crunchy-caramel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fungal-tart/",
+      "destination": "/items/fungal-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/anomalous-jam/",
+      "destination": "/items/anomalous-jam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fish-pie/",
+      "destination": "/items/fish-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/haunted-fillet/",
+      "destination": "/items/haunted-fillet/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/parasitic-omelette/",
+      "destination": "/items/parasitic-omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fire-water/",
+      "destination": "/items/fire-water/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jellied-eel/",
+      "destination": "/items/jellied-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/grahj-am/",
+      "destination": "/items/grahj-am/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/starched-fish/",
+      "destination": "/items/starched-fish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fish-and-rice/",
+      "destination": "/items/fish-and-rice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-protobutter/",
+      "destination": "/items/gooey-protobutter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-worst-stew/",
+      "destination": "/items/the-worst-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/scrambled-marrow/",
+      "destination": "/items/scrambled-marrow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/omelette/",
+      "destination": "/items/omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cheesy-vegetable-pie/",
+      "destination": "/items/cheesy-vegetable-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fish-biscuit/",
+      "destination": "/items/fish-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-proto-butter/",
+      "destination": "/items/syrupy-proto-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/well-stirred-stew/",
+      "destination": "/items/well-stirred-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/scorching-sauce/",
+      "destination": "/items/scorching-sauce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-doughnut/",
+      "destination": "/items/salty-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/root-juice/",
+      "destination": "/items/root-juice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/baked-cheese-tart/",
+      "destination": "/items/baked-cheese-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fungal-omelette/",
+      "destination": "/items/fungal-omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/burning-surprise/",
+      "destination": "/items/burning-surprise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cough-biscuits/",
+      "destination": "/items/cough-biscuits/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/haunted-wafer/",
+      "destination": "/items/haunted-wafer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/custard-doughnut/",
+      "destination": "/items/custard-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honeybutter-doughnut/",
+      "destination": "/items/honeybutter-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tooth-pickers/",
+      "destination": "/items/tooth-pickers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gooey-protodoughnut/",
+      "destination": "/items/gooey-protodoughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-doughnut/",
+      "destination": "/items/honey-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chewy-biscuit/",
+      "destination": "/items/chewy-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/apple-roll/",
+      "destination": "/items/apple-roll/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pie-case/",
+      "destination": "/items/pie-case/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jammy-rounds/",
+      "destination": "/items/jammy-rounds/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-broth/",
+      "destination": "/items/bone-broth/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bugs-in-a-blanket/",
+      "destination": "/items/bugs-in-a-blanket/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/whole-roast-fish/",
+      "destination": "/items/whole-roast-fish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wriggling-tack/",
+      "destination": "/items/wriggling-tack/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crystalline-soup/",
+      "destination": "/items/crystalline-soup/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/popping-stew/",
+      "destination": "/items/popping-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-cream/",
+      "destination": "/items/proto-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shell-puree/",
+      "destination": "/items/shell-puree/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fleshy-cylinder/",
+      "destination": "/items/fleshy-cylinder/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tangy-cheese/",
+      "destination": "/items/tangy-cheese/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/very-thick-custard/",
+      "destination": "/items/very-thick-custard/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-milk/",
+      "destination": "/items/bone-milk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-cream/",
+      "destination": "/items/bone-cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-cheese/",
+      "destination": "/items/bone-cheese/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-butter/",
+      "destination": "/items/bone-butter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweetened-mucous/",
+      "destination": "/items/sweetened-mucous/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jellymeat/",
+      "destination": "/items/jellymeat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-beignet/",
+      "destination": "/items/proto-beignet/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wriggling-jam/",
+      "destination": "/items/wriggling-jam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mystery-meat-pie/",
+      "destination": "/items/mystery-meat-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/high-fibre-pie/",
+      "destination": "/items/high-fibre-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/furball-jelly/",
+      "destination": "/items/furball-jelly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/smokey-meat-pie/",
+      "destination": "/items/smokey-meat-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/processed-sugar/",
+      "destination": "/items/processed-sugar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/synthetic-honey/",
+      "destination": "/items/synthetic-honey/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/grilled-fillet/",
+      "destination": "/items/grilled-fillet/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/lumpen-doughnut/",
+      "destination": "/items/lumpen-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cream/",
+      "destination": "/items/cream/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/dough/",
+      "destination": "/items/dough/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/flavoursome-sauce/",
+      "destination": "/items/flavoursome-sauce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pickled-fish/",
+      "destination": "/items/pickled-fish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/smoked-meat/",
+      "destination": "/items/smoked-meat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/partially-liquid-cheese/",
+      "destination": "/items/partially-liquid-cheese/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creamy-sauce/",
+      "destination": "/items/creamy-sauce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bittersweet-cocoa/",
+      "destination": "/items/bittersweet-cocoa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jellied-fur-tart/",
+      "destination": "/items/jellied-fur-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-cruncher/",
+      "destination": "/items/salty-cruncher/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cream-fingers/",
+      "destination": "/items/cream-fingers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/enriched-biscuit/",
+      "destination": "/items/enriched-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/colossal-mossback/",
+      "destination": "/items/colossal-mossback/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-custard/",
+      "destination": "/items/salty-custard/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/soiled-soup/",
+      "destination": "/items/soiled-soup/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hellion-bass/",
+      "destination": "/items/hellion-bass/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wrackjaw/",
+      "destination": "/items/wrackjaw/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cave-prowler/",
+      "destination": "/items/cave-prowler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chewy-dumpling-stew/",
+      "destination": "/items/chewy-dumpling-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/black-eyed-shark/",
+      "destination": "/items/black-eyed-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bread/",
+      "destination": "/items/bread/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/saltscale-bloater/",
+      "destination": "/items/saltscale-bloater/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mystery-meat-stew/",
+      "destination": "/items/mystery-meat-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shrieking-venttail/",
+      "destination": "/items/shrieking-venttail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tendrilla/",
+      "destination": "/items/tendrilla/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/alpha-squid/",
+      "destination": "/items/alpha-squid/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/thunderfin/",
+      "destination": "/items/thunderfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/steamed-vegetables/",
+      "destination": "/items/steamed-vegetables/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pastry/",
+      "destination": "/items/pastry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/iceshell-turtle/",
+      "destination": "/items/iceshell-turtle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-ray/",
+      "destination": "/items/giant-ray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sunspot-eel/",
+      "destination": "/items/sunspot-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-batter/",
+      "destination": "/items/syrupy-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-icefin/",
+      "destination": "/items/giant-icefin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/immportal-flatfish/",
+      "destination": "/items/immportal-flatfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ocean-s-star/",
+      "destination": "/items/ocean-s-star/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/deepwater-angler/",
+      "destination": "/items/deepwater-angler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ferrite-bowfin/",
+      "destination": "/items/ferrite-bowfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/thick-meat-stew/",
+      "destination": "/items/thick-meat-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chewy-organ-pie/",
+      "destination": "/items/chewy-organ-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-batter/",
+      "destination": "/items/proto-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/colossal-shrimp/",
+      "destination": "/items/colossal-shrimp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/kelp-rice/",
+      "destination": "/items/kelp-rice/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bitterscale-ray/",
+      "destination": "/items/bitterscale-ray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/boiling-shark/",
+      "destination": "/items/boiling-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/void-squid/",
+      "destination": "/items/void-squid/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fibrous-stew/",
+      "destination": "/items/fibrous-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/extra-fluffy-batter/",
+      "destination": "/items/extra-fluffy-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cactus-nectar/",
+      "destination": "/items/cactus-nectar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sunspine-basker/",
+      "destination": "/items/sunspine-basker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/abyssal-crab/",
+      "destination": "/items/abyssal-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/viper-eel/",
+      "destination": "/items/viper-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/colossal-jawfish/",
+      "destination": "/items/colossal-jawfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/processed-meat/",
+      "destination": "/items/processed-meat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/custard-tart/",
+      "destination": "/items/custard-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-witchfin/",
+      "destination": "/items/giant-witchfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crystalfin-shark/",
+      "destination": "/items/crystalfin-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/colossal-meltfin/",
+      "destination": "/items/colossal-meltfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/screaming-crab/",
+      "destination": "/items/screaming-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/questionable-biscuit/",
+      "destination": "/items/questionable-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cocoa-tart/",
+      "destination": "/items/cocoa-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creamy-treat/",
+      "destination": "/items/creamy-treat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cream-of-vegetable-stew/",
+      "destination": "/items/cream-of-vegetable-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sievert-beans/",
+      "destination": "/items/sievert-beans/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stellar-custard/",
+      "destination": "/items/stellar-custard/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/moon-turtle/",
+      "destination": "/items/moon-turtle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/candelabra-octopus/",
+      "destination": "/items/candelabra-octopus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/magma-shark/",
+      "destination": "/items/magma-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-sunray/",
+      "destination": "/items/giant-sunray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/non-toxic-mushrooms/",
+      "destination": "/items/non-toxic-mushrooms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pilgrimberry/",
+      "destination": "/items/pilgrimberry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cyclopic-eel/",
+      "destination": "/items/cyclopic-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glass-grains/",
+      "destination": "/items/glass-grains/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/quartzshell-crab/",
+      "destination": "/items/quartzshell-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/scorpionfish/",
+      "destination": "/items/scorpionfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bewitching-candlefish/",
+      "destination": "/items/bewitching-candlefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frostbite-ray/",
+      "destination": "/items/frostbite-ray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/proto-sausage-pie/",
+      "destination": "/items/proto-sausage-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mushed-root-pie/",
+      "destination": "/items/mushed-root-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/leathery-tart/",
+      "destination": "/items/leathery-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/solartillo/",
+      "destination": "/items/solartillo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/monstrous-custard/",
+      "destination": "/items/monstrous-custard/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caramel-tart/",
+      "destination": "/items/caramel-tart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/basalt-tooth-bloater/",
+      "destination": "/items/basalt-tooth-bloater/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mantis-ray/",
+      "destination": "/items/mantis-ray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/warden-eel/",
+      "destination": "/items/warden-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stonescale-shark/",
+      "destination": "/items/stonescale-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jade-peas/",
+      "destination": "/items/jade-peas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-hairy-crab/",
+      "destination": "/items/giant-hairy-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/whispering-omelette/",
+      "destination": "/items/whispering-omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shrieking-flatfish/",
+      "destination": "/items/shrieking-flatfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/silicon-egg/",
+      "destination": "/items/silicon-egg/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/simple-biscuit/",
+      "destination": "/items/simple-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/delicate-meringue/",
+      "destination": "/items/delicate-meringue/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/whispering-bonefish/",
+      "destination": "/items/whispering-bonefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fumarole-gulper/",
+      "destination": "/items/fumarole-gulper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/greater-rocktooth/",
+      "destination": "/items/greater-rocktooth/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fireberry/",
+      "destination": "/items/fireberry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/aloe-flesh/",
+      "destination": "/items/aloe-flesh/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/legs-in-pastry/",
+      "destination": "/items/legs-in-pastry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stewed-organs/",
+      "destination": "/items/stewed-organs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/venomtooth-wriggler/",
+      "destination": "/items/venomtooth-wriggler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/grahberry/",
+      "destination": "/items/grahberry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/impulse-beans/",
+      "destination": "/items/impulse-beans/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-whiskrerfish/",
+      "destination": "/items/giant-whiskrerfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bleached-octopus/",
+      "destination": "/items/bleached-octopus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frozen-tubers/",
+      "destination": "/items/frozen-tubers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cyclonic-eel/",
+      "destination": "/items/cyclonic-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/breach-crawler/",
+      "destination": "/items/breach-crawler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/radiant-sunfish/",
+      "destination": "/items/radiant-sunfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hexaberry/",
+      "destination": "/items/hexaberry/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frozen-knifejaw/",
+      "destination": "/items/frozen-knifejaw/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/vapourfin/",
+      "destination": "/items/vapourfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glacier-carp/",
+      "destination": "/items/glacier-carp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/well-smoked-biscuit/",
+      "destination": "/items/well-smoked-biscuit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/non-euclidean-flatfish/",
+      "destination": "/items/non-euclidean-flatfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/stargazer/",
+      "destination": "/items/stargazer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/metallic-shrimp/",
+      "destination": "/items/metallic-shrimp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/flashfire-eel/",
+      "destination": "/items/flashfire-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wailing-batter/",
+      "destination": "/items/wailing-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/polyscale-bloater/",
+      "destination": "/items/polyscale-bloater/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pale-snowtail/",
+      "destination": "/items/pale-snowtail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/blue-ribbontail/",
+      "destination": "/items/blue-ribbontail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cake-batter/",
+      "destination": "/items/cake-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/marrow-shark/",
+      "destination": "/items/marrow-shark/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/green-ring-octopus/",
+      "destination": "/items/green-ring-octopus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/plasmatic-squid/",
+      "destination": "/items/plasmatic-squid/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jungle-redfin/",
+      "destination": "/items/jungle-redfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/solar-roach/",
+      "destination": "/items/solar-roach/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/greenscale-bloater/",
+      "destination": "/items/greenscale-bloater/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/marrow-flesh/",
+      "destination": "/items/marrow-flesh/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/thick-sweet-batter/",
+      "destination": "/items/thick-sweet-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/electric-eel/",
+      "destination": "/items/electric-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/glowing-catfish/",
+      "destination": "/items/glowing-catfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/silicate-crab/",
+      "destination": "/items/silicate-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sulphurfish/",
+      "destination": "/items/sulphurfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/viscous-custard/",
+      "destination": "/items/viscous-custard/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/meat-flakes/",
+      "destination": "/items/meat-flakes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hypnotic-octopus/",
+      "destination": "/items/hypnotic-octopus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/luminescent-coral/",
+      "destination": "/items/luminescent-coral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/depleted-razorjaw/",
+      "destination": "/items/depleted-razorjaw/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/toxic-stonefish/",
+      "destination": "/items/toxic-stonefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/longjaw-snapper/",
+      "destination": "/items/longjaw-snapper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/writhing-brainworm/",
+      "destination": "/items/writhing-brainworm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/twisted-gulper/",
+      "destination": "/items/twisted-gulper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wandering-shellback/",
+      "destination": "/items/wandering-shellback/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/brineskipper/",
+      "destination": "/items/brineskipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/acidic-pufferfish/",
+      "destination": "/items/acidic-pufferfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mineralised-jellyfish/",
+      "destination": "/items/mineralised-jellyfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/flourishing-shalefish/",
+      "destination": "/items/flourishing-shalefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/twilight-cavefish/",
+      "destination": "/items/twilight-cavefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shimmering-lashtail/",
+      "destination": "/items/shimmering-lashtail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crab-apple/",
+      "destination": "/items/crab-apple/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bloated-eel/",
+      "destination": "/items/bloated-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/honey-waffle/",
+      "destination": "/items/honey-waffle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gelatinous-goop/",
+      "destination": "/items/gelatinous-goop/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/forktailed-splicer/",
+      "destination": "/items/forktailed-splicer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pulp-urchin/",
+      "destination": "/items/pulp-urchin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/warm-proto-milk/",
+      "destination": "/items/warm-proto-milk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nourishing-slime/",
+      "destination": "/items/nourishing-slime/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/lamptip-ray/",
+      "destination": "/items/lamptip-ray/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/reef-eel/",
+      "destination": "/items/reef-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sticky-honey/",
+      "destination": "/items/sticky-honey/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-nectar/",
+      "destination": "/items/syrupy-nectar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/leopard-fruit/",
+      "destination": "/items/leopard-fruit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/foraged-mushrooms/",
+      "destination": "/items/foraged-mushrooms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tall-eggs/",
+      "destination": "/items/tall-eggs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fresh-milk/",
+      "destination": "/items/fresh-milk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bladdersac/",
+      "destination": "/items/bladdersac/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/geno-prawn/",
+      "destination": "/items/geno-prawn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/anemone-anomaly/",
+      "destination": "/items/anemone-anomaly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweeperfish/",
+      "destination": "/items/sweeperfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/murmurfish/",
+      "destination": "/items/murmurfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/rockfin/",
+      "destination": "/items/rockfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/giant-egg/",
+      "destination": "/items/giant-egg/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/erased-clam/",
+      "destination": "/items/erased-clam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/jelly-prawn/",
+      "destination": "/items/jelly-prawn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/clearwater-skipper/",
+      "destination": "/items/clearwater-skipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/syrupy-viscera/",
+      "destination": "/items/syrupy-viscera/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/needlefish/",
+      "destination": "/items/needlefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/whipscale-darter/",
+      "destination": "/items/whipscale-darter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chewy-wires/",
+      "destination": "/items/chewy-wires/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bone-nuggets/",
+      "destination": "/items/bone-nuggets/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nucleic-skipper/",
+      "destination": "/items/nucleic-skipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/boiled-snapper/",
+      "destination": "/items/boiled-snapper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spratfin/",
+      "destination": "/items/spratfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/encrusted-worm/",
+      "destination": "/items/encrusted-worm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cadmium-pearlcase/",
+      "destination": "/items/cadmium-pearlcase/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ghost-skipper/",
+      "destination": "/items/ghost-skipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wandering-kelpfin/",
+      "destination": "/items/wandering-kelpfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pyrefin/",
+      "destination": "/items/pyrefin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mellifluous-jellyfish/",
+      "destination": "/items/mellifluous-jellyfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/toxic-jelly/",
+      "destination": "/items/toxic-jelly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/caustic-urchin/",
+      "destination": "/items/caustic-urchin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ionised-oyster/",
+      "destination": "/items/ionised-oyster/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/softened-marrow/",
+      "destination": "/items/softened-marrow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/whispering-jelly/",
+      "destination": "/items/whispering-jelly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/inverted-snapper/",
+      "destination": "/items/inverted-snapper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spiny-starfish/",
+      "destination": "/items/spiny-starfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sugar-dough/",
+      "destination": "/items/sugar-dough/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/evaporating-snail/",
+      "destination": "/items/evaporating-snail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/thawed-diamondfin/",
+      "destination": "/items/thawed-diamondfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shalebound-starfish/",
+      "destination": "/items/shalebound-starfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/heptaploid-wheat/",
+      "destination": "/items/heptaploid-wheat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/all-seeing-worm/",
+      "destination": "/items/all-seeing-worm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shrieking-oyster/",
+      "destination": "/items/shrieking-oyster/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pulpy-roots/",
+      "destination": "/items/pulpy-roots/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/blistering-eel/",
+      "destination": "/items/blistering-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweetroot/",
+      "destination": "/items/sweetroot/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ionised-clam/",
+      "destination": "/items/ionised-clam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/weltscale-clam/",
+      "destination": "/items/weltscale-clam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/silent-angler/",
+      "destination": "/items/silent-angler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/lavascale-trout/",
+      "destination": "/items/lavascale-trout/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/golden-urchin/",
+      "destination": "/items/golden-urchin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frostshell-clam/",
+      "destination": "/items/frostshell-clam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/midnight-eel/",
+      "destination": "/items/midnight-eel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sweetwater-minnow/",
+      "destination": "/items/sweetwater-minnow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/chalkscale-nibber/",
+      "destination": "/items/chalkscale-nibber/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/inverted-brainfish/",
+      "destination": "/items/inverted-brainfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frozen-isopod/",
+      "destination": "/items/frozen-isopod/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/marine-glowworm/",
+      "destination": "/items/marine-glowworm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/rimescale-snapper/",
+      "destination": "/items/rimescale-snapper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/waspfish/",
+      "destination": "/items/waspfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/horrifying-mush/",
+      "destination": "/items/horrifying-mush/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/abyssal-stew/",
+      "destination": "/items/abyssal-stew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/writhing-roiling-batter/",
+      "destination": "/items/writhing-roiling-batter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creature-egg/",
+      "destination": "/items/creature-egg/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/juicy-grub/",
+      "destination": "/items/juicy-grub/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/dirty-meat/",
+      "destination": "/items/dirty-meat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wild-milk/",
+      "destination": "/items/wild-milk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/spotted-protofin/",
+      "destination": "/items/spotted-protofin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/venomouos-triggerfin/",
+      "destination": "/items/venomouos-triggerfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/feline-liver/",
+      "destination": "/items/feline-liver/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/warty-frogfish/",
+      "destination": "/items/warty-frogfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ash-snail/",
+      "destination": "/items/ash-snail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frozen-whelk/",
+      "destination": "/items/frozen-whelk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/lesser-dustfin/",
+      "destination": "/items/lesser-dustfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/tiny-scuttlefish/",
+      "destination": "/items/tiny-scuttlefish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/shadowfin/",
+      "destination": "/items/shadowfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/raw-steak/",
+      "destination": "/items/raw-steak/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/meaty-wings/",
+      "destination": "/items/meaty-wings/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/baked-anomaly/",
+      "destination": "/items/baked-anomaly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/aurora-jellyfish/",
+      "destination": "/items/aurora-jellyfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/mud-crab/",
+      "destination": "/items/mud-crab/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/inert-whelk/",
+      "destination": "/items/inert-whelk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gas-worm/",
+      "destination": "/items/gas-worm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bileworm/",
+      "destination": "/items/bileworm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/ice-darter/",
+      "destination": "/items/ice-darter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/lumpy-brainstem/",
+      "destination": "/items/lumpy-brainstem/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fiendish-roe/",
+      "destination": "/items/fiendish-roe/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/strider-sausage/",
+      "destination": "/items/strider-sausage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/bulging-snapper/",
+      "destination": "/items/bulging-snapper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pondskipper/",
+      "destination": "/items/pondskipper/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/deepwater-minnow/",
+      "destination": "/items/deepwater-minnow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/frostscale-trout/",
+      "destination": "/items/frostscale-trout/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/briny-worm/",
+      "destination": "/items/briny-worm/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/oilfin/",
+      "destination": "/items/oilfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sea-cucumber/",
+      "destination": "/items/sea-cucumber/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/vectorfin/",
+      "destination": "/items/vectorfin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/field-s-dartfish/",
+      "destination": "/items/field-s-dartfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/scaly-meat/",
+      "destination": "/items/scaly-meat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hexscale-minnow/",
+      "destination": "/items/hexscale-minnow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/de-pressurized-blob/",
+      "destination": "/items/de-pressurized-blob/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pressurised-clam/",
+      "destination": "/items/pressurised-clam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fool-s-goldfish/",
+      "destination": "/items/fool-s-goldfish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/sac-fish/",
+      "destination": "/items/sac-fish/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/salty-chunks/",
+      "destination": "/items/salty-chunks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crystal-flesh/",
+      "destination": "/items/crystal-flesh/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/offal-sac/",
+      "destination": "/items/offal-sac/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/protosausage/",
+      "destination": "/items/protosausage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/scooped-innards/",
+      "destination": "/items/scooped-innards/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/crunchy-wings/",
+      "destination": "/items/crunchy-wings/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/fossilised-something/",
+      "destination": "/items/fossilised-something/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/rancid-flesh/",
+      "destination": "/items/rancid-flesh/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/regis-grease/",
+      "destination": "/items/regis-grease/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/craw-milk/",
+      "destination": "/items/craw-milk/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/juicy-thorax/",
+      "destination": "/items/juicy-thorax/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/latticed-sinew/",
+      "destination": "/items/latticed-sinew/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/diplo-chunks/",
+      "destination": "/items/diplo-chunks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/leg-meat/",
+      "destination": "/items/leg-meat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/wild-yeast/",
+      "destination": "/items/wild-yeast/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hadal-core/",
+      "destination": "/items/hadal-core/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/meaty-chunks/",
+      "destination": "/items/meaty-chunks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/hypnotic-eye/",
+      "destination": "/items/hypnotic-eye/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/common-shimmertail/",
+      "destination": "/items/common-shimmertail/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/carbon-nanotubes/",
+      "destination": "/items/carbon-nanotubes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/creature-pellets/",
+      "destination": "/items/creature-pellets/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/larval-core/",
+      "destination": "/items/larval-core/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/geknip/",
+      "destination": "/items/geknip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/nip-nip-buds/",
+      "destination": "/items/nip-nip-buds/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/flesh-rope/",
+      "destination": "/items/flesh-rope/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/the-angler/",
+      "destination": "/items/the-angler/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/gelatinous-sponge/",
+      "destination": "/items/gelatinous-sponge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/monstrous-doughnut/",
+      "destination": "/items/monstrous-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/cocoa-doughnut/",
+      "destination": "/items/cocoa-doughnut/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/traditional-cake/",
+      "destination": "/items/traditional-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/pollen-puffball/",
+      "destination": "/items/pollen-puffball/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/items/custard-fancy/",
+      "destination": "/items/custard-fancy/",
       "statusCode": 301
     },
     {
       "source": "/en/:splat+",
       "destination": "/:splat+",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/:splat+/",
+      "destination": "/:splat+/",
       "statusCode": 301
     }
   ]
