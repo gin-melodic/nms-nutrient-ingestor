@@ -7,9 +7,9 @@
 ## 特性
 
 - **双语 + 语言切换按钮**：英文为主（`/`），中文页使用 `/zh/` 路径，每页单一语言、不混排，右上角可一键切换（含物品页的同名对照链接）。旧英文 URL（`/en/`、`/en/items/<slug>/`）通过 `vercel.json` 301 重定向到新的英文地址；旧的中文 URL（根路径与 `/items/<slug>/`）现在直接返回英文页，中文版在 `/zh/` 对应路径，页面间经语言按钮与 hreflang 互相指向。
-- **合成公式**：配方表新增「合成公式 / Recipe」列，展示每种食物的原料配方（例如 `'Apple' Ice Cream = 粘蛋奶沙司 + 冷冻块茎 + 蟹肉“苹果”`）；多配方会标注「N 种配方」；无配方物品标注「🎣 捕捞」或「无配方」。
-- **节点图（物品页）**：物品详情页的「合成公式 / Recipe」区块以**完整展开的节点树**展示合成链（根 = 当前物品，向下逐级展开所有原料，全库最深 6 层），节点带类型图标与类型配色（食用 🍽️ / 鱼 🐟 / 原料 🌿）；**所有原料节点均可点击**，不跳转页面、而是从右侧**滑出 Slidebox 面板**展示该物品的完整详情（合成树 + 增益效果），并在面板内继续点击子节点逐层深入、`←` 返回、`Esc`/点遮罩关闭、`↗` 新标签页打开（`js/slidebox.js`）；无物品页的原料（如 Salt）显示「无物品页」标记，递归配方（如甜甜圈↔面团链）显示 `↻ 递归` 标记不再展开；树为纯服务端渲染（利于 SEO），无 JS 时节点保持原生跳转（渐进增强），窄屏可横向滚动。**有配方的物品不再重复显示绿色公式文本框**（节点树即完整公式），多配方物品保留「N 种配方」提示。
-- **获取建议（物品页）**：**无需合成的基础物品**不再只写「无配方」，而是按类型给出获取建议——鱼 🎣 钓鱼（任意星球水域）、原料 🌿 采集（行星表面 / 生物掉落）、其余 🧭 世界中直接获取；首页配方表的无配方行同步显示「🎣 捕捞 / 🌿 采集」。
+- **合成公式（含全部替代配方）**：配方表「合成公式 / Recipe」列展示每种食物的原料配方（例如 `'Apple' Ice Cream = 粘蛋奶沙司 + 冷冻块茎 + 蟹肉“苹果”`）；同一物品可有**多种替代配方**（247/575 物品 ≥2 种，如 原型奶油 = 温热原型奶 或 嗉囊奶；深渊炖菜共 61 种），表格显示第一种并标注「(N recipes) / (N 种配方)」；无配方物品标注「🎣 捕捞」或「无配方」。
+- **节点图（物品页）**：物品详情页的「合成公式 / Recipe」区块以**完整展开的节点树**展示**全部替代配方**（根 = 当前物品，向下逐级展开所有原料，全库最深 6 层）：维基中槽位对齐的替代原料渲染为「N 种 · 任选其一 / N alternatives · pick any」的 **or 分支**（金边 ⑂ 标签 + 每个替代分支各自递归展开），例如 原型奶油 = ⑂（温热原型奶 | 嗉囊奶）；超过 6 个替代项的 or 分支由 JS 折叠为前 3 项 +「+N 更多 / −N 收起」开关（`js/slidebox.js`，渐进增强，无 JS 时全部可见）；节点带类型图标与类型配色（食用 🍽️ / 鱼 🐟 / 原料 🌿）；**所有原料节点均可点击**，不跳转页面、而是从右侧**滑出 Slidebox 面板**展示该物品的完整详情（合成树 + 增益效果），并在面板内继续点击子节点逐层深入、`←` 返回、`Esc`/点遮罩关闭、`↗` 新标签页打开（`js/slidebox.js`）；无物品页的原料（如 Salt）显示「无物品页」标记，递归配方（如甜甜圈↔面团链）显示 `↻ 递归` 标记不再展开；树为纯服务端渲染（利于 SEO），无 JS 时节点保持原生跳转（渐进增强），窄屏可横向滚动；节点胶囊允许长英文名**自动换行**（`overflow-wrap:anywhere`），不再溢出容器。**有配方的物品不再重复显示绿色公式文本框**（节点树即完整公式），多配方物品保留「共 N 种替代配方，树中已完整展示」说明。
+- **获取建议（物品页）**：**无需合成的基础物品**不再只写「无配方」，而是给出**逐物品双语指引**（`tools/obtain.py`，基于 Fandom 维基 Source / Fishing 章节）：原料 🌿 具体到行星类型或生物（如 六莓=异域星球采集、嗉囊奶=对蝴蝶/飞虫投喂生物颗粒后采集、骨块=对大型甲壳生物投喂后采集）；鱼 🎣 具体到生物群系 / 昼夜 / 天气 + 推荐鱼饵数值（如 霜鳞鳟=冰冻星球、稀有度加成约 11% / 体型加成约 16% 的鱼饵）；特殊物品 🧭 具体来源（如 深渊核心=深渊噩梦 / 诱人标本 / 废弃飞船容器）；无维基数据时回退到按类型的通用建议；首页配方表的无配方行同步显示「🎣 捕捞 / 🌿 采集」。
 - **两个视图**：
   | 视图 | 内容 |
   | --- | --- |
@@ -28,15 +28,17 @@
 ## 数据来源
 
 - **效果数据（权威）**：[Nutrient Ingestor 数据表（Google Sheet）](https://docs.google.com/spreadsheets/d/1oiyYjbAX_pi2drhP0vxnjI1ZG14XB8VCmr5vSBH9N7g) — 575 条物品记录。
-- **合成公式**：[NMS Fandom Wiki](https://nomanssky.fandom.com/) MediaWiki API 的 `{{Cook}}/{{Craft}}` 模板（`tools/scrape_recipes.py` 抓取 → `tools/recipes.json`）。
+- **合成公式（含全部替代配方）**：[NMS Fandom Wiki](https://nomanssky.fandom.com/) MediaWiki API 的 `{{Cook}}/{{Craft}}` 模板（`tools/scrape_recipes.py` 抓取 → `tools/recipes.json`）。
+- **获取方式 / 钓鱼条件**：Fandom 各物品页的 `==Source==` 章节与 `{{FishingCon}}/{{FishingBait}}` 模板（`tools/scrape_obtain.py` 抓取 → `tools/obtain_raw.json`；双语文案整理在 `tools/obtain.py`）。
 - **中文术语**：[无人深空中文维基（nms.huijiwiki.com）](https://nms.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5) 及社区词条。
 
 ## 构建流程
 
 ```bash
-# 1) （可选）重新抓取合成公式
-python3 tools/scrape_recipes.py     # Fandom API -> tools/recipes.json
-# 2) 数据构建：CSV + name_map + recipes.json -> js/data.js 与 data.json
+# 1) （可选）重新抓取合成公式 + 获取方式
+python3 tools/scrape_recipes.py     # Fandom API -> tools/recipes.json（含全部替代配方）
+python3 tools/scrape_obtain.py      # Fandom API -> tools/obtain_raw.json（无配方物品的 Source / 钓鱼条件）
+# 2) 数据构建：CSV + name_map + recipes.json + obtain.py -> js/data.js 与 data.json
 python3 tools/build.py
 # 3) 站点生成：data.json -> index.html(EN) / zh/ / items/(EN) / zh/items/(ZH) / vercel.json / robots.txt / sitemap.xml / og-image.png
 python3 tools/build_site.py
@@ -77,10 +79,13 @@ vercel.json                             旧 URL 301 重定向（生成物）
 robots.txt / sitemap.xml / og-image.png SEO（生成物）
 tools/build.py                          数据构建脚本
 tools/build_site.py                     站点生成脚本
-tools/scrape_recipes.py                 合成公式抓取脚本
+tools/scrape_recipes.py                 合成公式抓取脚本（含全部替代配方）
+tools/scrape_obtain.py                  获取方式 / 钓鱼条件抓取脚本
+tools/obtain.py                         无配方物品的双语获取指引（RAW + 鱼生成器）
 tools/name_map.py                       英文 → 中文 名称 / 效果 / 类型 映射
-tools/recipes.json                      抓取到的合成公式（按物品名）
+tools/recipes.json                      抓取到的合成公式（按物品名，含替代配方）
+tools/obtain_raw.json                   抓取到的获取方式原始数据（按物品名）
 NMS Nutrient Ingestor - Public - Nutrients.csv   原始效果数据
 ```
 
-> 注意：`js/data.js`、`data.json`、`index.html`、`zh/`、`items/`、`vercel.json`、`robots.txt`、`sitemap.xml`、`og-image.png` 均为**生成物**，请勿手改；改动请改源头（CSV / `name_map.py` / `recipes.json` / `tools/build_site.py`）后重跑 `tools/build.py` 与 `tools/build_site.py`。
+> 注意：`js/data.js`、`data.json`、`index.html`、`zh/`、`items/`、`vercel.json`、`robots.txt`、`sitemap.xml`、`og-image.png` 均为**生成物**，请勿手改；改动请改源头（CSV / `name_map.py` / `recipes.json` / `obtain_raw.json` / `obtain.py` / `tools/build_site.py`）后重跑 `tools/build.py` 与 `tools/build_site.py`。

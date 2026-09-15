@@ -4,12 +4,16 @@
 Source: No Man's Sky Fandom wiki (MediaWiki API), which documents each item's
 crafting recipe via the {{Cook}} / {{Craft}} templates in its Source section.
 
+The wiki lists every alternative recipe as a separate template line, e.g.
+    {{Cook|Warm Proto-Milk,1;1;2.5%Churn|Craw Milk,1;1;2.5%Churn}}
+All variants are captured.
+
 Reads data.json (the 575-item dataset) and writes tools/recipes.json:
     { "<Item EN name>": {
         "title": "<resolved Fandom page title>",
         "has_recipe": bool,
         "variants":   <int number of alternative recipes>,
-        "ingredients":[{"name": "<EN ingredient>", "qty": <int>}, ...]
+        "recipes": [ [{"name": "<EN ingredient>", "qty": <int>}, ...], ... ]
     } }
 
 Re-runnable one-time build step. Uses a small worker pool + retries + backoff
@@ -63,21 +67,19 @@ def parse_recipe_line(seg):
 
 
 def extract(wt):
-    """Return first recipe (ingredients + qty) and the count of variants."""
+    """Return ALL alternative recipes (each a list of {name, qty})."""
     m = re.search(r"\{\{(Cook|Craft)\b(.*?)\}\}", wt, re.S)
     if not m:
-        return {"has_recipe": False, "ingredients": [], "variants": 0}
-    variants, first = 0, None
+        return {"has_recipe": False, "recipes": [], "variants": 0}
+    recipes = []
     for s in re.split(r"[\n\|]", m.group(2)):
         s = s.strip()
         if not s or s.startswith("blueprint"):
             continue
         ings = parse_recipe_line(s)
         if ings:
-            variants += 1
-            if first is None:
-                first = ings
-    return {"has_recipe": bool(first), "ingredients": first or [], "variants": variants}
+            recipes.append(ings)
+    return {"has_recipe": bool(recipes), "recipes": recipes, "variants": len(recipes)}
 
 
 def process(name):
@@ -120,8 +122,10 @@ def main():
     with_recipe = [k for k, v in out.items() if v["has_recipe"]]
     ings = set()
     for v in out.values():
-        for ing in v["ingredients"]:
-            ings.add(ing["name"])
+        for r in v.get("recipes", []):
+            for ing in r:
+                ings.add(ing["name"])
+    multiv = [(k, v["variants"]) for k, v in out.items() if v["variants"] > 1]
     try:
         import sys
         sys.path.insert(0, os.path.join(ROOT, "tools"))
@@ -134,6 +138,8 @@ def main():
     print("=" * 48)
     print(f"total={len(out)}  with_recipe={len(with_recipe)}  "
           f"without={len(out) - len(with_recipe)}")
+    print(f"multi_variant_items={len(multiv)}  "
+          f"max_variants={max((v for _, v in multiv), default=0)}")
     print(f"unique_ingredients={len(ings)}")
     if missing:
         print("missing_zh:", missing)

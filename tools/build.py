@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 """Build the JSON dataset for the NMS Nutrient Ingestor web page.
-Reads the authoritative CSV (effects data) + name_map (EN->ZH) -> data.json
+Reads the authoritative CSV (effects data) + name_map (EN->ZH)
++ recipes.json (all alternative recipes) + obtain.py (bilingual acquisition
+guidance for recipe-less items) -> data.json
 """
 import csv, json, sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from name_map import MAP, EFFECT, TYPE
+from obtain import resolve as resolve_obtain
 import re, unicodedata
 
 CSV = os.path.join(os.path.dirname(__file__), "..", "NMS Nutrient Ingestor - Public - Nutrients.csv")
 OUT = os.path.join(os.path.dirname(__file__), "..", "js", "data.js")
 RECIPES_PATH = os.path.join(os.path.dirname(__file__), "recipes.json")
+OBTAIN_RAW_PATH = os.path.join(os.path.dirname(__file__), "obtain_raw.json")
 
 
 def _norm(s):
@@ -39,6 +43,12 @@ try:
 except (FileNotFoundError, ValueError):
     RECIPES = {}
 
+try:
+    with open(OBTAIN_RAW_PATH, encoding="utf-8") as _fp:
+        OBTAIN_RAW = json.load(_fp)
+except (FileNotFoundError, ValueError):
+    OBTAIN_RAW = {}
+
 def num(s):
     s = s.strip().replace(",", "")
     if s == "": return 0
@@ -63,10 +73,17 @@ for r in items:
     total = int(num(r["Total Sec"]))
     bonus_total = num(r["Bonus * Total Sec"])
     rc = RECIPES.get(r["Item"], {}) or {}
-    ingredients = []
-    for ing in rc.get("ingredients", []):
-        zh = resolve_zh(ing["name"])
-        ingredients.append({"en": ing["name"], "zh": zh or ing["name"], "qty": int(ing.get("qty", 1))})
+    # all alternative recipes (a recipe = one list of {en, zh, qty} ingredients)
+    raw_variants = rc.get("recipes") or ([rc["ingredients"]] if rc.get("ingredients") else [])
+    alts = []
+    for variant in raw_variants:
+        ings = []
+        for ing in variant:
+            zh = resolve_zh(ing["name"])
+            ings.append({"en": ing["name"], "zh": zh or ing["name"], "qty": int(ing.get("qty", 1))})
+        if ings:
+            alts.append(ings)
+    first = alts[0] if alts else []
     data.append({
         "en": r["Item"],
         "zh": MAP.get(r["Item"], r["Item"]),
@@ -80,10 +97,13 @@ for r in items:
         "total": total,
         "bonus_total": bonus_total,
         "recipe": {
-            "has": bool(ingredients),
-            "variants": int(rc.get("variants", 0)),
-            "ingredients": ingredients,
+            "has": bool(alts),
+            "variants": len(alts),
+            "ingredients": first,          # first recipe (compat / display default)
+            "alts": alts,                  # ALL alternative recipes
         },
+        # 获取建议：无配方物品的逐物品双语指引（原料/鱼/特殊物品）；有配方为 null
+        "obtain": (resolve_obtain(r["Item"], r["Type"] == "Fish", OBTAIN_RAW.get(r["Item"])) if not alts else None),
     })
 
 # stable sort by bonus_total desc as default

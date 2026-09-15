@@ -90,9 +90,13 @@ STR = {
         "howto_short_fish": "钓鱼获得",
         "howto_short_gather": "采集 / 狩猎获得",
         "howto_short_general": "在星球世界中直接获取",
-        "tree_hint": "点击任意原料节点，在右侧滑出面板中逐层查看完整合成树与增益效果",
+        "tree_hint": "点击任意原料节点，在右侧滑出面板中逐层查看完整合成树与增益效果。「N 种 · 任选其一」分支表示替代配方——任选一组原料即可合成",
         "raw_tag": "无物品页",
         "cyc_tag": "递归，不再展开",
+        "alt_unit": "种",
+        "alt_pick": "任选其一",
+        "alt_none": "（无）",
+        "variant_all": "共 {n} 种替代配方，树中已完整展示（「N 种 · 任选其一」分支）——任选一组原料即可合成",
     },
     "en": {
         "site_name": "No Man's Sky · Nutrient Ingestor",
@@ -132,9 +136,13 @@ STR = {
         "howto_short_fish": "caught by fishing",
         "howto_short_gather": "gathered / hunted in the world",
         "howto_short_general": "obtained directly in the world",
-        "tree_hint": "Click any ingredient node to slide in its full recipe tree and buff",
+        "tree_hint": "Click any ingredient node to slide in its full recipe tree and buff. 'N alternatives · pick any' branches are alternative recipes — any one set of ingredients works",
         "raw_tag": "no page",
         "cyc_tag": "recursion, not expanded",
+        "alt_unit": "alternatives",
+        "alt_pick": "pick any",
+        "alt_none": "(none)",
+        "variant_all": "{n} alternative recipes, all shown in the tree ('N alternatives · pick any' branches) — any one set of ingredients works",
     },
 }
 
@@ -223,44 +231,113 @@ def icon_of(t_zh):
 TREE_MAX_DEPTH = 8  # dataset max is 6; defensive cap
 
 
-def _tree_ul(l, item, seen, depth):
-    """One <ul> of children for `item`: one <li> per ingredient, recursively expanded."""
+def _slots(alts):
+    """Align alternative recipes into slot columns.
+
+    The wiki lists alternative recipes as parallel lines whose ingredient
+    *positions* line up (slot 1, slot 2, …). A slot where every variant
+    agrees renders as one plain node; a slot with differing values renders
+    as an "or" group (pick any one). Returns [{"vals": [ing|None, …]}].
+    """
+    if not alts:
+        return []
+    max_len = max(len(a) for a in alts)
+    slots = []
+    for i in range(max_len):
+        distinct = []
+        for a in alts:
+            v = a[i] if i < len(a) else None
+            key = (v["en"], v["qty"]) if v else None
+            if all(((x["en"], x["qty"]) if x else None) != key for x in distinct):
+                distinct.append(v)
+        slots.append({"vals": distinct})
+    return slots
+
+
+def _chip(l, ing, target):
+    """One ingredient chip (raw / cycle / linkable) + optional recursive subtree."""
+    field = "zh" if l == "zh" else "en"
+    qty = int(ing.get("qty", 1))
+    qty_html = f'<span class="rqty">×{qty}</span>' if qty > 1 else ""
+    label = esc(ing[field])
+    if target is None:
+        return f'<span class="rchip rchip-raw"><i class="ricon" aria-hidden="true">🌿</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>', ""
+    return (f'<a class="rchip rchip-{chip_class(target["type"])}" href="{item_path(l, target["slug"])}">'
+            f'<i class="ricon" aria-hidden="true">{icon_of(target["type"])}</i>{label}{qty_html}</a>'), True
+
+
+def _node(l, ing, seen, depth):
+    """One <li> child for a single ingredient value (or an empty slot)."""
+    if ing is None:
+        return f'<li class="rnode"><span class="rchip rchip-raw"><i class="ricon" aria-hidden="true">—</i>{esc(STR[l]["alt_none"])}</span></li>'
+    target = resolve_ing(ing["en"])
+    if target is None:
+        chip, _ = _chip(l, ing, target)
+        return f'<li class="rnode">{chip}</li>'
+    if target["en"] in seen:
+        field = "zh" if l == "zh" else "en"
+        qty_html = f'<span class="rqty">×{int(ing.get("qty", 1))}</span>' if int(ing.get("qty", 1)) > 1 else ""
+        chip = (f'<span class="rchip rchip-cyc"><i class="ricon" aria-hidden="true">↻</i>'
+                f'{esc(ing[field])}{qty_html}<span class="rchip-tag">{esc(STR[l]["cyc_tag"])}</span></span>')
+        return f'<li class="rnode">{chip}</li>'
+    chip, _ = _chip(l, ing, target)
+    sub = _children(l, target, seen | {target["en"]}, depth + 1)
+    return f'<li class="rnode">{chip}{sub}</li>'
+
+
+def _children(l, item, seen, depth):
+    """One <ul> of children for `item` from its FULL set of alternative recipes.
+
+    Slots where all variants agree → plain ingredient nodes (recursively
+    expanded). Slots with alternatives → an "or" group node listing every
+    choice; each choice expands recursively with the same ancestor set.
+    """
     r = item["recipe"]
     if not r["has"] or depth >= TREE_MAX_DEPTH:
         return ""
-    lis = []
-    for ing in r["ingredients"]:
-        qty = int(ing.get("qty", 1))
-        qty_html = f'<span class="rqty">×{qty}</span>' if qty > 1 else ""
-        label = esc(ing["zh" if l == "zh" else "en"])
-        target = resolve_ing(ing["en"])
-        if target is None:
-            node = f'<span class="rchip rchip-raw"><i class="ricon" aria-hidden="true">🌿</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>'
-            sub = ""
-        elif target["en"] in seen:
-            node = f'<span class="rchip rchip-cyc"><i class="ricon" aria-hidden="true">↻</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["cyc_tag"])}</span></span>'
-            sub = ""
+    parts = []
+    for slot in _slots(r.get("alts") or r.get("ingredients") and [r["ingredients"]]):
+        vals = slot["vals"]
+        if len(vals) == 1 and vals[0] is not None:
+            parts.append(_node(l, vals[0], seen, depth))
         else:
-            href = item_path(l, target["slug"])
-            node = f'<a class="rchip rchip-{chip_class(target["type"])}" href="{href}"><i class="ricon" aria-hidden="true">{icon_of(target["type"])}</i>{label}{qty_html}</a>'
-            sub = _tree_ul(l, target, seen | {target["en"]}, depth + 1)
-        lis.append(f'<li class="rnode">{node}{sub}</li>')
-    return f'<ul class="rtree">{"".join(lis)}</ul>'
+            n = len(vals)  # include the "(none)" option when present
+            inner = "".join(_node(l, v, seen, depth) for v in vals)
+            label = f'{n} {STR[l]["alt_unit"]} · {STR[l]["alt_pick"]}'
+            parts.append(f'<li class="rnode rnode-alt"><span class="rchip rchip-alt">'
+                         f'<i class="ricon" aria-hidden="true">⑂</i>{esc(label)}</span>'
+                         f'<ul class="rtree">{inner}</ul></li>')
+    return f'<ul class="rtree">{"".join(parts)}</ul>'
 
 
 def recipe_tree_html(l, d):
-    """Full, fully-expanded recipe node tree (root = the item itself). Server-rendered, no JS required."""
+    """Full, fully-expanded recipe node tree (root = the item itself), including
+    every alternative recipe as "or" branches. Server-rendered, no JS required."""
     root = (f'<span class="rchip rchip-root rchip-{chip_class(d["type"])}">'
             f'<i class="ricon" aria-hidden="true">{icon_of(d["type"])}</i>{esc(name_of(l, d))}'
             f'<span class="rchip-type">{esc(type_of(l, d))}</span></span>')
-    sub = _tree_ul(l, d, {d["en"]}, 0)
+    sub = _children(l, d, {d["en"]}, 0)
     return (f'<div class="rstage"><ul class="rtree rtree-root"><li class="rnode rnode-root">{root}{sub}</li></ul></div>'
             f'<p class="tree-hint">{esc(STR[l]["tree_hint"])}</p>')
 
 
 def howto(l, d):
-    """Acquisition advice for items that need no crafting, by type."""
+    """Acquisition advice for items that need no crafting.
+
+    Per-item curated text (d["obtain"], from the Fandom wiki) takes priority;
+    type-generic fallbacks below. Returns (main, sub, short-for-meta)."""
     t = STR[l]
+    ob = (d.get("obtain") or {}).get(l)
+    if ob:
+        # split main/sub at the first true sentence end (。for zh; ". "for en)
+        sep = r"[。]" if l == "zh" else r"\.\s"
+        m = re.match(r"^(.*?" + sep + r")(.*)$", ob, re.S)
+        first = m.group(1).strip() if m else ob
+        rest = m.group(2).strip() if m else ""
+        short = first.rstrip("。. ")  # meta text is spliced into a longer sentence
+        if rest:
+            return first, rest, short
+        return ob, "", short
     if d["type_en"] == "Fish":
         return t["howto_fish"], t["howto_fish_sub"], t["howto_short_fish"]
     if d["type"] == "原料":
@@ -538,7 +615,7 @@ def render_item(l, d):
         # 合成公式已用节点树完整展示，不再重复绿色的 recipe-box 公式文本
         variant_note = ""
         if r["variants"] > 1:
-            variant_note = f'<p class="recipe-note">{'共 ' if l=="zh" else ""}{r["variants"]} {t["recipes_unit"]}{'，展示其一' if l=="zh" else " — showing one"}</p>'
+            variant_note = f'<p class="recipe-note">{esc(t["variant_all"].format(n=r["variants"]))}</p>'
         recipe_section = f"""    <section class="block recipe-sec">
       <h2>{esc(t['recipe_h'])}</h2>
       <div class="treewrap">{recipe_tree_html(l, d)}</div>

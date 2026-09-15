@@ -25,7 +25,7 @@
     svg.setAttribute("viewBox", "0 0 " + W + " " + H);
     const segs = [];
     stage.querySelectorAll("ul.rtree").forEach(ul => {
-      const lis = [...ul.children].filter(li => li.classList.contains("rnode"));
+      const lis = [...ul.children].filter(li => li.classList.contains("rnode") && !li.classList.contains("alt-hidden"));
       if (!lis.length) return;
       const parentChip = ul.parentElement ? ul.parentElement.querySelector(":scope > .rchip") : null;
       const cs = lis.map(li => {
@@ -57,6 +57,48 @@
   function drawAll(scope) {
     (scope || document).querySelectorAll(".rstage").forEach(drawTree);
   }
+
+  // ---- collapse large "or" groups (progressive enhancement) ----
+  // An or-group li.rnode-alt lists every alternative recipe branch. When there
+  // are more than ALTHIDE, keep the first ALTKEEP visible and hide the rest
+  // behind a "+N 更多 / −N 收起" toggle. Without JS all alternatives stay visible.
+  const ALTHIDE = 6, ALTKEEP = 3;
+  function setupAltToggles(scope) {
+    (scope || document).querySelectorAll("li.rnode-alt").forEach(li => {
+      if (li.dataset.alt) return;
+      const ul = li.querySelector(":scope > ul.rtree");
+      if (!ul) return;
+      const kids = [...ul.children].filter(k => k.classList.contains("rnode"));
+      if (kids.length <= ALTHIDE) return;
+      li.dataset.alt = "1";
+      const extra = kids.slice(ALTKEEP);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "rchip-more";
+      btn.setAttribute("aria-expanded", "false");
+      let open = false;
+      const apply = () => {
+        extra.forEach(k => k.classList.toggle("alt-hidden", !open));
+        const n = extra.length;
+        btn.textContent = isZh
+          ? (open ? "− " + n + " 收起" : "+ " + n + " 更多")
+          : (open ? "− " + n + " less" : "+ " + n + " more");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      };
+      li.insertBefore(btn, ul);
+      apply();
+      btn.addEventListener("click", e => {
+        e.preventDefault();
+        e.stopPropagation();
+        open = !open;
+        apply();
+        const stage = li.closest(".rstage");
+        if (stage) drawAll(stage);
+      });
+    });
+  }
+
+  setupAltToggles();
   let rzT;
   window.addEventListener("resize", () => { clearTimeout(rzT); rzT = setTimeout(() => drawAll(), 120); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => drawAll());
@@ -161,6 +203,7 @@
         void box.offsetWidth; // restart the fade-in
         box.classList.add("sb-fade");
         updateBack();
+        setupAltToggles(box);
         requestAnimationFrame(() => drawAll(box));
       })
       .catch(() => {

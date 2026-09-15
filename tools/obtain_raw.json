@@ -1,0 +1,2092 @@
+{
+ "Blind Titancore": {
+  "page": "Blind Titancore",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Nautilia": {
+  "page": "Nautilia",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Megalodon": {
+  "page": "Megalodon",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Ancient Irontail": {
+  "page": "Ancient Irontail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Child of Helios": {
+  "page": "Child of Helios",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "The Lunker": {
+  "page": "The Lunker",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 31,
+   "bait_size": 10,
+   "bait_condition": ""
+  }
+ },
+ "Helix Sawfish": {
+  "page": "Helix Sawfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "irradiated",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Iceblood Gulper": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "The Hunter Below": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Hyper-cockle": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Dragonfish": {
+  "page": "Dragonfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "The Maw of Titan": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Gamma Squid": {
+  "page": "Gamma Squid",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "irradiated",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Translucent Gulper": {
+  "page": "Translucent Gulper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Bleached Bonefish": {
+  "page": "Bleached Bonefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Jelly of the Veil": {
+  "page": "Jelly of the Veil",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Vampire Squid": {
+  "page": "Vampire Squid",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Many-Mouthed Lunker": {
+  "page": "Many-Mouthed Lunker",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "mega exotic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Titanworm Larva": {
+  "page": "Titanworm Larva",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 50,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Atlantidian Crab": {
+  "page": "Atlantidian Crab",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "mega exotic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Golden Jellyfish": {
+  "page": "Golden Jellyfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 46,
+   "bait_size": 19,
+   "bait_condition": ""
+  }
+ },
+ "Leviathan Spawn": {
+  "page": "Expedition 7: Leviathan",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Mirrorscale Skipper": {
+  "page": "Mirrorscale Skipper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 30,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Many-Eyed Jellyfish": {
+  "page": "Many-Eyed Jellyfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "irradiated",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 59,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Aberrant Duskfin": {
+  "page": "Aberrant Duskfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "irradiated",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Singing Sea-Snail": {
+  "page": "Singing Sea-Snail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 44,
+   "bait_size": 15,
+   "bait_condition": ""
+  }
+ },
+ "Abyssal Horror Egg": {
+  "page": "Abyssal Horror Egg",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "mega exotic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Crystal Jelly": {
+  "page": "Crystal Jelly",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 41,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Brain Eel": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Emeril Sunstar": {
+  "page": "Emeril Sunstar",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Starshell Crab": {
+  "page": "Starshell Crab",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Fragile Icthyoscale": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Cave Prowler": {
+  "page": "Cave Prowler",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 53,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Saltscale Bloater": {
+  "page": "Saltscale Bloater",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 37,
+   "bait_size": 25,
+   "bait_condition": ""
+  }
+ },
+ "Sentient Crab": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Shrieking Venttail": {
+  "page": "Shrieking Venttail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Bone Cheese": {
+  "page": "",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Thunderfin": {
+  "page": "Thunderfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "storm",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Giant Ray": {
+  "page": "Giant Ray",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 33,
+   "bait_size": 21,
+   "bait_condition": ""
+  }
+ },
+ "Colossal Mossback": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Deepwater Angler": {
+  "page": "Deepwater Angler",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 6,
+   "bait_size": 2,
+   "bait_condition": ""
+  }
+ },
+ "Ferrite Bowfin": {
+  "page": "Ferrite Bowfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 52,
+   "bait_size": 6,
+   "bait_condition": ""
+  }
+ },
+ "Colossal Shrimp": {
+  "page": "Colossal Shrimp",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 48,
+   "bait_size": 26,
+   "bait_condition": ""
+  }
+ },
+ "Alpha Squid": {
+  "page": "S. Skipraceum",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Bitterscale Ray": {
+  "page": "Bitterscale Ray",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Immportal Flatfish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Ocean's Star": {
+  "page": "Ocean's View",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Viper Eel": {
+  "page": "Viper Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Moon Turtle": {
+  "page": "Moon Turtle",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 23,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Scorpionfish": {
+  "page": "Scorpionfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Colossal Jawfish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Quartzshell Crab": {
+  "page": "",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Bewitching Candlefish": {
+  "page": "Bewitching Candlefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Abyssal Crab": {
+  "page": "Bait",
+  "source": "The following categories of items can be used as bait:\n* Any crafted Fishing Bait\n* Any Fish\n* Any 'foodstuff' - Ingredients that can be added to a Nutrient Processor, or Cooking Products.",
+  "refine": [],
+  "fish": null
+ },
+ "Frostbite Ray": {
+  "page": "Frostbite Ray",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 11,
+   "bait_size": 24,
+   "bait_condition": ""
+  }
+ },
+ "Mantis Ray": {
+  "page": "Mantis Ray",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 34,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Warden Eel": {
+  "page": "Warden Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Stonescale Shark": {
+  "page": "Stonescale Shark",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 17,
+   "bait_size": 11,
+   "bait_condition": ""
+  }
+ },
+ "Giant Sunray": {
+  "page": "Giant Ray",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 33,
+   "bait_size": 21,
+   "bait_condition": ""
+  }
+ },
+ "Jade Peas": {
+  "page": "Jade Peas",
+  "source": "Harvested from a wild plant, found on toxic planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Whispering Bonefish": {
+  "page": "Whispering Bonefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 24,
+   "bait_size": 26,
+   "bait_condition": ""
+  }
+ },
+ "Greater Rocktooth": {
+  "page": "Greater Rocktooth",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 14,
+   "bait_size": 22,
+   "bait_condition": ""
+  }
+ },
+ "Fireberry": {
+  "page": "Fireberry",
+  "source": "Harvested from a wild plant, found on scorched planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Aloe Flesh": {
+  "page": "Aloe Flesh",
+  "source": "Harvested from a wild plant, found on barren planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Giant Hairy Crab": {
+  "page": "Giant Werea-Crab",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Grahberry": {
+  "page": "Grahberry",
+  "source": "Wild plant, harvested on irradiated planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Venomtooth Wriggler": {
+  "page": "Venomtooth Wriggler",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Impulse Beans": {
+  "page": "Impulse Beans",
+  "source": "Wild plant, harvested in lush planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Frozen Tubers": {
+  "page": "Frozen Tubers",
+  "source": "Harvested from a wild plant, found on frozen planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Cyclonic Eel": {
+  "page": "Cyclonic Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "",
+   "weather": "storm",
+   "any": false,
+   "bait_rarity": 11,
+   "bait_size": 15,
+   "bait_condition": ""
+  }
+ },
+ "Hexaberry": {
+  "page": "Hexaberry",
+  "source": "Wild plant, harvested on exotic planets.\nCan also be sourced by gathering from some fauna on exotic planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Shrieking Flatfish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Frozen Knifejaw": {
+  "page": "Frozen Knifejaw",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 21,
+   "bait_condition": ""
+  }
+ },
+ "Stargazer": {
+  "page": "Stargazer",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Glacier Carp": {
+  "page": "Glacier Carp",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 18,
+   "bait_size": 9,
+   "bait_condition": ""
+  }
+ },
+ "Flashfire Eel": {
+  "page": "Flashfire Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "storm",
+   "any": false,
+   "bait_rarity": 33,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Pale Snowtail": {
+  "page": "Pale Snowtail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "storm",
+   "any": false,
+   "bait_rarity": 32,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Green-Ring Octopus": {
+  "page": "Green-Ring Octopus",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 16,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Vapourfin": {
+  "page": "",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Giant Whiskrerfish": {
+  "page": "Giant Whiskerfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Plasmatic Squid": {
+  "page": "Plasmatic Squid",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Jungle Redfin": {
+  "page": "Jungle Redfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 28,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Greenscale Bloater": {
+  "page": "Greenscale Bloater",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 15,
+   "bait_size": 24,
+   "bait_condition": ""
+  }
+ },
+ "Electric Eel": {
+  "page": "Electric Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 26,
+   "bait_size": 21,
+   "bait_condition": ""
+  }
+ },
+ "Hypnotic Octopus": {
+  "page": "Hypnotic Octopus",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 20,
+   "bait_size": 7,
+   "bait_condition": ""
+  }
+ },
+ "Silicate Crab": {
+  "page": "Silicate Crab",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 23,
+   "bait_size": 19,
+   "bait_condition": ""
+  }
+ },
+ "Toxic Stonefish": {
+  "page": "Toxic Stonefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Longjaw Snapper": {
+  "page": "Longjaw Snapper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 18,
+   "bait_size": 17,
+   "bait_condition": ""
+  }
+ },
+ "Brineskipper": {
+  "page": "Brineskipper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 5,
+   "bait_condition": ""
+  }
+ },
+ "Acidic Pufferfish": {
+  "page": "Acidic Pufferfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "storm",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Sulphurfish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Flourishing Shalefish": {
+  "page": "Flourishing Shalefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 22,
+   "bait_condition": ""
+  }
+ },
+ "Luminescent Coral": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Wandering Shellback": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Twilight Cavefish": {
+  "page": "Twilight Cavefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 11,
+   "bait_condition": ""
+  }
+ },
+ "Crab 'Apple'": {
+  "page": "Crab 'Apple'",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from spider- or crab-like creatures (Bos, Conokinis, Bosaquatica) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Twisted Gulper": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Mineralised Jellyfish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Warm Proto-Milk": {
+  "page": "Warm Proto-Milk",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from bipedal humanoid creatures (Mogara) when fed Creature Pellets. They will have Milk Sacs.",
+  "refine": [],
+  "fish": null
+ },
+ "Syrupy Nectar": {
+  "page": "Syrupy Nectar",
+  "source": "This ingredient can be sourced by gathering from Floradae when fed Creature Pellets or by culling.",
+  "refine": [],
+  "fish": null
+ },
+ "Bloated Eel": {
+  "page": "Bait",
+  "source": "The following categories of items can be used as bait:\n* Any crafted Fishing Bait\n* Any Fish\n* Any 'foodstuff' - Ingredients that can be added to a Nutrient Processor, or Cooking Products.",
+  "refine": [],
+  "fish": null
+ },
+ "Shimmering Lashtail": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Leopard-Fruit": {
+  "page": "Leopard-Fruit",
+  "source": "This ingredient is an Animal Byproduct that can be gathered from cat-like creatures with predatory features (Felidae and Felihex) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Foraged Mushrooms": {
+  "page": "Foraged Mushrooms",
+  "source": "This ingredient is an Animal Byproduct that can be sourced from turtle- or mole-like creatures (Talpidae) when fed Creature Pellets. Such creatures cannot be fed and harvested from manually, so an automated feeding/harvesting setup is recommended to acquire Foraged Mushrooms.",
+  "refine": [],
+  "fish": null
+ },
+ "Sticky Honey": {
+  "page": "Sticky 'Honey'",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from blob-type creatures (Lok) when fed Creature Pellets.\nSome plants on planets have it as a second component.",
+  "refine": [],
+  "fish": null
+ },
+ "Tall Eggs": {
+  "page": "Tall Eggs",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from striders (Anastomus) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Reef eel": {
+  "page": "Reef Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 18,
+   "bait_size": 10,
+   "bait_condition": ""
+  }
+ },
+ "Bladdersac": {
+  "page": "Bladdersac",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 37,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Giant Egg": {
+  "page": "Giant Egg",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from Diplos (Rangifae) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Jelly Prawn": {
+  "page": "Jelly Prawn",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 19,
+   "bait_condition": ""
+  }
+ },
+ "Sweeperfish": {
+  "page": "Sweeperfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 17,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Rockfin": {
+  "page": "Rockfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 16,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Clearwater Skipper": {
+  "page": "Clearwater Skipper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 13,
+   "bait_condition": ""
+  }
+ },
+ "Needlefish": {
+  "page": "Needlefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 31,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Bone Nuggets": {
+  "page": "Bone Nuggets",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from large shelled creatures (Osteofelidae) and protorollers (Protosphaeridae) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Chewy Wires": {
+  "page": "Chewy Wires",
+  "source": "This ingredient can be sourced by gathering from robotic creatures (Mechanoceris and Structurae) when fed Ion Batteries.",
+  "refine": [],
+  "fish": null
+ },
+ "Fresh milk": {
+  "page": "Fresh Milk",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from cow-like creatures (Ungulatis and Hexungulatis) when fed Creature Pellets.\nThese creatures can be told apart from rodents (Procavya) by the lack of fat, round bottoms.",
+  "refine": [],
+  "fish": null
+ },
+ "Encrusted Worm": {
+  "page": "Encrusted Worm",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 20,
+   "bait_condition": ""
+  }
+ },
+ "Mellifluous Jellyfish": {
+  "page": "Mellifluous Jellyfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 26,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Wandering Kelpfin": {
+  "page": "Wandering Kelpfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Whipscale Darter": {
+  "page": "Wispscale Darter",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 53,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Toxic Jelly": {
+  "page": "Toxic Jelly",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Caustic Urchin": {
+  "page": "Caustic Urchin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Spratfin": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Ghost Skipper": {
+  "page": "Bait",
+  "source": "The following categories of items can be used as bait:\n* Any crafted Fishing Bait\n* Any Fish\n* Any 'foodstuff' - Ingredients that can be added to a Nutrient Processor, or Cooking Products.",
+  "refine": [],
+  "fish": null
+ },
+ "Spiny Starfish": {
+  "page": "Spiny Starfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 22,
+   "bait_size": 6,
+   "bait_condition": ""
+  }
+ },
+ "Thawed Diamondfin": {
+  "page": "Thawed Diamondfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 12,
+   "bait_size": 7,
+   "bait_condition": ""
+  }
+ },
+ "Heptaploid Wheat": {
+  "page": "Heptaploid Wheat",
+  "source": "Harvested from a wild plant, found on all (except dead) planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Shalebound Starfish": {
+  "page": "Shalebound Starfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 19,
+   "bait_size": 8,
+   "bait_condition": ""
+  }
+ },
+ "Shrieking Oyster": {
+  "page": "Shrieking Oyster",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 24,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Inverted Snapper": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Pulpy Roots": {
+  "page": "Pulpy Roots",
+  "source": "Wild plant, harvested in all (except dead) planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Whispering Jelly": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Sweetroot": {
+  "page": "Sweetroot",
+  "source": "Harvested from a wild plant, on all (except dead) planets.",
+  "refine": [],
+  "fish": null
+ },
+ "Blistering Eel": {
+  "page": "Blistering Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Weltscale Clam": {
+  "page": "Weltscale Clam",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Golden Urchin": {
+  "page": "Golden Urchin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 23,
+   "bait_size": 7,
+   "bait_condition": ""
+  }
+ },
+ "Frostshell Clam": {
+  "page": "Frostshell Clam",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 15,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Lavascale Trout": {
+  "page": "Lavascale Trout",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 11,
+   "bait_size": 13,
+   "bait_condition": ""
+  }
+ },
+ "Midnight Eel": {
+  "page": "Midnight Eel",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Sweetwater Minnow": {
+  "page": "Sweetwater Minnow",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 12,
+   "bait_size": 11,
+   "bait_condition": ""
+  }
+ },
+ "Frozen Isopod": {
+  "page": "Frozen Isopod",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Creature Egg": {
+  "page": "Creature Egg",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from triceratops (Theroma) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Rimescale Snapper": {
+  "page": "Rimescale Snapper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 14,
+   "bait_size": 13,
+   "bait_condition": ""
+  }
+ },
+ "Juicy Grub": {
+  "page": "Juicy Grub",
+  "source": "Can be harvested from Juicy Grubs.",
+  "refine": [],
+  "fish": null
+ },
+ "Waspfish": {
+  "page": "Waspfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "toxic",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Wild Milk": {
+  "page": "Wild Milk",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from antelopes (Tetraceris and Reococcyx) and rodents (Procavya) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Dirty Meat": {
+  "page": "Dirty Meat",
+  "source": "This ingredient can be sourced by killing ploughs (Prionterrae) or protodiggers (Prototerrae).",
+  "refine": [],
+  "fish": null
+ },
+ "Feline Liver": {
+  "page": "Feline Liver",
+  "source": "This ingredient can be sourced by killing cat-like creatures (Felidae and Felihex).",
+  "refine": [],
+  "fish": null
+ },
+ "Warty Frogfish": {
+  "page": "Warty Frogfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "day",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 17,
+   "bait_size": 14,
+   "bait_condition": ""
+  }
+ },
+ "Venomouos Triggerfin": {
+  "page": "",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Frozen Whelk": {
+  "page": "Frozen Whelk",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Ash Snail": {
+  "page": "Ash Snail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 17,
+   "bait_size": 9,
+   "bait_condition": ""
+  }
+ },
+ "Shadowfin": {
+  "page": "Shadowfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 7,
+   "bait_condition": ""
+  }
+ },
+ "Silent Angler": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Tiny Scuttlefish": {
+  "page": "Tiny Scuttlefish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 16,
+   "bait_size": 6,
+   "bait_condition": ""
+  }
+ },
+ "Lesser Dustfin": {
+  "page": "Lesser Dustfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 16,
+   "bait_size": 15,
+   "bait_condition": ""
+  }
+ },
+ "Raw Steak": {
+  "page": "Raw Steak",
+  "source": "This ingredient can be sourced by killing terrestrial cow-like creatures (Ungulatis and Hexungulatis).",
+  "refine": [],
+  "fish": null
+ },
+ "Meaty Wings": {
+  "page": "Meaty Wings",
+  "source": "This ingredient can be sourced by killing bird-like creatures (Agnelis), flying lizards (Cycromys) and large butterflies (Rhopalocera).",
+  "refine": [],
+  "fish": null
+ },
+ "Mud Crab": {
+  "page": "Mud Crab",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 15,
+   "bait_size": 5,
+   "bait_condition": ""
+  }
+ },
+ "Inert Whelk": {
+  "page": "Inert Whelk",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 13,
+   "bait_size": 13,
+   "bait_condition": ""
+  }
+ },
+ "Bileworm": {
+  "page": "Bileworm",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Ice Darter": {
+  "page": "Ice Darter",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 13,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Lumpy Brainstem": {
+  "page": "Lumpy Brainstem",
+  "source": "This ingredient can be sourced by killing protorollers (Protosphaeridae).",
+  "refine": [],
+  "fish": null
+ },
+ "Strider Sausage": {
+  "page": "Strider Sausage",
+  "source": "This ingredient can be sourced by killing striders (Anastomus).",
+  "refine": [],
+  "fish": null
+ },
+ "Fiendish Roe": {
+  "page": "Fiendish Roe",
+  "source": "This ingredient can be sourced by gathering from roller-type creatures found on Exotic planets (Anomalous) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Pondskipper": {
+  "page": "Pondskipper",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": 12,
+   "bait_size": 10,
+   "bait_condition": ""
+  }
+ },
+ "Deepwater Minnow": {
+  "page": "Deepwater Minnow",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "waterworld",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Frostscale Trout": {
+  "page": "Frostscale Trout",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "frozen",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 11,
+   "bait_size": 16,
+   "bait_condition": ""
+  }
+ },
+ "Oilfin": {
+  "page": "Oilfin",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "scorched",
+   "time": "night",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 5,
+   "bait_condition": ""
+  }
+ },
+ "Sea Cucumber": {
+  "page": "Sea Cucumber",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": true,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Scaly Meat": {
+  "page": "Scaly Meat",
+  "source": "This ingredient can be sourced by killing bipedal t-rex-like creatures (Tyranocae).",
+  "refine": [],
+  "fish": null
+ },
+ "Gas Worm": {
+  "page": "Gas-Worm",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 14,
+   "bait_size": 9,
+   "bait_condition": ""
+  }
+ },
+ "Fool's Goldfish": {
+  "page": "Fool's Goldfish",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "barren",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 9,
+   "bait_size": 15,
+   "bait_condition": ""
+  }
+ },
+ "Pressurised Clam": {
+  "page": "Pressurised Clam",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "Gas Giant",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 10,
+   "bait_size": 13,
+   "bait_condition": ""
+  }
+ },
+ "Crystal Flesh": {
+  "page": "Crystal Flesh",
+  "source": "This ingredient can be sourced by killing large shelled creatures of the Osteofelidae genus.",
+  "refine": [],
+  "fish": null
+ },
+ "Salty Chunks": {
+  "page": "Salty Chunks",
+  "source": "This ingredient can be sourced by killing fish (Ictaloris) or sharks (Prionace).",
+  "refine": [],
+  "fish": null
+ },
+ "Offal Sac": {
+  "page": "Offal Sac",
+  "source": "This ingredient can be sourced by killing blob-like creatures (Lok).",
+  "refine": [],
+  "fish": null
+ },
+ "ProtoSausage": {
+  "page": "ProtoSausage",
+  "source": "This ingredient can be sourced by killing bipedal humanoid creatures (Mogara).",
+  "refine": [],
+  "fish": null
+ },
+ "Scooped Innards": {
+  "page": "Scooped Innards",
+  "source": "This ingredient can be sourced by killing turtle or mole-like creatures (Talpidae).",
+  "refine": [],
+  "fish": null
+ },
+ "De-Pressurized Blob": {
+  "page": "De-pressurized Blob",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "waterworld",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": null,
+   "bait_size": null,
+   "bait_condition": ""
+  }
+ },
+ "Crunchy Wings": {
+  "page": "Crunchy Wings",
+  "source": "This item is obtained by killing flying beetles (Bosoptera) or protoflyers (Protocaeli).",
+  "refine": [],
+  "fish": null
+ },
+ "Rancid Flesh": {
+  "page": "Rancid Flesh",
+  "source": "Rewarded by killing Biological Horrors.",
+  "refine": [],
+  "fish": null
+ },
+ "Regis Grease": {
+  "page": "Regis Grease",
+  "source": "This ingredient is an Animal Byproduct that can be sourced from bipedal t-rex-like creatures (Tyranocae) when fed Creature Pellets.",
+  "refine": [],
+  "fish": null
+ },
+ "Craw Milk": {
+  "page": "Craw Milk",
+  "source": "This ingredient is an Animal Byproduct that can be sourced by gathering from the following creatures when fed Creature Pellets:\n*Large butterflies (Rhopalocera)\n*Flying beetles (Bosoptera)\n*Protoflyers (Protocaeli)",
+  "refine": [],
+  "fish": null
+ },
+ "Juicy Thorax": {
+  "page": "Juicy Thorax",
+  "source": "This ingredient can be sourced by killing Arthropodae.",
+  "refine": [],
+  "fish": null
+ },
+ "Sac-fish": {
+  "page": "Fish",
+  "source": "Fish can be acquired by fishing, or by using an Automated Trap.",
+  "refine": [],
+  "fish": null
+ },
+ "Latticed Sinew": {
+  "page": "Latticed Sinew",
+  "source": "This ingredient can be sourced by killing Burrowing Creatures.",
+  "refine": [],
+  "fish": null
+ },
+ "Diplo Chunks": {
+  "page": "Diplo Chunks",
+  "source": "Rangifae-based diplos drop Diplo Chunks when killed.\nNOTE: The following information is based on new research as of ExoMech 2.41 on unpacked game files. It has not been confirmed that the following is implemented yet in the game:\nThe game files suggest that there are two types of animals that appear as \"diplos\", one generated from the body and coding of the Theroma model and another generated from the Rangifae. The research indicates that a Rangifae-based diplo would yield Diplo Chunks and Giant Eggs, while a Theroma-based diplo would only yield Meaty Chunks and Creature Eggs.",
+  "refine": [],
+  "fish": null
+ },
+ "Fossilised [Something]": {
+  "page": "Collecting Fossils",
+  "source": "",
+  "refine": [],
+  "fish": null
+ },
+ "Leg Meat": {
+  "page": "Leg Meat",
+  "source": "This ingredient can be sourced by killing any variety of spider- or crab-like creatures (Bos, Conokinis, Bosaquatica).",
+  "refine": [],
+  "fish": null
+ },
+ "Hadal Core": {
+  "page": "Hadal Core",
+  "source": "* Up to five pieces can be acquired from an Alluring Specimen, but with each harvest there is a chance for an Abyssal Horror to appear, destroying the remaining cores. \n* Can be found in Derelict Freighter containers.\n* Can be found in the form of Submerged Relics (one piece).\n* From Suspicious Packet (Goods).\n* From Nexus and Mission Board Missions.\n* As a gift from Planetary Settlement visitors.",
+  "refine": [],
+  "fish": null
+ },
+ "Common Shimmertail": {
+  "page": "Common Shimmertail",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "lush",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 12,
+   "bait_size": 7,
+   "bait_condition": ""
+  }
+ },
+ "Hypnotic Eye": {
+  "page": "Hypnotic Eye",
+  "source": "* Hypnotic Eye drops when an Abyssal Horror is killed. It will disappear if not picked up within a few seconds of spawning.\n* These can be found in Derelict Freighter containers.\n* Scrapping a Grafted Eyes upgrade that is attached to your living ship will produce 2 eyes.",
+  "refine": [],
+  "fish": null
+ },
+ "Larval Core": {
+  "page": "Larval Core",
+  "source": "There are several ways to harvest Larval Cores:\n* The player can team up with another player and have one member of the party use starship weapons to destroy the Whispering Eggs. This way no Biological Horrors will spawn.\n* The player can claim a base near the nests, then construct walls around a nest. After breaking a different Whispering Egg's nest, and rush back to the walled nest. The walled nest is now safe for harvesting, as no Biological Horrors can enter, and none will spawn inside.\n* The player can use a Terrain Manipulator to tunnel underneath the nest. This way the Whispering Eggs will fall into the tunnel, and the Biological Horrors do not follow.\n* The player can set the Terrain Manipulator to create mode, set it to generate a large square rock, and then enclose themselves and the Whispering Eggs in a very small completely enclosed rock room. The Biological Horrors spawn a few units away outside the player's reach, so the Whispering Eggs can be harvested freely. After a while the Biological Horrors subside and the player can break out using the destroy mode of the Terrain Manipulator.\n* Since Whispering Eggs spawn around Abandoned Buildings, it is possible to harvest one and run inside the building for safety and wait until the swarm has subsided. Using the Jetpack to boost on top of the Abandoned Building will also work, but the projectile attacks of the Biological Horrors need to be dodged. The player should be aware which section of the building they stand on, as the Tentacle Plant can attack them from inside the building.\n* An accelerated but much more risky version of the above strategy is to stand on top of the building, break the egg, then jump down, grab the egg, and quickly boost back to the roof of the building, then repeating until there are no eggs left. There is a small chance the player can get rammed, so the player should be sure to have decent shield upgrades before using the tactic.\n* The player can park the exocraft next to the Whispering Eggs, harvest them and quickly gather the Larval Cores, then get back into the exocraft. Biological Horrors will start attacking the exocraft but they won't cause any harm to it. Beware of sentinels because every time Biological Horrors touch the exocraft, they will die and the sentinels will take notice of that.\n* They can be obtained from Derelict Freighters as well.",
+  "refine": [],
+  "fish": null
+ },
+ "GekNip": {
+  "page": "GekNip",
+  "source": "*It can be found in Damaged Containers or as monolith rewards. \n*It can also be bought from NPCs in Trading Posts.\n*It is a possible reward from frigate expeditions.\n*It is also a possible trade from wandering traders you encounter while using the Pulse Engine .\n*It is a possible reward from Practice Language with Geks",
+  "refine": [],
+  "fish": null
+ },
+ "Flesh Rope": {
+  "page": "Flesh Rope",
+  "source": "Flesh rope can be obtained from worms in a Titan Worm Burrow, found on infested planets.",
+  "refine": [],
+  "fish": null
+ },
+ "The Angler": {
+  "page": "The Angler",
+  "source": "Obtained via fishing.",
+  "refine": [],
+  "fish": {
+   "biome": "",
+   "time": "",
+   "weather": "",
+   "any": false,
+   "bait_rarity": 41,
+   "bait_size": 12,
+   "bait_condition": ""
+  }
+ },
+ "Nip Nip Buds": {
+  "page": "NipNip Buds",
+  "source": "The primary source is harvesting.\n*Can be purchased in outlaw systems.\n*Can be occasionally bought from Scrap Dealers on space stations. \n*Can be found in Derelict Freighter containers.\n*Can occasionally be given as a reward for Nexus missions.\n*Can occasionally be purchased on planets from black market traders for nanites.\n*Can occasionally be purchased on planets from landed ships.\n*It is a possible reward from frigate expeditions.",
+  "refine": [],
+  "fish": null
+ }
+}
