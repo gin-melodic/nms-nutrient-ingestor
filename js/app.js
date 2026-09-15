@@ -64,7 +64,12 @@
     const k = norm(d.en);
     if (k && !NORM[k]) NORM[k] = d;
   });
-  const resolveIng = n => EXACT[n] || NORM[norm(n)] || null;
+  // aliases/wiki 来自 tools/name_map.py（build.py 注入）：
+  // ALIASES 把维基配方拼写变体映射到数据集物品；WIKI 是数据集外原料的 Fandom 维基页
+  const ALIAS = NMS.aliases || {};
+  const WIKI = NMS.wiki || {};
+  const resolveIng = n => EXACT[n] || EXACT[ALIAS[n]] || NORM[norm(n)] || NORM[norm(ALIAS[n])] || null;
+  const wikiUrl = n => WIKI[n] || WIKI[ALIAS[n]] || "";
 
   function recipeCell(d) {
     const r = d.recipe || { has: false, variants: 0, ingredients: [] };
@@ -76,9 +81,12 @@
     const sep = isZh ? " ＋ " : " + ";
     const parts = r.ingredients.map(i => {
       const t = resolveIng(i.en);
+      const w = t ? "" : wikiUrl(i.en);
       const name = t
         ? `<a class="ing-link" href="${BASE}/items/${t.slug}/">${esc(i[field])}</a>`
-        : esc(i[field]);
+        : w
+          ? `<a class="ing-link ing-extern" href="${w}" target="_blank" rel="noopener">${esc(i[field])}</a>`
+          : esc(i[field]);
       return name + " ×" + i.qty;
     });
     let html = `<span class="recipe-f">${parts.join(sep)}</span>`;

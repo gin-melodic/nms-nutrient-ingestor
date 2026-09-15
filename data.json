@@ -4285,7 +4285,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Frozen planets."
    },
    "slug": "nautilia"
@@ -4309,7 +4309,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Lush planets."
    },
    "slug": "blind-titancore"
@@ -4333,7 +4333,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Barren planets."
    },
    "slug": "megalodon"
@@ -4357,7 +4357,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Scorched planets."
    },
    "slug": "ancient-irontail"
@@ -4612,7 +4612,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 31%、体型加成约 10%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 31%、体型加成约 10%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~31% catch-rarity improvement and ~10% catch-size improvement."
    },
    "slug": "the-lunker"
@@ -4636,7 +4636,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在辐射星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在辐射星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Irradiated planets."
    },
    "slug": "helix-sawfish"
@@ -4660,7 +4660,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "dragonfish"
@@ -4684,7 +4684,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在辐射星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在辐射星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Irradiated planets."
    },
    "slug": "gamma-squid"
@@ -4708,7 +4708,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "bleached-bonefish"
@@ -4732,7 +4732,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "translucent-gulper"
@@ -4777,7 +4777,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Scorched planets."
    },
    "slug": "jelly-of-the-veil"
@@ -4801,7 +4801,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在超异域星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在超异域星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Mega Exotic planets."
    },
    "slug": "many-mouthed-lunker"
@@ -4825,7 +4825,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在超异域星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在超异域星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Mega Exotic planets."
    },
    "slug": "atlantidian-crab"
@@ -4849,7 +4849,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获（夜间）。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获（夜间）。",
     "en": "Caught by fishing in water on Toxic planets (at night)."
    },
    "slug": "vampire-squid"
@@ -4873,7 +4873,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 50%、体型加成约 8%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 50%、体型加成约 8%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~50% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "titanworm-larva"
@@ -4995,7 +4995,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 46%、体型加成约 19%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 46%、体型加成约 19%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~46% catch-rarity improvement and ~19% catch-size improvement."
    },
    "slug": "golden-jellyfish"
@@ -5019,7 +5019,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在辐射星球的水域钓鱼即可钓获（夜间）。",
+    "zh": "用鱼竿在辐射星球的水域钓鱼即可钓获（夜间）。",
     "en": "Caught by fishing in water on Irradiated planets (at night)."
    },
    "slug": "aberrant-duskfin"
@@ -5043,7 +5043,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 30%、体型加成约 8%。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 30%、体型加成约 8%。",
     "en": "Caught by fishing in water on Scorched planets. Bait: use a lure with ~30% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "mirrorscale-skipper"
@@ -5305,7 +5305,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在辐射星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 59%、体型加成约 8%。",
+    "zh": "用鱼竿在辐射星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 59%、体型加成约 8%。",
     "en": "Caught by fishing in water on Irradiated planets. Bait: use a lure with ~59% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "many-eyed-jellyfish"
@@ -5371,7 +5371,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 44%、体型加成约 15%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 44%、体型加成约 15%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~44% catch-rarity improvement and ~15% catch-size improvement."
    },
    "slug": "singing-sea-snail"
@@ -5395,7 +5395,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 41%、体型加成约 14%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 41%、体型加成约 14%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~41% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "crystal-jelly"
@@ -5419,7 +5419,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在超异域星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在超异域星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Mega Exotic planets."
    },
    "slug": "abyssal-horror-egg"
@@ -5443,7 +5443,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "emeril-sunstar"
@@ -5558,7 +5558,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Scorched planets."
    },
    "slug": "starshell-crab"
@@ -21446,7 +21446,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 53%、体型加成约 12%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 53%、体型加成约 12%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~53% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "cave-prowler"
@@ -21821,7 +21821,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 37%、体型加成约 25%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 37%、体型加成约 25%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~37% catch-rarity improvement and ~25% catch-size improvement."
    },
    "slug": "saltscale-bloater"
@@ -22406,7 +22406,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "shrieking-venttail"
@@ -22506,7 +22506,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获（风暴天气）。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获（风暴天气）。",
     "en": "Caught by fishing in water on any planet (during storms)."
    },
    "slug": "thunderfin"
@@ -22732,7 +22732,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 33%、体型加成约 21%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 33%、体型加成约 21%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~33% catch-rarity improvement and ~21% catch-size improvement."
    },
    "slug": "giant-ray"
@@ -23090,7 +23090,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 6%、体型加成约 2%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 6%、体型加成约 2%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~6% catch-rarity improvement and ~2% catch-size improvement."
    },
    "slug": "deepwater-angler"
@@ -23114,7 +23114,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 52%、体型加成约 6%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 52%、体型加成约 6%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~52% catch-rarity improvement and ~6% catch-size improvement."
    },
    "slug": "ferrite-bowfin"
@@ -23416,7 +23416,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 48%、体型加成约 26%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 48%、体型加成约 26%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~48% catch-rarity improvement and ~26% catch-size improvement."
    },
    "slug": "colossal-shrimp"
@@ -23475,7 +23475,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "bitterscale-ray"
@@ -24445,7 +24445,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "viper-eel"
@@ -25640,7 +25640,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 23%、体型加成约 8%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 23%、体型加成约 8%。",
     "en": "Caught by fishing in water on any planet (at night). Bait: use a lure with ~23% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "moon-turtle"
@@ -25818,7 +25818,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 33%、体型加成约 21%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 33%、体型加成约 21%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~33% catch-rarity improvement and ~21% catch-size improvement."
    },
    "slug": "giant-sunray"
@@ -26073,7 +26073,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "scorpionfish"
@@ -26097,7 +26097,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 15%、体型加成约 8%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 15%、体型加成约 8%。",
     "en": "Caught by fishing in water on Barren planets (at night). Bait: use a lure with ~15% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "bewitching-candlefish"
@@ -26121,7 +26121,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 24%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 24%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~11% catch-rarity improvement and ~24% catch-size improvement."
    },
    "slug": "frostbite-ray"
@@ -26506,7 +26506,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 34%、体型加成约 16%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 34%、体型加成约 16%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~34% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "mantis-ray"
@@ -26530,7 +26530,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 8%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 8%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~16% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "warden-eel"
@@ -26554,7 +26554,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 11%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 11%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~17% catch-rarity improvement and ~11% catch-size improvement."
    },
    "slug": "stonescale-shark"
@@ -26852,7 +26852,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 24%、体型加成约 26%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 24%、体型加成约 26%。",
     "en": "Caught by fishing in water on any planet (at night). Bait: use a lure with ~24% catch-rarity improvement and ~26% catch-size improvement."
    },
    "slug": "whispering-bonefish"
@@ -26974,7 +26974,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 22%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 22%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~14% catch-rarity improvement and ~22% catch-size improvement."
    },
    "slug": "greater-rocktooth"
@@ -27256,7 +27256,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "venomtooth-wriggler"
@@ -27328,7 +27328,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "giant-whiskrerfish"
@@ -27439,7 +27439,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 11%、体型加成约 15%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 11%、体型加成约 15%。",
     "en": "Caught by fishing in water on Gas Giant planets (during storms). Bait: use a lure with ~11% catch-rarity improvement and ~15% catch-size improvement."
    },
    "slug": "cyclonic-eel"
@@ -27641,7 +27641,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 21%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 21%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~15% catch-rarity improvement and ~21% catch-size improvement."
    },
    "slug": "frozen-knifejaw"
@@ -27686,7 +27686,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 9%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 9%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~18% catch-rarity improvement and ~9% catch-size improvement."
    },
    "slug": "glacier-carp"
@@ -27956,7 +27956,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 33%、体型加成约 8%。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 33%、体型加成约 8%。",
     "en": "Caught by fishing in water on Scorched planets (during storms). Bait: use a lure with ~33% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "flashfire-eel"
@@ -28228,7 +28228,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 32%、体型加成约 16%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获（风暴天气）。推荐鱼饵：稀有度加成约 32%、体型加成约 16%。",
     "en": "Caught by fishing in water on Frozen planets (during storms). Bait: use a lure with ~32% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "pale-snowtail"
@@ -28581,7 +28581,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 8%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 8%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~16% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "green-ring-octopus"
@@ -28605,7 +28605,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 16%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 16%。",
     "en": "Caught by fishing in water on Gas Giant planets. Bait: use a lure with ~15% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "plasmatic-squid"
@@ -28629,7 +28629,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 28%、体型加成约 8%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 28%、体型加成约 8%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~28% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "jungle-redfin"
@@ -28751,7 +28751,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 24%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 24%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~15% catch-rarity improvement and ~24% catch-size improvement."
    },
    "slug": "greenscale-bloater"
@@ -28950,7 +28950,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 26%、体型加成约 21%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 26%、体型加成约 21%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~26% catch-rarity improvement and ~21% catch-size improvement."
    },
    "slug": "electric-eel"
@@ -29072,7 +29072,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 23%、体型加成约 19%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 23%、体型加成约 19%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~23% catch-rarity improvement and ~19% catch-size improvement."
    },
    "slug": "silicate-crab"
@@ -29241,7 +29241,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 20%、体型加成约 7%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 20%、体型加成约 7%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~20% catch-rarity improvement and ~7% catch-size improvement."
    },
    "slug": "hypnotic-octopus"
@@ -29384,7 +29384,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "toxic-stonefish"
@@ -29408,7 +29408,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 17%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 17%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~18% catch-rarity improvement and ~17% catch-size improvement."
    },
    "slug": "longjaw-snapper"
@@ -29572,7 +29572,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 5%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 5%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~15% catch-rarity improvement and ~5% catch-size improvement."
    },
    "slug": "brineskipper"
@@ -29596,7 +29596,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获（风暴天气）。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获（风暴天气）。",
     "en": "Caught by fishing in water on Toxic planets (during storms)."
    },
    "slug": "acidic-pufferfish"
@@ -29641,7 +29641,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 22%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 22%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~10% catch-rarity improvement and ~22% catch-size improvement."
    },
    "slug": "flourishing-shalefish"
@@ -29665,7 +29665,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 11%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 11%。",
     "en": "Caught by fishing in water on Barren planets (at night). Bait: use a lure with ~10% catch-rarity improvement and ~11% catch-size improvement."
    },
    "slug": "twilight-cavefish"
@@ -30369,7 +30369,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 10%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 18%、体型加成约 10%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~18% catch-rarity improvement and ~10% catch-size improvement."
    },
    "slug": "reef-eel"
@@ -30537,7 +30537,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 37%、体型加成约 16%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 37%、体型加成约 16%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~37% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "bladdersac"
@@ -30715,7 +30715,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 14%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 14%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~17% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "sweeperfish"
@@ -30837,7 +30837,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 14%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 14%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~16% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "rockfin"
@@ -30997,7 +30997,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 16%、体型加成约 19%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 16%、体型加成约 19%。",
     "en": "Caught by fishing in water on Gas Giant planets (during the day). Bait: use a lure with ~16% catch-rarity improvement and ~19% catch-size improvement."
    },
    "slug": "jelly-prawn"
@@ -31021,7 +31021,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 16%、体型加成约 13%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 16%、体型加成约 13%。",
     "en": "Caught by fishing in water on Lush planets (during the day). Bait: use a lure with ~16% catch-rarity improvement and ~13% catch-size improvement."
    },
    "slug": "clearwater-skipper"
@@ -31090,7 +31090,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 31%、体型加成约 12%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 31%、体型加成约 12%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~31% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "needlefish"
@@ -31114,7 +31114,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 53%、体型加成约 16%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 53%、体型加成约 16%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~53% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "whipscale-darter"
@@ -31368,7 +31368,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 20%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 20%。",
     "en": "Caught by fishing in water on Gas Giant planets. Bait: use a lure with ~15% catch-rarity improvement and ~20% catch-size improvement."
    },
    "slug": "encrusted-worm"
@@ -31525,7 +31525,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Lush planets."
    },
    "slug": "wandering-kelpfin"
@@ -31640,7 +31640,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 26%、体型加成约 14%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 26%、体型加成约 14%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~26% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "mellifluous-jellyfish"
@@ -31664,7 +31664,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "toxic-jelly"
@@ -31688,7 +31688,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获（白天）。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获（白天）。",
     "en": "Caught by fishing in water on Toxic planets (during the day)."
    },
    "slug": "caustic-urchin"
@@ -31908,7 +31908,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 22%、体型加成约 6%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 22%、体型加成约 6%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~22% catch-rarity improvement and ~6% catch-size improvement."
    },
    "slug": "spiny-starfish"
@@ -32040,7 +32040,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 12%、体型加成约 7%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 12%、体型加成约 7%。",
     "en": "Caught by fishing in water on Frozen planets (during the day). Bait: use a lure with ~12% catch-rarity improvement and ~7% catch-size improvement."
    },
    "slug": "thawed-diamondfin"
@@ -32064,7 +32064,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 19%、体型加成约 8%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 19%、体型加成约 8%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~19% catch-rarity improvement and ~8% catch-size improvement."
    },
    "slug": "shalebound-starfish"
@@ -32210,7 +32210,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 24%、体型加成约 12%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 24%、体型加成约 12%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~24% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "shrieking-oyster"
@@ -32258,7 +32258,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "blistering-eel"
@@ -32418,7 +32418,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Toxic planets."
    },
    "slug": "weltscale-clam"
@@ -32463,7 +32463,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 13%。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 13%。",
     "en": "Caught by fishing in water on Scorched planets. Bait: use a lure with ~11% catch-rarity improvement and ~13% catch-size improvement."
    },
    "slug": "lavascale-trout"
@@ -32487,7 +32487,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 23%、体型加成约 7%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 23%、体型加成约 7%。",
     "en": "Caught by fishing in water on Barren planets (during the day). Bait: use a lure with ~23% catch-rarity improvement and ~7% catch-size improvement."
    },
    "slug": "golden-urchin"
@@ -32511,7 +32511,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 16%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 16%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~15% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "frostshell-clam"
@@ -32535,7 +32535,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 14%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 14%。",
     "en": "Caught by fishing in water on Frozen planets (at night). Bait: use a lure with ~10% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "midnight-eel"
@@ -32559,7 +32559,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 11%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 11%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~12% catch-rarity improvement and ~11% catch-size improvement."
    },
    "slug": "sweetwater-minnow"
@@ -32779,7 +32779,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 14%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 14%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~10% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "frozen-isopod"
@@ -32901,7 +32901,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 13%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 13%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~14% catch-rarity improvement and ~13% catch-size improvement."
    },
    "slug": "rimescale-snapper"
@@ -32925,7 +32925,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在有毒星球的水域钓鱼即可钓获（白天）。",
+    "zh": "用鱼竿在有毒星球的水域钓鱼即可钓获（白天）。",
     "en": "Caught by fishing in water on Toxic planets (during the day)."
    },
    "slug": "waspfish"
@@ -34036,7 +34036,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 17%、体型加成约 14%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获（白天）。推荐鱼饵：稀有度加成约 17%、体型加成约 14%。",
     "en": "Caught by fishing in water on Lush planets (during the day). Bait: use a lure with ~17% catch-rarity improvement and ~14% catch-size improvement."
    },
    "slug": "warty-frogfish"
@@ -34060,7 +34060,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 9%。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 17%、体型加成约 9%。",
     "en": "Caught by fishing in water on Scorched planets. Bait: use a lure with ~17% catch-rarity improvement and ~9% catch-size improvement."
    },
    "slug": "ash-snail"
@@ -34084,7 +34084,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 12%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 12%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~16% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "frozen-whelk"
@@ -34108,7 +34108,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 15%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 15%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~16% catch-rarity improvement and ~15% catch-size improvement."
    },
    "slug": "lesser-dustfin"
@@ -34132,7 +34132,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 6%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 6%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~16% catch-rarity improvement and ~6% catch-size improvement."
    },
    "slug": "tiny-scuttlefish"
@@ -34156,7 +34156,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 7%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 16%、体型加成约 7%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~16% catch-rarity improvement and ~7% catch-size improvement."
    },
    "slug": "shadowfin"
@@ -34388,7 +34388,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 5%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 15%、体型加成约 5%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~15% catch-rarity improvement and ~5% catch-size improvement."
    },
    "slug": "mud-crab"
@@ -34412,7 +34412,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 13%、体型加成约 13%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 13%、体型加成约 13%。",
     "en": "Caught by fishing in water on Gas Giant planets (at night). Bait: use a lure with ~13% catch-rarity improvement and ~13% catch-size improvement."
    },
    "slug": "inert-whelk"
@@ -34436,7 +34436,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 9%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 14%、体型加成约 9%。",
     "en": "Caught by fishing in water on Gas Giant planets. Bait: use a lure with ~14% catch-rarity improvement and ~9% catch-size improvement."
    },
    "slug": "gas-worm"
@@ -34460,7 +34460,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "bileworm"
@@ -34484,7 +34484,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 13%、体型加成约 12%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 13%、体型加成约 12%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~13% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "ice-darter"
@@ -34671,7 +34671,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 10%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 10%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~12% catch-rarity improvement and ~10% catch-size improvement."
    },
    "slug": "pondskipper"
@@ -34695,7 +34695,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在水世界星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在水世界星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Waterworld planets."
    },
    "slug": "deepwater-minnow"
@@ -34719,7 +34719,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 16%。",
+    "zh": "用鱼竿在冰冻星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 11%、体型加成约 16%。",
     "en": "Caught by fishing in water on Frozen planets. Bait: use a lure with ~11% catch-rarity improvement and ~16% catch-size improvement."
    },
    "slug": "frostscale-trout"
@@ -34841,7 +34841,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在焦土星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 5%。",
+    "zh": "用鱼竿在焦土星球的水域钓鱼即可钓获（夜间）。推荐鱼饵：稀有度加成约 10%、体型加成约 5%。",
     "en": "Caught by fishing in water on Scorched planets (at night). Bait: use a lure with ~10% catch-rarity improvement and ~5% catch-size improvement."
    },
    "slug": "oilfin"
@@ -34865,7 +34865,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on any planet."
    },
    "slug": "sea-cucumber"
@@ -35186,7 +35186,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在水世界星球的水域钓鱼即可钓获。",
+    "zh": "用鱼竿在水世界星球的水域钓鱼即可钓获。",
     "en": "Caught by fishing in water on Waterworld planets."
    },
    "slug": "de-pressurized-blob"
@@ -35210,7 +35210,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 13%。",
+    "zh": "用鱼竿在气态巨行星星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 10%、体型加成约 13%。",
     "en": "Caught by fishing in water on Gas Giant planets. Bait: use a lure with ~10% catch-rarity improvement and ~13% catch-size improvement."
    },
    "slug": "pressurised-clam"
@@ -35234,7 +35234,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 9%、体型加成约 15%。",
+    "zh": "用鱼竿在荒芜星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 9%、体型加成约 15%。",
     "en": "Caught by fishing in water on Barren planets. Bait: use a lure with ~9% catch-rarity improvement and ~15% catch-size improvement."
    },
    "slug": "fool-s-goldfish"
@@ -35740,7 +35740,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 7%。",
+    "zh": "用鱼竿在肥沃星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 12%、体型加成约 7%。",
     "en": "Caught by fishing in water on Lush planets. Bait: use a lure with ~12% catch-rarity improvement and ~7% catch-size improvement."
    },
    "slug": "common-shimmertail"
@@ -35930,7 +35930,7 @@
     "alts": []
    },
    "obtain": {
-    "zh": "用鱼竿在在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 41%、体型加成约 12%。",
+    "zh": "用鱼竿在任意星球的水域钓鱼即可钓获。推荐鱼饵：稀有度加成约 41%、体型加成约 12%。",
     "en": "Caught by fishing in water on any planet. Bait: use a lure with ~41% catch-rarity improvement and ~12% catch-size improvement."
    },
    "slug": "the-angler"
@@ -36305,5 +36305,56 @@
    "obtain": null,
    "slug": "custard-fancy"
   }
- ]
+ ],
+ "aliases": {
+  "Gas-Worm": "Gas Worm",
+  "NipNip Buds": "Nip Nip Buds",
+  "Partially-Liquid Cheese": "Partially Liquid Cheese",
+  "Non-Toxic Mushroom": "Non-Toxic Mushrooms",
+  "Helion Bass": "Hellion Bass",
+  "Venemous Triggerfin": "Venomouos Triggerfin",
+  "Wispscale Darter": "Whipscale Darter",
+  "Immortal Flatfish": "Immportal Flatfish",
+  "Chalkscale Nibbler": "Chalkscale Nibber",
+  "Giant Whiskerfin": "Giant Whiskrerfish",
+  "Glacier Fish": "Glacier Carp"
+ },
+ "wiki": {
+  "Salt": "https://nomansky.fandom.com/wiki/Salt",
+  "Carbon": "https://nomansky.fandom.com/wiki/Carbon",
+  "Condensed Carbon": "https://nomansky.fandom.com/wiki/Condensed_Carbon",
+  "Lubricant": "https://nomansky.fandom.com/wiki/Lubricant",
+  "Microprocessor": "https://nomansky.fandom.com/wiki/Microprocessor",
+  "Chromatic Metal": "https://nomansky.fandom.com/wiki/Chromatic_Metal",
+  "Frost Crystal": "https://nomansky.fandom.com/wiki/Frost_Crystal",
+  "Gamma Root": "https://nomansky.fandom.com/wiki/Gamma_Root",
+  "Star Bulb": "https://nomansky.fandom.com/wiki/Star_Bulb",
+  "Solanium": "https://nomansky.fandom.com/wiki/Solanium",
+  "Faecium": "https://nomansky.fandom.com/wiki/Faecium",
+  "Fungal Mould": "https://nomansky.fandom.com/wiki/Fungal_Mould",
+  "Mordite": "https://nomansky.fandom.com/wiki/Mordite",
+  "Marrow Bulb": "https://nomansky.fandom.com/wiki/Marrow_Bulb",
+  "Kelp Sac": "https://nomansky.fandom.com/wiki/Kelp_Sac",
+  "Cactus Flesh": "https://nomansky.fandom.com/wiki/Cactus_Flesh",
+  "Assorted Roe": "https://nomansky.fandom.com/wiki/Assorted_Roe",
+  "Boiled Flipper": "https://nomansky.fandom.com/wiki/Boiled_Flipper",
+  "Brined Flesh": "https://nomansky.fandom.com/wiki/Brined_Flesh",
+  "Delicate Legs": "https://nomansky.fandom.com/wiki/Delicate_Legs",
+  "Edible Chum": "https://nomansky.fandom.com/wiki/Edible_Chum",
+  "Fish Fry": "https://nomansky.fandom.com/wiki/Fish_Fry",
+  "Fishy Slab": "https://nomansky.fandom.com/wiki/Fishy_Slab",
+  "Grilled Tentacle": "https://nomansky.fandom.com/wiki/Grilled_Tentacle",
+  "Marine Steak": "https://nomansky.fandom.com/wiki/Marine_Steak",
+  "Mollusc Flesh": "https://nomansky.fandom.com/wiki/Mollusc_Flesh",
+  "Peeled Claws": "https://nomansky.fandom.com/wiki/Peeled_Claws",
+  "Poached Worms": "https://nomansky.fandom.com/wiki/Poached_Worms",
+  "Seafood 'Feast'": "https://nomansky.fandom.com/wiki/Seafood_%27Feast%27",
+  "Seared Fillet": "https://nomansky.fandom.com/wiki/Seared_Fillet",
+  "Smoked Fish": "https://nomansky.fandom.com/wiki/Smoked_Fish",
+  "Snail Fillet": "https://nomansky.fandom.com/wiki/Snail_Fillet",
+  "Steamed Rubber": "https://nomansky.fandom.com/wiki/Steamed_Rubber",
+  "Whitebait": "https://nomansky.fandom.com/wiki/Whitebait",
+  "Ancient Bones": "https://nomansky.fandom.com/wiki/Ancient_Bones",
+  "Common Sunfish": "https://nomansky.fandom.com/wiki/Common_Sunfish"
+ }
 }

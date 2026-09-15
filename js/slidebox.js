@@ -223,6 +223,7 @@
   document.addEventListener("click", e => {
     const a = e.target.closest("a.rchip");
     if (!a || !a.href) return;
+    if (a.classList.contains("rchip-extern")) return; // Fandom 维基外链：保留原生新标签页跳转
     e.preventDefault();
     navigate(a.href);
   });

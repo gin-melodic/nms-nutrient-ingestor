@@ -647,6 +647,69 @@ MAP = {
 "Fish": "鱼",
 }
 
+# ---- recipe ingredient -> dataset item 别名（同一物品在维基配方文本与 575 物品数据集
+#      中的名字不一致；方向已经 nomanssky.fandom.com 逐一验证，2026-09 检索） ----
+# key   = recipes.json 里出现的原料名
+# value = 数据集物品名（data.json 中可解析到物品页）
+ALIASES = {
+    "Gas-Worm": "Gas Worm",                     # 维基页面名就是 Gas-Worm；数据集拼写无连字符
+    "NipNip Buds": "Nip Nip Buds",              # 维基页面名 NipNip Buds
+    "Partially-Liquid Cheese": "Partially Liquid Cheese",  # 维基页面名带连字符
+    "Non-Toxic Mushroom": "Non-Toxic Mushrooms",           # 维基页面名为单数
+    "Helion Bass": "Hellion Bass",             # Fish 列表用 Hellion Bass；配方里 Helion 为 typo
+    "Venemous Triggerfin": "Venomouos Triggerfin",         # 维基规范名 Venomous Triggerfin；两边都是 typo
+    "Wispscale Darter": "Whipscale Darter",    # 维基页面名 Wispscale Darter
+    "Immortal Flatfish": "Immportal Flatfish",  # Fish 列表用 Immortal Flatfish；数据集 Immportal 为 typo
+    "Chalkscale Nibbler": "Chalkscale Nibber",  # Fish 列表用 Chalkscale Nibbler
+    "Giant Whiskerfin": "Giant Whiskrerfish",  # 维基页面名 Giant Whiskerfish；注意 Giant Witchfin 是另一种鱼
+    "Glacier Fish": "Glacier Carp",            # 维基页面名 Glacier Carp
+}
+
+# ---- 数据集外但 Fandom 维基有页面的原料 → 物品页外链（nomanssky.fandom.com，2026-09 经 API 验证存在） ----
+_WIKI_BASE = "https://nomansky.fandom.com/wiki/"
+WIKI_PAGE = {
+    # 通用合成资源（16）
+    "Salt": "Salt",
+    "Carbon": "Carbon",
+    "Condensed Carbon": "Condensed_Carbon",
+    "Lubricant": "Lubricant",
+    "Microprocessor": "Microprocessor",
+    "Chromatic Metal": "Chromatic_Metal",
+    "Frost Crystal": "Frost_Crystal",
+    "Gamma Root": "Gamma_Root",
+    "Star Bulb": "Star_Bulb",
+    "Solanium": "Solanium",
+    "Faecium": "Faecium",
+    "Fungal Mould": "Fungal_Mould",
+    "Mordite": "Mordite",
+    "Marrow Bulb": "Marrow_Bulb",
+    "Kelp Sac": "Kelp_Sac",
+    "Cactus Flesh": "Cactus_Flesh",
+    # 熟食海鲜替代项（18）
+    "Assorted Roe": "Assorted_Roe",
+    "Boiled Flipper": "Boiled_Flipper",
+    "Brined Flesh": "Brined_Flesh",
+    "Delicate Legs": "Delicate_Legs",
+    "Edible Chum": "Edible_Chum",
+    "Fish Fry": "Fish_Fry",
+    "Fishy Slab": "Fishy_Slab",
+    "Grilled Tentacle": "Grilled_Tentacle",
+    "Marine Steak": "Marine_Steak",
+    "Mollusc Flesh": "Mollusc_Flesh",
+    "Peeled Claws": "Peeled_Claws",
+    "Poached Worms": "Poached_Worms",
+    "Seafood 'Feast'": "Seafood_%27Feast%27",
+    "Seared Fillet": "Seared_Fillet",
+    "Smoked Fish": "Smoked_Fish",
+    "Snail Fillet": "Snail_Fillet",
+    "Steamed Rubber": "Steamed_Rubber",
+    "Whitebait": "Whitebait",
+    # 其他（2）
+    "Ancient Bones": "Ancient_Bones",
+    "Common Sunfish": "Common_Sunfish",
+}
+WIKI_PAGE = {k: _WIKI_BASE + v for k, v in WIKI_PAGE.items()}
+
 # English effect -> Chinese
 EFFECT = {
 "% Breathing Efficiency": "呼吸效率",

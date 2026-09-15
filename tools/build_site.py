@@ -13,7 +13,9 @@ Each page is single-language (no mixed zh/en), carries full SEO meta
 (canonical, hreflang, Open Graph, Twitter Card, JSON-LD) and is served as
 static files (no build step required on the host).
 """
-import json, os, html, re, unicodedata
+import json, os, sys, html, re, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from name_map import ALIASES, WIKI_PAGE  # 别名 + 维基外链（tools/name_map.py）
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://nms.ginmel.ai"  # production base URL (no trailing slash)
@@ -41,10 +43,24 @@ for _d in ITEMS:
 
 
 def resolve_ing(name):
-    """EN ingredient name -> dataset item (exact, then normalised), or None."""
+    """EN ingredient name -> dataset item (exact, then normalised), or None.
+    ALIASES（name_map.py）把维基配方里的拼写变体映射到数据集物品名。"""
     if not name:
         return None
-    return BY_EN.get(name) or BY_NORM.get(_norm_name(name))
+    for cand in (name, ALIASES.get(name)):
+        if not cand:
+            continue
+        hit = BY_EN.get(cand) or BY_NORM.get(_norm_name(cand))
+        if hit:
+            return hit
+    return None
+
+
+def wiki_url(name):
+    """数据集外的原料 -> Fandom 维基页面 URL（name_map.py WIKI_PAGE），无则 None。"""
+    if not name:
+        return None
+    return WIKI_PAGE.get(name) or WIKI_PAGE.get(ALIASES.get(name, ""))
 
 LOCALES = {
     "en": {"base": "", "html": "en", "og_locale": "en_US", "label": "English"},
@@ -92,6 +108,7 @@ STR = {
         "howto_short_general": "在星球世界中直接获取",
         "tree_hint": "点击任意原料节点，在右侧滑出面板中逐层查看完整合成树与增益效果。「N 种 · 任选其一」分支表示替代配方——任选一组原料即可合成",
         "raw_tag": "无物品页",
+        "raw_wiki_tag": "无物品页 · 维基 ↗",
         "cyc_tag": "递归，不再展开",
         "alt_unit": "种",
         "alt_pick": "任选其一",
@@ -138,6 +155,7 @@ STR = {
         "howto_short_general": "obtained directly in the world",
         "tree_hint": "Click any ingredient node to slide in its full recipe tree and buff. 'N alternatives · pick any' branches are alternative recipes — any one set of ingredients works",
         "raw_tag": "no page",
+        "raw_wiki_tag": "no page · wiki ↗",
         "cyc_tag": "recursion, not expanded",
         "alt_unit": "alternatives",
         "alt_pick": "pick any",
@@ -198,6 +216,10 @@ def _ingredient_label(l, ing):
     target = resolve_ing(ing["en"])
     if target:
         name = f'<a class="ing-link" href="{item_path(l, target["slug"])}">{name}</a>'
+    else:
+        w = wiki_url(ing["en"])
+        if w:
+            name = f'<a class="ing-link ing-extern" href="{w}" target="_blank" rel="noopener">{name}</a>'
     return name
 
 
@@ -261,6 +283,11 @@ def _chip(l, ing, target):
     qty_html = f'<span class="rqty">×{qty}</span>' if qty > 1 else ""
     label = esc(ing[field])
     if target is None:
+        w = wiki_url(ing["en"])
+        if w:
+            return (f'<a class="rchip rchip-raw rchip-extern" href="{w}" target="_blank" rel="noopener">'
+                    f'<i class="ricon" aria-hidden="true">🌿</i>{label}{qty_html}'
+                    f'<span class="rchip-tag">{esc(STR[l]["raw_wiki_tag"])}</span></a>'), ""
         return f'<span class="rchip rchip-raw"><i class="ricon" aria-hidden="true">🌿</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>', ""
     return (f'<a class="rchip rchip-{chip_class(target["type"])}" href="{item_path(l, target["slug"])}">'
             f'<i class="ricon" aria-hidden="true">{icon_of(target["type"])}</i>{label}{qty_html}</a>'), True

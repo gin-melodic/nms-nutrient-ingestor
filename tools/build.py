@@ -6,7 +6,7 @@ guidance for recipe-less items) -> data.json
 """
 import csv, json, sys, os
 sys.path.insert(0, os.path.dirname(__file__))
-from name_map import MAP, EFFECT, TYPE
+from name_map import MAP, EFFECT, TYPE, ALIASES, WIKI_PAGE
 from obtain import resolve as resolve_obtain
 import re, unicodedata
 
@@ -133,7 +133,9 @@ summary = {
     "effects": sorted(set(d["effect"] for d in data)),
     "recipes": sum(1 for d in data if d["recipe"]["has"]),
 }
-payload = {"summary": summary, "data": data}
+# aliases/wiki：供前端 recipe 表格把"无物品页"原料解析为内链/维基外链
+# （与 tools/build_site.py 的服务端渲染保持一致）
+payload = {"summary": summary, "data": data, "aliases": ALIASES, "wiki": WIKI_PAGE}
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 # also keep a plain JSON copy
 json.dump(payload, open(os.path.join(os.path.dirname(__file__), "..", "data.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
