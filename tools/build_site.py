@@ -654,14 +654,16 @@ def vercel_config():
       - old Chinese item pages  /items/<slug>/   → /zh/items/<slug>/
       - old English pages      /en/...           → ...
     (the old root was Chinese; the new root is the English site, so it is kept as-is)."""
+    # NOTE: Vercel 59.x 的 vercel.json schema 不接受 `type: "301"`，
+    # 改用 `statusCode`（301 永久重定向，利于 SEO）。
     redirects = [
-        {"source": f"/items/{d['slug']}/", "destination": f"/zh/items/{d['slug']}/", "type": "301"}
+        {"source": f"/items/{d['slug']}/", "destination": f"/zh/items/{d['slug']}/", "statusCode": 301}
         for d in ITEMS
     ]
     redirects += [
-        {"source": "/en", "destination": "/", "type": "301"},
-        {"source": "/en/", "destination": "/", "type": "301"},
-        {"source": "/en/:splat", "destination": "/:splat", "type": "301"},
+        {"source": "/en", "destination": "/", "statusCode": 301},
+        {"source": "/en/", "destination": "/", "statusCode": 301},
+        {"source": "/en/:splat", "destination": "/:splat", "statusCode": 301},
     ]
     return json.dumps({"version": 2, "redirects": redirects}, ensure_ascii=False, indent=2) + "\n"
 
