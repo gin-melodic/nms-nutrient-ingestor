@@ -187,18 +187,10 @@ thead th[data-key=recipe]:hover{color:var(--muted)}
 /* sibling level = a centered row; each node = a column (chip + its subtree) */
 .rtree{list-style:none;margin:0;padding:0;display:flex;flex-direction:row;align-items:flex-start;justify-content:center}
 .rnode{position:relative;display:flex;flex-direction:column;align-items:center;padding:20px 13px 6px}
-/* elbow connectors: rail across siblings + stub down to each node */
-.rtree>li::before,.rtree>li::after{
-  content:"";position:absolute;top:0;right:50%;width:50%;height:20px;
-  border-top:1.5px solid rgba(120,150,220,.4);
-}
-.rtree>li::after{right:auto;left:50%;border-left:1.5px solid rgba(120,150,220,.4)}
-.rtree>li:only-child::before{display:none}
-.rtree>li:only-child::after{border-top:0}
-.rtree>li:first-child::before,.rtree>li:last-child::after{border-top:0}
-.rtree>li::before{border-top-right-radius:12px}
-.rtree>li:first-child::after{border-top-left-radius:12px}
-.rtree>li:last-child::before{border-top-right-radius:12px}
+/* connectors are drawn as precise SVG lines by js/slidebox.js into .rstage */
+.rstage{position:relative;width:max-content;margin:0 auto}
+.rlines{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+.rlines path{fill:none;stroke:rgba(120,150,220,.45);stroke-width:1.5;stroke-linecap:round}
 .rnode-root{padding-top:0}
 .rchip{display:inline-flex;align-items:center;gap:7px;max-width:280px;
   background:rgba(14,21,40,.88);border:1px solid var(--line2);border-radius:999px;
@@ -316,8 +308,7 @@ a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
   .recipe-box{font-size:15px;padding:14px 16px}
   .effect-grid{grid-template-columns:repeat(2,1fr)}
   .treewrap{border-radius:12px;padding:14px 2px 6px}
-  .rnode{padding:15px 5px 4px}
-  .rtree>li::before,.rtree>li::after{height:15px}
+  .rnode{padding:20px 6px 6px}
   .rchip{padding:7px 11px 7px 9px;font-size:12.5px;gap:6px}
   .ricon{font-size:13.5px}
   .rchip-root{font-size:13.5px;padding:9px 14px 9px 11px}

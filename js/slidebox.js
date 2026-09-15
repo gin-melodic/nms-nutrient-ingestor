@@ -4,10 +4,63 @@
    无 JS 时 a.rchip 保持原生跳转（渐进增强）。 */
 (function () {
   "use strict";
-  if (!document.querySelector("a.rchip")) return;
+  if (!document.querySelector(".rstage")) return;
 
   const body = document.body;
   const isZh = (body.dataset || {}).locale !== "en";
+
+  // ---- precise connectors for the recipe tree (SVG, drawn after layout) ----
+  function drawTree(stage) {
+    const sr = stage.getBoundingClientRect();
+    const W = stage.scrollWidth || stage.offsetWidth;
+    const H = stage.scrollHeight || stage.offsetHeight;
+    let svg = stage.querySelector("svg.rlines");
+    if (!svg) {
+      svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("class", "rlines");
+      stage.appendChild(svg);
+    }
+    svg.setAttribute("width", W);
+    svg.setAttribute("height", H);
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    const segs = [];
+    stage.querySelectorAll("ul.rtree").forEach(ul => {
+      const lis = [...ul.children].filter(li => li.classList.contains("rnode"));
+      if (!lis.length) return;
+      const parentChip = ul.parentElement ? ul.parentElement.querySelector(":scope > .rchip") : null;
+      const cs = lis.map(li => {
+        const c = li.querySelector(":scope > .rchip");
+        if (!c) return null;
+        const r = c.getBoundingClientRect();
+        return { x: r.left - sr.left + r.width / 2, top: r.top - sr.top };
+      }).filter(Boolean);
+      if (!cs.length) return;
+      const railY = Math.min.apply(null, cs.map(c => c.top)) - 10;
+      const first = cs[0].x, last = cs[cs.length - 1].x;
+      if (parentChip) {
+        const pr = parentChip.getBoundingClientRect();
+        const px = pr.left - sr.left + pr.width / 2;
+        const pb = pr.bottom - sr.top;
+        if (cs.length === 1) {
+          segs.push("M" + px + " " + pb + "L" + px + " " + cs[0].top);
+        } else {
+          segs.push("M" + px + " " + pb + "L" + px + " " + railY);
+          segs.push("M" + first + " " + railY + "L" + last + " " + railY);
+        }
+      } else if (cs.length > 1) {
+        segs.push("M" + first + " " + railY + "L" + last + " " + railY);
+      }
+      cs.forEach(c => segs.push("M" + c.x + " " + railY + "L" + c.x + " " + c.top));
+    });
+    svg.innerHTML = segs.map(d => '<path d="' + d + '"/>').join("");
+  }
+  function drawAll(scope) {
+    (scope || document).querySelectorAll(".rstage").forEach(drawTree);
+  }
+  let rzT;
+  window.addEventListener("resize", () => { clearTimeout(rzT); rzT = setTimeout(() => drawAll(), 120); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => drawAll());
+  drawAll();
   const L = isZh
     ? {
         label: "原料详情",
@@ -69,6 +122,7 @@
 
   function close() {
     if (!panel.classList.contains("show")) return;
+    opening = false; // allow reopening (was stuck at true after the first close)
     stack.length = 0;
     body.classList.remove("sb-open");
     panel.classList.remove("show");
@@ -107,6 +161,7 @@
         void box.offsetWidth; // restart the fade-in
         box.classList.add("sb-fade");
         updateBack();
+        requestAnimationFrame(() => drawAll(box));
       })
       .catch(() => {
         if (id !== loadId) return;

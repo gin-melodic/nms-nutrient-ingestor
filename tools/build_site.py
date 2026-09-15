@@ -229,7 +229,7 @@ def recipe_tree_html(l, d):
             f'<i class="ricon" aria-hidden="true">{icon_of(d["type"])}</i>{esc(name_of(l, d))}'
             f'<span class="rchip-type">{esc(type_of(l, d))}</span></span>')
     sub = _tree_ul(l, d, {d["en"]}, 0)
-    return (f'<ul class="rtree rtree-root"><li class="rnode rnode-root">{root}{sub}</li></ul>'
+    return (f'<div class="rstage"><ul class="rtree rtree-root"><li class="rnode rnode-root">{root}{sub}</li></ul></div>'
             f'<p class="tree-hint">{esc(STR[l]["tree_hint"])}</p>')
 
 
