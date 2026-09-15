@@ -664,6 +664,8 @@ def vercel_config():
         {"source": "/en", "destination": "/", "statusCode": 301},
         {"source": "/en/", "destination": "/", "statusCode": 301},
         {"source": "/en/:splat", "destination": "/:splat", "statusCode": 301},
+        # Vercel 59.x 采用 path-to-regexp v8 语法：:splat 只匹配单段，:splat+ 匹配多段
+        {"source": "/en/:splat+", "destination": "/:splat+", "statusCode": 301},
     ]
     return json.dumps({"version": 2, "redirects": redirects}, ensure_ascii=False, indent=2) + "\n"
 

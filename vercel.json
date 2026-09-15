@@ -2890,6 +2890,11 @@
       "source": "/en/:splat",
       "destination": "/:splat",
       "statusCode": 301
+    },
+    {
+      "source": "/en/:splat+",
+      "destination": "/:splat+",
+      "statusCode": 301
     }
   ]
 }
