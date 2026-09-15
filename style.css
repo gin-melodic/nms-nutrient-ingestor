@@ -179,49 +179,107 @@ thead th[data-key=recipe]{cursor:default}
 thead th[data-key=recipe]:hover{color:var(--muted)}
 
 /* ---------- recipe node tree (合成公式 节点图) ---------- */
-.treewrap{overflow-x:auto;padding:10px 0 2px;margin-bottom:14px}
+.treewrap{overflow-x:auto;padding:18px 6px 8px;margin:0 0 16px;
+  background:radial-gradient(640px 220px at 50% -10%, rgba(79,209,255,.07), transparent 70%);
+  border:1px solid var(--line);border-radius:16px;
+  -webkit-overflow-scrolling:touch;animation:treeIn .5s ease both}
+@keyframes treeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 /* sibling level = a centered row; each node = a column (chip + its subtree) */
 .rtree{list-style:none;margin:0;padding:0;display:flex;flex-direction:row;align-items:flex-start;justify-content:center}
-.rnode{position:relative;display:flex;flex-direction:column;align-items:center;padding:18px 12px 6px}
+.rnode{position:relative;display:flex;flex-direction:column;align-items:center;padding:20px 13px 6px}
 /* elbow connectors: rail across siblings + stub down to each node */
 .rtree>li::before,.rtree>li::after{
-  content:"";position:absolute;top:0;right:50%;width:50%;height:18px;
-  border-top:2px solid var(--line2);
+  content:"";position:absolute;top:0;right:50%;width:50%;height:20px;
+  border-top:1.5px solid rgba(120,150,220,.4);
 }
-.rtree>li::after{right:auto;left:50%;border-left:2px solid var(--line2)}
+.rtree>li::after{right:auto;left:50%;border-left:1.5px solid rgba(120,150,220,.4)}
 .rtree>li:only-child::before{display:none}
 .rtree>li:only-child::after{border-top:0}
 .rtree>li:first-child::before,.rtree>li:last-child::after{border-top:0}
-.rtree>li::before{border-top-right-radius:10px}
-.rtree>li:first-child::after{border-top-left-radius:10px}
-.rtree>li:last-child::before{border-top-right-radius:10px}
+.rtree>li::before{border-top-right-radius:12px}
+.rtree>li:first-child::after{border-top-left-radius:12px}
+.rtree>li:last-child::before{border-top-right-radius:12px}
 .rnode-root{padding-top:0}
-.rchip{display:inline-flex;align-items:center;gap:8px;max-width:280px;
-  background:var(--panel2);border:1px solid var(--line2);border-radius:11px;
-  padding:9px 14px;font-size:13.5px;font-weight:600;line-height:1.35;
+.rchip{display:inline-flex;align-items:center;gap:7px;max-width:280px;
+  background:rgba(14,21,40,.88);border:1px solid var(--line2);border-radius:999px;
+  padding:8px 15px 8px 12px;font-size:13px;font-weight:600;line-height:1.35;
   text-decoration:none;color:var(--txt);white-space:nowrap;
-  transition:border-color .15s,box-shadow .15s,transform .15s}
-a.rchip:hover{border-color:var(--cyan2);box-shadow:0 8px 22px -10px rgba(79,209,255,.5);transform:translateY(-1px)}
-.rchip-root{background:linear-gradient(160deg,rgba(79,209,255,.2),rgba(181,140,255,.14));
-  border-color:rgba(79,209,255,.45);color:#eef6ff;font-size:15px;
-  box-shadow:0 10px 26px -14px rgba(79,209,255,.5)}
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04), 0 3px 10px -5px rgba(0,0,0,.55);
+  transition:border-color .16s,box-shadow .16s,transform .16s,background .16s}
+.ricon{font-style:normal;font-size:15px;line-height:1}
+a.rchip{cursor:pointer}
+a.rchip:hover{transform:translateY(-2px)}
+a.rchip:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.rchip-root{font-size:15px;font-weight:700;color:#eef6ff;padding:11px 20px 11px 14px;
+  background:linear-gradient(150deg, rgba(79,209,255,.24), rgba(181,140,255,.17) 58%, rgba(14,21,40,.92));
+  border-color:rgba(79,209,255,.55);
+  box-shadow:0 0 0 4px rgba(79,209,255,.08), 0 16px 34px -14px rgba(79,209,255,.6)}
 .rchip-type{font-size:10.5px;font-weight:600;color:var(--muted);
   padding:2px 8px;border:1px solid var(--line);border-radius:999px}
-.rqty{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--gold)}
-.rchip-tag{font-size:10.5px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
-.rchip-raw{color:var(--muted);border-style:dashed}
+.rqty{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--gold);
+  background:rgba(255,191,92,.1);border:1px solid rgba(255,191,92,.32);border-radius:999px;
+  padding:1px 7px;line-height:1.6}
+.rchip-tag{font-size:10px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap;letter-spacing:.2px}
+.rchip-raw{color:var(--muted);border-style:dashed;background:rgba(11,17,33,.7)}
 .rchip-raw .rchip-tag{color:#ffce7a;border-color:rgba(255,191,92,.3);background:rgba(255,191,92,.1)}
+.rchip-cyc{color:#d9c9ff;border-color:rgba(181,140,255,.4)}
 .rchip-cyc .rchip-tag{color:var(--violet);border-color:rgba(181,140,255,.35);background:rgba(181,140,255,.12)}
-/* type accents on linkable chips */
-a.rchip.t-food{border-color:rgba(94,224,160,.4)}
-a.rchip.t-fish{border-color:rgba(79,209,255,.4)}
-a.rchip.t-raw{border-color:rgba(255,191,92,.4)}
-a.rchip.t-other{border-color:rgba(181,140,255,.4)}
-.tree-hint{margin:12px 0 0;font-size:12px;color:var(--muted2);text-align:center}
+/* type-tinted pills on linkable chips */
+a.rchip.t-food{border-color:rgba(94,224,160,.45);background:linear-gradient(150deg, rgba(94,224,160,.14), rgba(14,21,40,.92));color:#e0f6ec}
+a.rchip.t-food:hover{border-color:#5ee0a0;box-shadow:0 10px 26px -10px rgba(94,224,160,.55)}
+a.rchip.t-fish{border-color:rgba(79,209,255,.45);background:linear-gradient(150deg, rgba(79,209,255,.14), rgba(14,21,40,.92));color:#ddf3ff}
+a.rchip.t-fish:hover{border-color:var(--cyan);box-shadow:0 10px 26px -10px rgba(79,209,255,.55)}
+a.rchip.t-raw{border-color:rgba(255,191,92,.45);background:linear-gradient(150deg, rgba(255,191,92,.14), rgba(14,21,40,.92));color:#ffeed2}
+a.rchip.t-raw:hover{border-color:var(--gold);box-shadow:0 10px 26px -10px rgba(255,191,92,.55)}
+a.rchip.t-other{border-color:rgba(181,140,255,.45);background:linear-gradient(150deg, rgba(181,140,255,.14), rgba(14,21,40,.92));color:#ecE3ff}
+a.rchip.t-other:hover{border-color:var(--violet);box-shadow:0 10px 26px -10px rgba(181,140,255,.55)}
+.tree-hint{display:flex;gap:7px;align-items:center;justify-content:center;margin:14px 0 0;font-size:12px;color:var(--muted2)}
+.tree-hint::before{content:"💡"}
 /* clickable ingredient names inside the home table's recipe cells */
 a.ing-link{color:inherit;text-decoration:none;border-bottom:1px dotted rgba(94,224,160,.5);
   transition:color .12s,border-color .12s;cursor:pointer}
 a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
+
+/* ---------- Slidebox (合成树节点侧滑面板) ---------- */
+.sb-open{overflow:hidden}
+.sb-backdrop{position:fixed;inset:0;z-index:80;background:rgba(4,8,18,.62);
+  backdrop-filter:blur(4px);opacity:0;transition:opacity .32s ease}
+.sb-backdrop.show{opacity:1}
+.sb-panel{position:fixed;top:0;right:0;bottom:0;z-index:90;width:min(620px,100vw);
+  display:flex;flex-direction:column;visibility:hidden;
+  background:linear-gradient(180deg, rgba(13,19,38,.99), rgba(9,14,28,.99));
+  border-left:1px solid var(--line2);
+  box-shadow:-34px 0 70px -34px rgba(0,0,0,.75);
+  transform:translateX(103%);transition:transform .42s cubic-bezier(.22,.9,.3,1), visibility 0s .42s}
+.sb-panel.show{transform:none;visibility:visible;transition:transform .42s cubic-bezier(.22,.9,.3,1)}
+.sb-head{display:flex;align-items:center;gap:9px;padding:13px 15px;
+  border-bottom:1px solid var(--line);background:rgba(8,12,24,.55);flex:none}
+.sb-title{flex:1;min-width:0;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb-btn{width:34px;height:34px;flex:none;display:inline-flex;align-items:center;justify-content:center;
+  border-radius:10px;border:1px solid var(--line2);background:var(--panel2);color:var(--muted);
+  font-size:15px;line-height:1;cursor:pointer;text-decoration:none;transition:color .14s,border-color .14s,background .14s}
+.sb-btn:hover{color:var(--txt);border-color:var(--cyan2);background:rgba(79,209,255,.08)}
+.sb-btn:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.sb-btn:disabled{opacity:.32;cursor:default}
+.sb-body{flex:1;overflow-y:auto;padding:22px 20px 36px;overscroll-behavior:contain}
+.sb-body .itemcard{background:transparent;border:none;box-shadow:none;padding:0;max-width:none}
+.sb-body .item-name{font-size:27px}
+.sb-body .treewrap{border:none;background:radial-gradient(480px 160px at 50% -20%, rgba(79,209,255,.06), transparent 70%);padding:10px 0 0;margin-bottom:10px;animation:none}
+.sb-body .recipe-box{font-size:15.5px;padding:15px 18px}
+.sb-load{display:flex;flex-direction:column;align-items:center;gap:16px;padding:70px 0;color:var(--muted2);font-size:13px}
+.sb-spin{width:30px;height:30px;border-radius:50%;border:3px solid var(--line2);border-top-color:var(--cyan);animation:sbrot .8s linear infinite}
+@keyframes sbrot{to{transform:rotate(360deg)}}
+.sb-fade{animation:sbfade .3s ease both}
+@keyframes sbfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.sb-footlink{margin:20px 0 0;text-align:center;font-size:13px}
+.sb-footlink a{color:var(--cyan);text-decoration:none;font-weight:600}
+.sb-footlink a:hover{text-decoration:underline}
+@media (prefers-reduced-motion:reduce){
+  .treewrap,.sb-fade{animation:none}
+  .rchip,.sb-btn{transition:none}
+  .sb-panel{transition:none}
+  .sb-spin{animation-duration:1.6s}
+}
 
 /* ---------- item detail page ---------- */
 .item-page{padding-top:8px}
@@ -257,8 +315,12 @@ a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
   .item-name{font-size:26px}
   .recipe-box{font-size:15px;padding:14px 16px}
   .effect-grid{grid-template-columns:repeat(2,1fr)}
-  .rnode{padding:14px 6px 4px}
-  .rtree>li::before,.rtree>li::after{height:14px}
-  .rchip{padding:7px 10px;font-size:12.5px}
-  .rchip-root{font-size:14px}
+  .treewrap{border-radius:12px;padding:14px 2px 6px}
+  .rnode{padding:15px 5px 4px}
+  .rtree>li::before,.rtree>li::after{height:15px}
+  .rchip{padding:7px 11px 7px 9px;font-size:12.5px;gap:6px}
+  .ricon{font-size:13.5px}
+  .rchip-root{font-size:13.5px;padding:9px 14px 9px 11px}
+  .sb-panel{width:100vw;border-left:none}
+  .sb-body{padding:18px 14px 30px}
 }

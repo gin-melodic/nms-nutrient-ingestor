@@ -78,7 +78,7 @@ STR = {
         "foot_link1": "Nutrient Ingestor 数据表", "foot_link2": "无人深空中文维基",
         "foot_note": "配方表：营养摄入器可合成的物品、原料配方与烹饪时间。效果表：食用后的增益、持续时间与「加成×时长」综合分（分数越高，增益越强 / 越持久）。无配方的物品多为捕捞或采集获得。",
         "no_recipe": "无配方",
-        "tree_hint": "点击任意原料节点，可跳转到该原料的物品页，逐层查看完整合成树",
+        "tree_hint": "点击任意原料节点，在右侧滑出面板中逐层查看完整合成树与增益效果",
         "raw_tag": "无物品页",
         "cyc_tag": "递归，不再展开",
     },
@@ -109,7 +109,7 @@ STR = {
         "foot_link1": "Nutrient Ingestor dataset", "foot_link2": "NMS Chinese Wiki (huijiwiki)",
         "foot_note": "Recipe: items the Nutrient Ingestor can craft, their ingredient formula and cook time. Effects: the buff, duration and score (bonus × duration) — higher = stronger / longer. Items without a recipe are usually fished or gathered.",
         "no_recipe": "No recipe",
-        "tree_hint": "Click any ingredient node to open its item page and explore the full recipe tree",
+        "tree_hint": "Click any ingredient node to slide in its full recipe tree and buff",
         "raw_tag": "no page",
         "cyc_tag": "recursion, not expanded",
     },
@@ -188,6 +188,13 @@ def chip_class(t_zh):
     return {"食用产品": "t-food", "鱼": "t-fish", "原料": "t-raw"}.get(t_zh, "t-other")
 
 
+TYPE_ICON = {"食用产品": "🍽️", "鱼": "🐟", "原料": "🌿"}
+
+
+def icon_of(t_zh):
+    return TYPE_ICON.get(t_zh, "🧪")
+
+
 TREE_MAX_DEPTH = 8  # dataset max is 6; defensive cap
 
 
@@ -203,14 +210,14 @@ def _tree_ul(l, item, seen, depth):
         label = esc(ing["zh" if l == "zh" else "en"])
         target = resolve_ing(ing["en"])
         if target is None:
-            node = f'<span class="rchip rchip-raw">{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>'
+            node = f'<span class="rchip rchip-raw"><i class="ricon" aria-hidden="true">🌿</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>'
             sub = ""
         elif target["en"] in seen:
-            node = f'<span class="rchip rchip-cyc">↻ {label}{qty_html}<span class="rchip-tag">{esc(STR[l]["cyc_tag"])}</span></span>'
+            node = f'<span class="rchip rchip-cyc"><i class="ricon" aria-hidden="true">↻</i>{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["cyc_tag"])}</span></span>'
             sub = ""
         else:
             href = item_path(l, target["slug"])
-            node = f'<a class="rchip rchip-{chip_class(target["type"])}" href="{href}">{label}{qty_html}</a>'
+            node = f'<a class="rchip rchip-{chip_class(target["type"])}" href="{href}"><i class="ricon" aria-hidden="true">{icon_of(target["type"])}</i>{label}{qty_html}</a>'
             sub = _tree_ul(l, target, seen | {target["en"]}, depth + 1)
         lis.append(f'<li class="rnode">{node}{sub}</li>')
     return f'<ul class="rtree">{"".join(lis)}</ul>'
@@ -219,7 +226,8 @@ def _tree_ul(l, item, seen, depth):
 def recipe_tree_html(l, d):
     """Full, fully-expanded recipe node tree (root = the item itself). Server-rendered, no JS required."""
     root = (f'<span class="rchip rchip-root rchip-{chip_class(d["type"])}">'
-            f'{esc(name_of(l, d))}<span class="rchip-type">{esc(type_of(l, d))}</span></span>')
+            f'<i class="ricon" aria-hidden="true">{icon_of(d["type"])}</i>{esc(name_of(l, d))}'
+            f'<span class="rchip-type">{esc(type_of(l, d))}</span></span>')
     sub = _tree_ul(l, d, {d["en"]}, 0)
     return (f'<ul class="rtree rtree-root"><li class="rnode rnode-root">{root}{sub}</li></ul>'
             f'<p class="tree-hint">{esc(STR[l]["tree_hint"])}</p>')
@@ -538,6 +546,7 @@ def render_item(l, d):
 </main>
 <script src="/js/data.js"></script>
 <script src="/js/app.js"></script>
+<script src="/js/slidebox.js"></script>
 </body>
 </html>
 """
