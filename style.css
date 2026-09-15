@@ -158,3 +158,58 @@ tbody tr:last-child td{border-bottom:0}
 ::-webkit-scrollbar-thumb{background:rgba(120,150,220,.28);border-radius:8px;border:3px solid transparent;background-clip:content-box}
 ::-webkit-scrollbar-thumb:hover{background:rgba(120,150,220,.45);background-clip:content-box}
 @media (prefers-reduced-motion:reduce){.stars{animation:none}}
+
+/* ---------- language switch ---------- */
+.langbar{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;color:var(--muted2);
+  background:rgba(8,12,24,.6);border:1px solid var(--line);border-radius:11px;padding:8px 8px 8px 14px}
+.lang-btn{color:var(--cyan);text-decoration:none;font-weight:600;font-size:13px;padding:5px 13px;border-radius:8px;transition:.15s}
+.lang-btn:hover{background:rgba(79,209,255,.12);color:#8fe0ff}
+
+/* ---------- item-link (name cell, replaces .zh/.en) ---------- */
+.item-link{color:var(--txt);text-decoration:none;font-size:14.5px;font-weight:600;transition:color .12s}
+.item-link:hover{color:var(--cyan)}
+.name-cell a.item-link{display:inline-block;line-height:1.3}
+
+/* ---------- recipe column (合成公式) ---------- */
+.recipe-cell{max-width:560px;min-width:220px}
+.recipe-f{color:var(--good);font-size:12.5px;line-height:1.55;font-weight:500}
+.recipe-na{color:var(--muted2);font-size:12.5px}
+.variants{color:var(--muted2);font-size:11px;margin-left:4px;white-space:nowrap}
+thead th[data-key=recipe]{cursor:default}
+thead th[data-key=recipe]:hover{color:var(--muted)}
+
+/* ---------- item detail page ---------- */
+.item-page{padding-top:8px}
+.itemcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  padding:30px 34px;box-shadow:var(--shadow);max-width:880px}
+.item-kicker{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.7px;text-transform:uppercase;
+  color:var(--cyan);margin:0 0 14px;padding:6px 14px;border:1px solid var(--line2);border-radius:999px;
+  background:rgba(79,209,255,.08)}
+.item-name{margin:0 0 6px;font-size:34px;font-weight:700;letter-spacing:.3px;line-height:1.15}
+.item-sub{margin:0 0 24px;color:var(--muted2);font-size:14px}
+.block{margin:0;padding-top:24px;border-top:1px solid var(--line)}
+.block h2{margin:0 0 14px;font-size:12px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);font-weight:700}
+.recipe-box{font-size:17px;line-height:1.95;color:var(--good);font-weight:500;
+  background:rgba(94,224,160,.06);border:1px solid rgba(94,224,160,.16);border-radius:12px;padding:18px 22px}
+.recipe-box .recipe-na{color:var(--muted2);font-size:15px}
+.recipe-note{margin:12px 2px 0;font-size:12.5px;color:var(--muted2)}
+.effect-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ef{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:18px 14px;text-align:center}
+.ef span{display:block;font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted2);margin-bottom:10px}
+.ef b{font-size:19px;font-weight:700;color:var(--txt);word-break:break-word;line-height:1.3}
+.ef:nth-child(2) b{color:var(--cyan)}
+.ef:nth-child(4) b{color:var(--gold)}
+
+/* ---------- compact hero (item pages) + crumb ---------- */
+.hero-compact{padding-top:20px;padding-bottom:14px}
+.hero-compact .glyph{width:52px;height:52px;font-size:28px;border-radius:14px}
+.hero-compact h1{font-size:20px}
+.crumb{color:var(--muted);text-decoration:none;font-size:13.5px;transition:color .12s}
+.crumb:hover{color:var(--cyan)}
+
+@media (max-width:680px){
+  .itemcard{padding:22px 18px}
+  .item-name{font-size:26px}
+  .recipe-box{font-size:15px;padding:14px 16px}
+  .effect-grid{grid-template-columns:repeat(2,1fr)}
+}

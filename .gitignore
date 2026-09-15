@@ -13,4 +13,5 @@ __pycache__/
 # Node (if any)
 node_modules/
 npm-debug.log*
+.npm-cache/
 .vercel

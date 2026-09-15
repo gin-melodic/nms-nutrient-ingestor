@@ -5,9 +5,39 @@ Reads the authoritative CSV (effects data) + name_map (EN->ZH) -> data.json
 import csv, json, sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from name_map import MAP, EFFECT, TYPE
+import re, unicodedata
 
 CSV = os.path.join(os.path.dirname(__file__), "..", "NMS Nutrient Ingestor - Public - Nutrients.csv")
 OUT = os.path.join(os.path.dirname(__file__), "..", "js", "data.js")
+RECIPES_PATH = os.path.join(os.path.dirname(__file__), "recipes.json")
+
+
+def _norm(s):
+    s = unicodedata.normalize("NFKC", s).lower()
+    s = re.sub(r"['\"’“”]", "", s)      # quotes
+    s = re.sub(r"\(.*?\)", "", s)        # parenthetical
+    s = re.sub(r"\s+", " ", s).strip()
+    return s.rstrip("s")                 # naive plural
+
+
+_NORMMAP = {_norm(k): k for k in MAP}
+
+
+def resolve_zh(en):
+    """EN ingredient name -> ZH via name_map (exact, then normalised); None if unknown."""
+    if en in MAP:
+        return MAP[en]
+    k = _norm(en)
+    if k in _NORMMAP:
+        return MAP[_NORMMAP[k]]
+    return None
+
+
+try:
+    with open(RECIPES_PATH, encoding="utf-8") as _fp:
+        RECIPES = json.load(_fp)
+except (FileNotFoundError, ValueError):
+    RECIPES = {}
 
 def num(s):
     s = s.strip().replace(",", "")
@@ -32,27 +62,56 @@ for r in items:
     bonus = num(r["Bonus"])
     total = int(num(r["Total Sec"]))
     bonus_total = num(r["Bonus * Total Sec"])
+    rc = RECIPES.get(r["Item"], {}) or {}
+    ingredients = []
+    for ing in rc.get("ingredients", []):
+        zh = resolve_zh(ing["name"])
+        ingredients.append({"en": ing["name"], "zh": zh or ing["name"], "qty": int(ing.get("qty", 1))})
     data.append({
         "en": r["Item"],
         "zh": MAP.get(r["Item"], r["Item"]),
         "type_en": r["Type"],
         "type": TYPE.get(r["Type"], r["Type"]),
-        "effect_en": r["Effect"],
+        "effect_en": re.sub(r"^%\s*", "", r["Effect"]),
         "effect": EFFECT.get(r["Effect"], r["Effect"]),
         "mins": mins,
         "secs": secs,
         "bonus": bonus,
         "total": total,
         "bonus_total": bonus_total,
+        "recipe": {
+            "has": bool(ingredients),
+            "variants": int(rc.get("variants", 0)),
+            "ingredients": ingredients,
+        },
     })
 
 # stable sort by bonus_total desc as default
 data.sort(key=lambda d: (-d["bonus_total"], d["zh"]))
 
+
+def slugify(en):
+    s = unicodedata.normalize("NFKD", en)
+    s = re.sub(r"[^a-zA-Z0-9]+", "-", s)
+    s = re.sub(r"^-+|-+$", "", s).lower()
+    return s or "item"
+
+
+_seen = {}
+for _d in data:
+    _base = slugify(_d["en"])
+    if _base not in _seen:
+        _seen[_base] = 1
+        _d["slug"] = _base
+    else:
+        _seen[_base] += 1
+        _d["slug"] = f"{_base}-{_seen[_base]}"
+
 summary = {
     "count": len(data),
     "types": sorted(set(d["type"] for d in data)),
     "effects": sorted(set(d["effect"] for d in data)),
+    "recipes": sum(1 for d in data if d["recipe"]["has"]),
 }
 payload = {"summary": summary, "data": data}
 os.makedirs(os.path.dirname(OUT), exist_ok=True)

@@ -587,7 +587,35 @@ MAP = {
 "Hypnotic Eye": "催眠之眼",
 "Juicy Grub": "多汁蛆虫",
 "Larval Core": "幼虫核心",
-"Nip Nip Buds": "Nip Nip 花蕾",
+"Nip Nip Buds": "吸吸幼芽",
+
+# ============ RECIPE INGREDIENTS (合成公式 raw components) ============
+# Chinese names looked up from the NMS wiki (nms.huijiwiki.com / community).
+# These appear as ingredients in other items' crafting recipes ({{Cook}}).
+"Carbon": "碳",
+"Condensed Carbon": "浓缩碳",
+"Salt": "盐",
+"Lubricant": "润滑剂",
+"Microprocessor": "微处理器",
+"Chromatic Metal": "有色金属",
+"Gamma Root": "伽马根",
+"Frost Crystal": "冰霜水晶",
+"Star Bulb": "星辰朵",
+"Solanium": "日光茄",
+"Faecium": "屎球菌",
+"Fungal Mould": "真菌霉",
+"Mordite": "咬噬物",
+"Marrow Bulb": "骨髓球",
+"Kelp Sac": "海藻囊",
+"Cactus Flesh": "仙人掌肉",
+"Mollusc Flesh": "贝类肉",
+"Partially-Liquid Cheese": "半液态奶酪",
+"Edible Chum": "可食鱼饵",
+"Assorted Roe": "混合鱼卵",
+"Any other cooked seafood": "其他熟食海鲜",
+"Swift Leg Bones": "疾腿骨",
+"NipNip Buds": "吸吸幼芽",
+"Fish": "鱼",
 }
 
 # English effect -> Chinese
