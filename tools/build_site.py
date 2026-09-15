@@ -12,7 +12,7 @@ Each page is single-language (no mixed zh/en), carries full SEO meta
 (canonical, hreflang, Open Graph, Twitter Card, JSON-LD) and is served as
 static files (no build step required on the host).
 """
-import json, os, html
+import json, os, html, re, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://nms.ginmel.ai"  # production base URL (no trailing slash)
@@ -20,6 +20,30 @@ BASE = "https://nms.ginmel.ai"  # production base URL (no trailing slash)
 DATA = json.load(open(os.path.join(ROOT, "data.json"), encoding="utf-8"))
 ITEMS = DATA["data"]
 SUMMARY = DATA["summary"]
+
+# ---- ingredient -> item-page resolution (mirrors build.py's _norm) ----
+BY_EN = {d["en"]: d for d in ITEMS}
+
+
+def _norm_name(s):
+    s = unicodedata.normalize("NFKC", str(s)).lower()
+    s = re.sub(r"['\"’“”]", "", s)      # quotes
+    s = re.sub(r"\(.*?\)", "", s)        # parenthetical
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+BY_NORM = {}
+for _d in ITEMS:
+    _k = _norm_name(_d["en"])
+    BY_NORM.setdefault(_k, _d)
+
+
+def resolve_ing(name):
+    """EN ingredient name -> dataset item (exact, then normalised), or None."""
+    if not name:
+        return None
+    return BY_EN.get(name) or BY_NORM.get(_norm_name(name))
 
 LOCALES = {
     "zh": {"base": "", "html": "zh-CN", "og_locale": "zh_CN", "label": "中文"},
@@ -54,6 +78,9 @@ STR = {
         "foot_link1": "Nutrient Ingestor 数据表", "foot_link2": "无人深空中文维基",
         "foot_note": "配方表：营养摄入器可合成的物品、原料配方与烹饪时间。效果表：食用后的增益、持续时间与「加成×时长」综合分（分数越高，增益越强 / 越持久）。无配方的物品多为捕捞或采集获得。",
         "no_recipe": "无配方",
+        "tree_hint": "点击任意原料节点，可跳转到该原料的物品页，逐层查看完整合成树",
+        "raw_tag": "无物品页",
+        "cyc_tag": "递归，不再展开",
     },
     "en": {
         "site_name": "No Man's Sky · Nutrient Ingestor",
@@ -82,6 +109,9 @@ STR = {
         "foot_link1": "Nutrient Ingestor dataset", "foot_link2": "NMS Chinese Wiki (huijiwiki)",
         "foot_note": "Recipe: items the Nutrient Ingestor can craft, their ingredient formula and cook time. Effects: the buff, duration and score (bonus × duration) — higher = stronger / longer. Items without a recipe are usually fished or gathered.",
         "no_recipe": "No recipe",
+        "tree_hint": "Click any ingredient node to open its item page and explore the full recipe tree",
+        "raw_tag": "no page",
+        "cyc_tag": "recursion, not expanded",
     },
 }
 
@@ -131,16 +161,68 @@ def recipe_formula(l, item):
     return sep.join(parts)
 
 
+def _ingredient_label(l, ing):
+    field = "zh" if l == "zh" else "en"
+    name = esc(ing[field])
+    target = resolve_ing(ing["en"])
+    if target:
+        name = f'<a class="ing-link" href="{item_path(l, target["slug"])}">{name}</a>'
+    return name
+
+
 def recipe_cell(l, item):
     r = item["recipe"]
     if not r["has"]:
         if item["type_en"] == "Fish":
             return f'<span class="recipe-na">{STR[l]["fished"]}</span>'
         return f'<span class="recipe-na">—</span>'
-    html_ = f'<span class="recipe-f">{recipe_formula(l, item)}</span>'
+    sep = " ＋ " if l == "zh" else " + "
+    parts = [f'{_ingredient_label(l, i)} ×{i["qty"]}' for i in r["ingredients"]]
+    html_ = f'<span class="recipe-f">{sep.join(parts)}</span>'
     if r["variants"] > 1:
         html_ += f' <span class="variants">({r["variants"]} {STR[l]["recipes_unit"]})</span>'
     return html_
+
+
+def chip_class(t_zh):
+    return {"食用产品": "t-food", "鱼": "t-fish", "原料": "t-raw"}.get(t_zh, "t-other")
+
+
+TREE_MAX_DEPTH = 8  # dataset max is 6; defensive cap
+
+
+def _tree_ul(l, item, seen, depth):
+    """One <ul> of children for `item`: one <li> per ingredient, recursively expanded."""
+    r = item["recipe"]
+    if not r["has"] or depth >= TREE_MAX_DEPTH:
+        return ""
+    lis = []
+    for ing in r["ingredients"]:
+        qty = int(ing.get("qty", 1))
+        qty_html = f'<span class="rqty">×{qty}</span>' if qty > 1 else ""
+        label = esc(ing["zh" if l == "zh" else "en"])
+        target = resolve_ing(ing["en"])
+        if target is None:
+            node = f'<span class="rchip rchip-raw">{label}{qty_html}<span class="rchip-tag">{esc(STR[l]["raw_tag"])}</span></span>'
+            sub = ""
+        elif target["en"] in seen:
+            node = f'<span class="rchip rchip-cyc">↻ {label}{qty_html}<span class="rchip-tag">{esc(STR[l]["cyc_tag"])}</span></span>'
+            sub = ""
+        else:
+            href = item_path(l, target["slug"])
+            node = f'<a class="rchip rchip-{chip_class(target["type"])}" href="{href}">{label}{qty_html}</a>'
+            sub = _tree_ul(l, target, seen | {target["en"]}, depth + 1)
+        lis.append(f'<li class="rnode">{node}{sub}</li>')
+    return f'<ul class="rtree">{"".join(lis)}</ul>'
+
+
+def recipe_tree_html(l, d):
+    """Full, fully-expanded recipe node tree (root = the item itself). Server-rendered, no JS required."""
+    root = (f'<span class="rchip rchip-root rchip-{chip_class(d["type"])}">'
+            f'{esc(name_of(l, d))}<span class="rchip-type">{esc(type_of(l, d))}</span></span>')
+    sub = _tree_ul(l, d, {d["en"]}, 0)
+    return (f'<ul class="rtree rtree-root"><li class="rnode rnode-root">{root}{sub}</li></ul>'
+            f'<p class="tree-hint">{esc(STR[l]["tree_hint"])}</p>')
 
 
 def item_path(l, slug):
@@ -416,6 +498,8 @@ def render_item(l, d):
     if r["has"] and r["variants"] > 1:
         variant_note = f'<p class="recipe-note">{'共 ' if l=="zh" else ""}{r["variants"]} {t["recipes_unit"]}{'，展示其一' if l=="zh" else " — showing one"}</p>'
 
+    tree_html = f'<div class="treewrap">{recipe_tree_html(l, d)}</div>' if r["has"] else ""
+
     body = f"""{head_html}
 <div class="stars" aria-hidden="true"></div>
 <header class="hero hero-compact">
@@ -435,6 +519,7 @@ def render_item(l, d):
 
     <section class="block recipe-sec">
       <h2>{t['recipe_h']}</h2>
+      {tree_html}
       <div class="recipe-box">{recipe_disp}</div>
       {variant_note}
     </section>
@@ -449,8 +534,8 @@ def render_item(l, d):
       </div>
     </section>
   </article>
-</main>
 {footer(l)}
+</main>
 <script src="/js/data.js"></script>
 <script src="/js/app.js"></script>
 </body>

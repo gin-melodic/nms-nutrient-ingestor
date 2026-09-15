@@ -149,7 +149,7 @@ tbody tr:last-child td{border-bottom:0}
   .hero-stats{width:100%;justify-content:space-between}
   .stat{flex:1;min-width:0;padding:10px 6px}
   .controls{justify-content:flex-start}
-  .search{max-width:none;min-width:0}
+  .search{order:-1;max-width:none;min-width:0;flex:1 1 100%}
   .select select{max-width:118px}
   .name-cell .en,.effect-cell .en{white-space:normal}
 }
@@ -177,6 +177,51 @@ tbody tr:last-child td{border-bottom:0}
 .variants{color:var(--muted2);font-size:11px;margin-left:4px;white-space:nowrap}
 thead th[data-key=recipe]{cursor:default}
 thead th[data-key=recipe]:hover{color:var(--muted)}
+
+/* ---------- recipe node tree (合成公式 节点图) ---------- */
+.treewrap{overflow-x:auto;padding:10px 0 2px;margin-bottom:14px}
+/* sibling level = a centered row; each node = a column (chip + its subtree) */
+.rtree{list-style:none;margin:0;padding:0;display:flex;flex-direction:row;align-items:flex-start;justify-content:center}
+.rnode{position:relative;display:flex;flex-direction:column;align-items:center;padding:18px 12px 6px}
+/* elbow connectors: rail across siblings + stub down to each node */
+.rtree>li::before,.rtree>li::after{
+  content:"";position:absolute;top:0;right:50%;width:50%;height:18px;
+  border-top:2px solid var(--line2);
+}
+.rtree>li::after{right:auto;left:50%;border-left:2px solid var(--line2)}
+.rtree>li:only-child::before{display:none}
+.rtree>li:only-child::after{border-top:0}
+.rtree>li:first-child::before,.rtree>li:last-child::after{border-top:0}
+.rtree>li::before{border-top-right-radius:10px}
+.rtree>li:first-child::after{border-top-left-radius:10px}
+.rtree>li:last-child::before{border-top-right-radius:10px}
+.rnode-root{padding-top:0}
+.rchip{display:inline-flex;align-items:center;gap:8px;max-width:280px;
+  background:var(--panel2);border:1px solid var(--line2);border-radius:11px;
+  padding:9px 14px;font-size:13.5px;font-weight:600;line-height:1.35;
+  text-decoration:none;color:var(--txt);white-space:nowrap;
+  transition:border-color .15s,box-shadow .15s,transform .15s}
+a.rchip:hover{border-color:var(--cyan2);box-shadow:0 8px 22px -10px rgba(79,209,255,.5);transform:translateY(-1px)}
+.rchip-root{background:linear-gradient(160deg,rgba(79,209,255,.2),rgba(181,140,255,.14));
+  border-color:rgba(79,209,255,.45);color:#eef6ff;font-size:15px;
+  box-shadow:0 10px 26px -14px rgba(79,209,255,.5)}
+.rchip-type{font-size:10.5px;font-weight:600;color:var(--muted);
+  padding:2px 8px;border:1px solid var(--line);border-radius:999px}
+.rqty{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--gold)}
+.rchip-tag{font-size:10.5px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+.rchip-raw{color:var(--muted);border-style:dashed}
+.rchip-raw .rchip-tag{color:#ffce7a;border-color:rgba(255,191,92,.3);background:rgba(255,191,92,.1)}
+.rchip-cyc .rchip-tag{color:var(--violet);border-color:rgba(181,140,255,.35);background:rgba(181,140,255,.12)}
+/* type accents on linkable chips */
+a.rchip.t-food{border-color:rgba(94,224,160,.4)}
+a.rchip.t-fish{border-color:rgba(79,209,255,.4)}
+a.rchip.t-raw{border-color:rgba(255,191,92,.4)}
+a.rchip.t-other{border-color:rgba(181,140,255,.4)}
+.tree-hint{margin:12px 0 0;font-size:12px;color:var(--muted2);text-align:center}
+/* clickable ingredient names inside the home table's recipe cells */
+a.ing-link{color:inherit;text-decoration:none;border-bottom:1px dotted rgba(94,224,160,.5);
+  transition:color .12s,border-color .12s;cursor:pointer}
+a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 
 /* ---------- item detail page ---------- */
 .item-page{padding-top:8px}
@@ -212,4 +257,8 @@ thead th[data-key=recipe]:hover{color:var(--muted)}
   .item-name{font-size:26px}
   .recipe-box{font-size:15px;padding:14px 16px}
   .effect-grid{grid-template-columns:repeat(2,1fr)}
+  .rnode{padding:14px 6px 4px}
+  .rtree>li::before,.rtree>li::after{height:14px}
+  .rchip{padding:7px 10px;font-size:12.5px}
+  .rchip-root{font-size:14px}
 }

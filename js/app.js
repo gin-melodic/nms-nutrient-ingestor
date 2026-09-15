@@ -30,6 +30,8 @@
 
   // ---- DOM ----
   const $ = s => document.querySelector(s);
+  // Item detail pages have no table: nothing to do here.
+  if (!document.getElementById("head") || !document.getElementById("body")) return;
   const el = {
     tabs: document.querySelectorAll(".tab"),
     q: $("#q"), clear: $("#clear"),
@@ -52,12 +54,30 @@
   const effectOf = d => (isZh ? d.effect : d.effect_en);
   const itemHref = d => BASE + "/items/" + d.slug + "/";
 
+  // ingredient name -> dataset item (mirrors tools/build.py _norm), for clickable recipe cells
+  const norm = s => String(s).normalize("NFKC").toLowerCase()
+    .replace(/['"''""]/g, "").replace(/\(.*?\)/g, "").replace(/\s+/g, " ").trim();
+  const EXACT = {};
+  const NORM = {};
+  DATA.forEach(d => {
+    if (!EXACT[d.en]) EXACT[d.en] = d;
+    const k = norm(d.en);
+    if (k && !NORM[k]) NORM[k] = d;
+  });
+  const resolveIng = n => EXACT[n] || NORM[norm(n)] || null;
+
   function recipeCell(d) {
     const r = d.recipe || { has: false, variants: 0, ingredients: [] };
     if (!r.has) return `<span class="recipe-na">${d.type_en === "Fish" ? L.fished : L.na}</span>`;
     const field = isZh ? "zh" : "en";
     const sep = isZh ? " ＋ " : " + ";
-    const parts = r.ingredients.map(i => esc(i[field]) + " ×" + i.qty);
+    const parts = r.ingredients.map(i => {
+      const t = resolveIng(i.en);
+      const name = t
+        ? `<a class="ing-link" href="${BASE}/items/${t.slug}/">${esc(i[field])}</a>`
+        : esc(i[field]);
+      return name + " ×" + i.qty;
+    });
     let html = `<span class="recipe-f">${parts.join(sep)}</span>`;
     if (r.variants > 1) html += ` <span class="variants">(${L.variants(r.variants)})</span>`;
     return html;
