@@ -2,10 +2,11 @@
 """Generate the localized, SEO-optimized static site.
 
 Reads data.json (built by build.py, which merges tools/recipes.json) and emits:
-  - index.html                       (Chinese, default)  -> /
-  - en/index.html                    (English)           -> /en/
-  - items/<slug>.html                (Chinese item page) -> /items/<slug>/
-  - en/items/<slug>.html             (English item page) -> /en/items/<slug>/
+  - index.html                       (English, primary) -> /
+  - zh/index.html                    (Chinese)          -> /zh/
+  - items/<slug>/index.html          (English item page) -> /items/<slug>/
+  - zh/items/<slug>/index.html       (Chinese item page) -> /zh/items/<slug>/
+  - vercel.json (301 redirects from the old /en/... and old Chinese /items/... URLs)
   - robots.txt, sitemap.xml, og-image.png
 
 Each page is single-language (no mixed zh/en), carries full SEO meta
@@ -46,8 +47,8 @@ def resolve_ing(name):
     return BY_EN.get(name) or BY_NORM.get(_norm_name(name))
 
 LOCALES = {
-    "zh": {"base": "", "html": "zh-CN", "og_locale": "zh_CN", "label": "中文"},
-    "en": {"base": "/en", "html": "en", "og_locale": "en_US", "label": "English"},
+    "en": {"base": "", "html": "en", "og_locale": "en_US", "label": "English"},
+    "zh": {"base": "/zh", "html": "zh-CN", "og_locale": "zh_CN", "label": "中文"},
 }
 
 STR = {
@@ -76,8 +77,19 @@ STR = {
         "back": "返回配方表", "lang": "语言",
         "foot_src1": "效果数据来源", "foot_src2": "中文术语来源",
         "foot_link1": "Nutrient Ingestor 数据表", "foot_link2": "无人深空中文维基",
-        "foot_note": "配方表：营养摄入器可合成的物品、原料配方与烹饪时间。效果表：食用后的增益、持续时间与「加成×时长」综合分（分数越高，增益越强 / 越持久）。无配方的物品多为捕捞或采集获得。",
+        "foot_note": "配方表：营养摄入器可合成的物品、原料配方与烹饪时间。效果表：食用后的增益、持续时间与「加成×时长」综合分（分数越高，增益越强 / 越持久）。无配方的物品多为捕捞、采集或狩猎获得。",
         "no_recipe": "无配方",
+        "gathered": "🌿 采集",
+        "howto_h": "获取建议",
+        "howto_fish": "🎣 钓鱼获取：在任意星球的水域（海洋、湖泊）使用鱼竿垂钓。",
+        "howto_fish_sub": "不同星球的生态会产出不同的鱼种；稀有鱼只出现在特定生态。",
+        "howto_gather": "🌿 采集获取：在行星表面采集对应的植物 / 资源节点，或从生物身上获取。",
+        "howto_gather_sub": "基础原料，无需合成，取得后直接放入营养摄入器搭配使用。",
+        "howto_general": "🧭 无需合成：直接在星球世界中获取（探索、狩猎、采集或交易）后即可食用。",
+        "howto_general_sub": "来自特定生物或环境，取得后直接放入营养摄入器。",
+        "howto_short_fish": "钓鱼获得",
+        "howto_short_gather": "采集 / 狩猎获得",
+        "howto_short_general": "在星球世界中直接获取",
         "tree_hint": "点击任意原料节点，在右侧滑出面板中逐层查看完整合成树与增益效果",
         "raw_tag": "无物品页",
         "cyc_tag": "递归，不再展开",
@@ -107,8 +119,19 @@ STR = {
         "back": "Back to recipes", "lang": "Language",
         "foot_src1": "Effects data source", "foot_src2": "Chinese terminology",
         "foot_link1": "Nutrient Ingestor dataset", "foot_link2": "NMS Chinese Wiki (huijiwiki)",
-        "foot_note": "Recipe: items the Nutrient Ingestor can craft, their ingredient formula and cook time. Effects: the buff, duration and score (bonus × duration) — higher = stronger / longer. Items without a recipe are usually fished or gathered.",
+        "foot_note": "Recipe: items the Nutrient Ingestor can craft, their ingredient formula and cook time. Effects: the buff, duration and score (bonus × duration) — higher = stronger / longer. Items without a recipe are usually fished, gathered or hunted.",
         "no_recipe": "No recipe",
+        "gathered": "🌿 Gathered",
+        "howto_h": "How to get",
+        "howto_fish": "🎣 Caught by fishing: use a fishing rod in any planet's waters (oceans, lakes).",
+        "howto_fish_sub": "Different ecosystems yield different species; rare fish only spawn in specific habitats.",
+        "howto_gather": "🌿 Gathered: harvest the matching plant / resource nodes on a planet surface, or obtain it from fauna.",
+        "howto_gather_sub": "Base ingredients — no crafting needed, feed them straight to the Nutrient Ingestor.",
+        "howto_general": "🧭 No crafting needed: obtain it directly in the world (explore, hunt, gather or trade), then ingest.",
+        "howto_general_sub": "Sourced from specific creatures or environments; use it straight in the Nutrient Ingestor.",
+        "howto_short_fish": "caught by fishing",
+        "howto_short_gather": "gathered / hunted in the world",
+        "howto_short_general": "obtained directly in the world",
         "tree_hint": "Click any ingredient node to slide in its full recipe tree and buff",
         "raw_tag": "no page",
         "cyc_tag": "recursion, not expanded",
@@ -175,6 +198,8 @@ def recipe_cell(l, item):
     if not r["has"]:
         if item["type_en"] == "Fish":
             return f'<span class="recipe-na">{STR[l]["fished"]}</span>'
+        if item["type"] == "原料":
+            return f'<span class="recipe-na">{STR[l]["gathered"]}</span>'
         return f'<span class="recipe-na">—</span>'
     sep = " ＋ " if l == "zh" else " + "
     parts = [f'{_ingredient_label(l, i)} ×{i["qty"]}' for i in r["ingredients"]]
@@ -233,6 +258,16 @@ def recipe_tree_html(l, d):
             f'<p class="tree-hint">{esc(STR[l]["tree_hint"])}</p>')
 
 
+def howto(l, d):
+    """Acquisition advice for items that need no crafting, by type."""
+    t = STR[l]
+    if d["type_en"] == "Fish":
+        return t["howto_fish"], t["howto_fish_sub"], t["howto_short_fish"]
+    if d["type"] == "原料":
+        return t["howto_gather"], t["howto_gather_sub"], t["howto_short_gather"]
+    return t["howto_general"], t["howto_general_sub"], t["howto_short_general"]
+
+
 def item_path(l, slug):
     return (LOCALES[l]["base"] or "") + f"/items/{slug}/"
 
@@ -259,7 +294,7 @@ def head(l, title, desc, zh_url, en_url, ld=None, extra_body=None):
   <meta name="description" content="{esc(desc)}" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="{canonical}" />
-  <link rel="alternate" hreflang="x-default" href="{zh_url}" />
+  <link rel="alternate" hreflang="x-default" href="{en_url}" />
   <link rel="alternate" hreflang="zh" href="{zh_url}" />
   <link rel="alternate" hreflang="en" href="{en_url}" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%8C%3C/text%3E%3C/svg%3E" />
@@ -348,7 +383,7 @@ def home_rows(l):
 
 def render_home(l):
     t = STR[l]
-    zh_url = absu("/"); en_url = absu("/en/")
+    en_url = absu("/"); zh_url = absu("/zh/")
     title = t["home_title"]; desc = t["home_desc"]
     ld = [{
         "@context": "https://schema.org",
@@ -465,22 +500,19 @@ def iso_dur(total):
 def render_item(l, d):
     t = STR[l]
     slug = d["slug"]
-    zh_url = absu(f"/items/{slug}/"); en_url = absu(f"/en/items/{slug}/")
+    en_url = absu(f"/items/{slug}/"); zh_url = absu(f"/zh/items/{slug}/")
     name = name_of(l, d)
     other_name = d["en"] if l == "zh" else d["zh"]
     other_lang_label = t["en_name"] if l == "zh" else t["zh_name"]
     r = d["recipe"]
     if r["has"]:
-        recipe_disp = recipe_formula(l, d)
         recipe_plain = " + ".join(f"{i['zh' if l=='zh' else 'en']}×{i['qty']}" for i in r["ingredients"])
     else:
-        recipe_disp = (f'<span class="recipe-na">{t["fished"]}</span>' if d["type_en"] == "Fish"
-                       else f'<span class="recipe-na">{t["no_recipe"]}</span>')
-        recipe_plain = t["fished"] if d["type_en"] == "Fish" else t["no_recipe"]
+        recipe_plain = howto(l, d)[2]
     title = t["item_title"].format(name=name)
     desc = t["item_desc"].format(
         name=name,
-        recipe=(recipe_plain if r["has"] else t["no_recipe"]),
+        recipe=recipe_plain,
         effect=effect_of(l, d), bonus=fmt(d["bonus"]),
         time=time_str(d), score=fmt(d["bonus_total"]))
 
@@ -502,11 +534,26 @@ def render_item(l, d):
     back_link = home_path(l)
     switch_item = absu(item_path(other(l), slug))
 
-    variant_note = ""
-    if r["has"] and r["variants"] > 1:
-        variant_note = f'<p class="recipe-note">{'共 ' if l=="zh" else ""}{r["variants"]} {t["recipes_unit"]}{'，展示其一' if l=="zh" else " — showing one"}</p>'
-
-    tree_html = f'<div class="treewrap">{recipe_tree_html(l, d)}</div>' if r["has"] else ""
+    if r["has"]:
+        # 合成公式已用节点树完整展示，不再重复绿色的 recipe-box 公式文本
+        variant_note = ""
+        if r["variants"] > 1:
+            variant_note = f'<p class="recipe-note">{'共 ' if l=="zh" else ""}{r["variants"]} {t["recipes_unit"]}{'，展示其一' if l=="zh" else " — showing one"}</p>'
+        recipe_section = f"""    <section class="block recipe-sec">
+      <h2>{esc(t['recipe_h'])}</h2>
+      <div class="treewrap">{recipe_tree_html(l, d)}</div>
+      {variant_note}
+    </section>"""
+    else:
+        # 无需合成的基础物品：给出获取建议
+        main_txt, sub_txt, _ = howto(l, d)
+        recipe_section = f"""    <section class="block recipe-sec">
+      <h2>{esc(t['howto_h'])}</h2>
+      <div class="howto-box">
+        <p class="howto-main">{esc(main_txt)}</p>
+        <p class="howto-sub">{esc(sub_txt)}</p>
+      </div>
+    </section>"""
 
     body = f"""{head_html}
 <div class="stars" aria-hidden="true"></div>
@@ -525,12 +572,7 @@ def render_item(l, d):
     <h1 class="item-name">{esc(name)}</h1>
     <p class="item-sub">{other_lang_label}：{esc(other_name)}</p>
 
-    <section class="block recipe-sec">
-      <h2>{t['recipe_h']}</h2>
-      {tree_html}
-      <div class="recipe-box">{recipe_disp}</div>
-      {variant_note}
-    </section>
+{recipe_section}
 
     <section class="block effect-sec">
       <h2>{t['effect_h']}</h2>
@@ -565,12 +607,12 @@ def sitemap():
     from datetime import date
     today = date.today().isoformat()
     urls = [
-        (absu("/"), "1.0"),
-        (absu("/en/"), "0.9"),
+        (absu("/"), "1.0"),       # English (primary)
+        (absu("/zh/"), "0.9"),    # Chinese
     ]
     for d in ITEMS:
-        urls.append((absu(f"/items/{d['slug']}/"), "0.8"))
-        urls.append((absu(f"/en/items/{d['slug']}/"), "0.7"))
+        urls.append((absu(f"/items/{d['slug']}/"), "0.8"))        # English
+        urls.append((absu(f"/zh/items/{d['slug']}/"), "0.7"))     # Chinese
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
              f'xmlns:xhtml="http://www.w3.org/1999/xhtml">']
@@ -607,22 +649,40 @@ def og_image():
     print("  og-image.png", os.path.getsize(out), "bytes")
 
 
+def vercel_config():
+    """301 redirects from the previous URL scheme (2026-09):
+      - old Chinese item pages  /items/<slug>/   → /zh/items/<slug>/
+      - old English pages      /en/...           → ...
+    (the old root was Chinese; the new root is the English site, so it is kept as-is)."""
+    redirects = [
+        {"source": f"/items/{d['slug']}/", "destination": f"/zh/items/{d['slug']}/", "type": "301"}
+        for d in ITEMS
+    ]
+    redirects += [
+        {"source": "/en", "destination": "/", "type": "301"},
+        {"source": "/en/", "destination": "/", "type": "301"},
+        {"source": "/en/:splat", "destination": "/:splat", "type": "301"},
+    ]
+    return json.dumps({"version": 2, "redirects": redirects}, ensure_ascii=False, indent=2) + "\n"
+
+
 def main():
     print("building site…")
-    # home pages
-    write(os.path.join(ROOT, "index.html"), render_home("zh"))
-    write(os.path.join(ROOT, "en", "index.html"), render_home("en"))
+    # home pages (English primary at root, Chinese under /zh/)
+    write(os.path.join(ROOT, "index.html"), render_home("en"))
+    write(os.path.join(ROOT, "zh", "index.html"), render_home("zh"))
 
-    # item pages (directory-style: items/<slug>/index.html and en/items/<slug>/index.html)
+    # item pages (directory-style: items/<slug>/index.html EN, zh/items/<slug>/index.html ZH)
     for d in ITEMS:
-        write(os.path.join(ROOT, "items", d["slug"], "index.html"), render_item("zh", d))
-        write(os.path.join(ROOT, "en", "items", d["slug"], "index.html"), render_item("en", d))
+        write(os.path.join(ROOT, "items", d["slug"], "index.html"), render_item("en", d))
+        write(os.path.join(ROOT, "zh", "items", d["slug"], "index.html"), render_item("zh", d))
 
     # meta files
     write(os.path.join(ROOT, "robots.txt"), robots())
     write(os.path.join(ROOT, "sitemap.xml"), sitemap())
+    write(os.path.join(ROOT, "vercel.json"), vercel_config())
     og_image()
-    print(f"done. {SUMMARY['count']} items → {SUMMARY['count']*2+2} pages + robots + sitemap + og-image")
+    print(f"done. {SUMMARY['count']} items → {SUMMARY['count']*2+2} pages + robots + sitemap + vercel.json + og-image")
 
 
 def write(path, content):

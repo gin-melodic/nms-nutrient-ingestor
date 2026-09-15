@@ -14,14 +14,14 @@
 
   const L = isZh
     ? {
-        all: "全部", fished: "🎣 捕捞", na: "—",
+        all: "全部", fished: "🎣 捕捞", gathered: "🌿 采集", na: "—",
         variants: n => n + " 种配方",
         colName: "名称", colType: "类型", colTime: "烹饪时间", colRecipe: "合成公式",
         colEffect: "效果", colBonus: "加成", colDur: "持续时间", colScore: "综合分",
         sort: { name: "按名称", time: "按烹饪时间", type: "按类型", score: "综合分（默认）", bonus: "按加成", total: "按时长" },
       }
     : {
-        all: "All", fished: "🎣 Fished", na: "—",
+        all: "All", fished: "🎣 Fished", gathered: "🌿 Gathered", na: "—",
         variants: n => n + " recipes",
         colName: "Name", colType: "Type", colTime: "Cook time", colRecipe: "Recipe",
         colEffect: "Effect", colBonus: "Bonus", colDur: "Duration", colScore: "Score",
@@ -68,7 +68,10 @@
 
   function recipeCell(d) {
     const r = d.recipe || { has: false, variants: 0, ingredients: [] };
-    if (!r.has) return `<span class="recipe-na">${d.type_en === "Fish" ? L.fished : L.na}</span>`;
+    if (!r.has) {
+      const na = d.type_en === "Fish" ? L.fished : (d.type === "原料" ? L.gathered : L.na);
+      return `<span class="recipe-na">${na}</span>`;
+    }
     const field = isZh ? "zh" : "en";
     const sep = isZh ? " ＋ " : " + ";
     const parts = r.ingredients.map(i => {

@@ -2,13 +2,14 @@
 
 《无人深空》营养摄入器（外骨骼进食科技）**配方表 · 效果表 · 合成公式** 的双语（中/英）静态网站，面向 SEO 优化。
 
-线上地址：<https://nms.ginmel.ai/>（中文 `nms.ginmel.ai`，英文 `nms.ginmel.ai/en/`）。
+线上地址：<https://nms.ginmel.ai/>（**英文为主域名**，中文在 `nms.ginmel.ai/zh/` 路径下）。
 
 ## 特性
 
-- **双语 + 语言切换按钮**：中文页与英文页使用**不同 URL 路径**（`/` 与 `/en/`），每页单一语言、不混排，右上角可一键切换（含物品页的同名对照链接）。
+- **双语 + 语言切换按钮**：英文为主（`/`），中文页使用 `/zh/` 路径，每页单一语言、不混排，右上角可一键切换（含物品页的同名对照链接）。旧 URL（`/en/...`、旧的中文 `/items/...`）通过 `vercel.json` 301 重定向到新地址。
 - **合成公式**：配方表新增「合成公式 / Recipe」列，展示每种食物的原料配方（例如 `'Apple' Ice Cream = 粘蛋奶沙司 + 冷冻块茎 + 蟹肉“苹果”`）；多配方会标注「N 种配方」；无配方物品标注「🎣 捕捞」或「无配方」。
-- **节点图（物品页）**：物品详情页的「合成公式」区块以**完整展开的节点树**展示合成链（根 = 当前物品，向下逐级展开所有原料，全库最深 6 层），节点带类型图标与类型配色（食用 🍽️ / 鱼 🐟 / 原料 🌿）；**所有原料节点均可点击**，不跳转页面、而是从右侧**滑出 Slidebox 面板**展示该物品的完整详情（合成树 + 增益效果），并在面板内继续点击子节点逐层深入、`←` 返回、`Esc`/点遮罩关闭、`↗` 新标签页打开（`js/slidebox.js`）；无物品页的原料（如 Salt）显示「无物品页」标记，递归配方（如甜甜圈↔面团链）显示 `↻ 递归` 标记不再展开；树为纯服务端渲染（利于 SEO），无 JS 时节点保持原生跳转（渐进增强），窄屏可横向滚动。
+- **节点图（物品页）**：物品详情页的「合成公式 / Recipe」区块以**完整展开的节点树**展示合成链（根 = 当前物品，向下逐级展开所有原料，全库最深 6 层），节点带类型图标与类型配色（食用 🍽️ / 鱼 🐟 / 原料 🌿）；**所有原料节点均可点击**，不跳转页面、而是从右侧**滑出 Slidebox 面板**展示该物品的完整详情（合成树 + 增益效果），并在面板内继续点击子节点逐层深入、`←` 返回、`Esc`/点遮罩关闭、`↗` 新标签页打开（`js/slidebox.js`）；无物品页的原料（如 Salt）显示「无物品页」标记，递归配方（如甜甜圈↔面团链）显示 `↻ 递归` 标记不再展开；树为纯服务端渲染（利于 SEO），无 JS 时节点保持原生跳转（渐进增强），窄屏可横向滚动。**有配方的物品不再重复显示绿色公式文本框**（节点树即完整公式），多配方物品保留「N 种配方」提示。
+- **获取建议（物品页）**：**无需合成的基础物品**不再只写「无配方」，而是按类型给出获取建议——鱼 🎣 钓鱼（任意星球水域）、原料 🌿 采集（行星表面 / 生物掉落）、其余 🧭 世界中直接获取；首页配方表的无配方行同步显示「🎣 捕捞 / 🌿 采集」。
 - **两个视图**：
   | 视图 | 内容 |
   | --- | --- |
@@ -37,7 +38,7 @@
 python3 tools/scrape_recipes.py     # Fandom API -> tools/recipes.json
 # 2) 数据构建：CSV + name_map + recipes.json -> js/data.js 与 data.json
 python3 tools/build.py
-# 3) 站点生成：data.json -> index.html / en/ / items/ / en/items/ / robots.txt / sitemap.xml / og-image.png
+# 3) 站点生成：data.json -> index.html(EN) / zh/ / items/(EN) / zh/items/(ZH) / vercel.json / robots.txt / sitemap.xml / og-image.png
 python3 tools/build_site.py
 ```
 
@@ -64,14 +65,15 @@ git add -A && git commit -m "…" && git push origin master  # 触发自动部�
 ## 目录
 
 ```
-index.html                              中文首页（生成物）
-en/index.html                           英文首页（生成物）
-items/<slug>/index.html                 中文物品页（生成物，575 个）
-en/items/<slug>/index.html              英文物品页（生成物，575 个）
+index.html                              英文首页（生成物，主域名）
+zh/index.html                           中文首页（生成物，/zh/ 路径）
+items/<slug>/index.html                 英文物品页（生成物，575 个）
+zh/items/<slug>/index.html              中文物品页（生成物，575 个）
 style.css                               样式
 js/app.js                               交互逻辑（感知 data-locale）
 js/data.js                              数据（生成物，window.NMS）
 data.json                               数据（JSON 副本）
+vercel.json                             旧 URL 301 重定向（生成物）
 robots.txt / sitemap.xml / og-image.png SEO（生成物）
 tools/build.py                          数据构建脚本
 tools/build_site.py                     站点生成脚本
@@ -81,4 +83,4 @@ tools/recipes.json                      抓取到的合成公式（按物品名�
 NMS Nutrient Ingestor - Public - Nutrients.csv   原始效果数据
 ```
 
-> 注意：`js/data.js`、`data.json`、`index.html`、`en/`、`items/`、`en/items/`、`robots.txt`、`sitemap.xml`、`og-image.png` 均为**生成物**，请勿手改；改动请改源头（CSV / `name_map.py` / `recipes.json`）后重跑 `tools/build.py` 与 `tools/build_site.py`。
+> 注意：`js/data.js`、`data.json`、`index.html`、`zh/`、`items/`、`vercel.json`、`robots.txt`、`sitemap.xml`、`og-image.png` 均为**生成物**，请勿手改；改动请改源头（CSV / `name_map.py` / `recipes.json` / `tools/build_site.py`）后重跑 `tools/build.py` 与 `tools/build_site.py`。

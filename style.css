@@ -257,7 +257,7 @@ a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 .sb-body .itemcard{background:transparent;border:none;box-shadow:none;padding:0;max-width:none}
 .sb-body .item-name{font-size:27px}
 .sb-body .treewrap{border:none;background:radial-gradient(480px 160px at 50% -20%, rgba(79,209,255,.06), transparent 70%);padding:10px 0 0;margin-bottom:10px;animation:none}
-.sb-body .recipe-box{font-size:15.5px;padding:15px 18px}
+.sb-body .howto-box{padding:15px 18px}
 .sb-load{display:flex;flex-direction:column;align-items:center;gap:16px;padding:70px 0;color:var(--muted2);font-size:13px}
 .sb-spin{width:30px;height:30px;border-radius:50%;border:3px solid var(--line2);border-top-color:var(--cyan);animation:sbrot .8s linear infinite}
 @keyframes sbrot{to{transform:rotate(360deg)}}
@@ -284,9 +284,10 @@ a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 .item-sub{margin:0 0 24px;color:var(--muted2);font-size:14px}
 .block{margin:0;padding-top:24px;border-top:1px solid var(--line)}
 .block h2{margin:0 0 14px;font-size:12px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);font-weight:700}
-.recipe-box{font-size:17px;line-height:1.95;color:var(--good);font-weight:500;
-  background:rgba(94,224,160,.06);border:1px solid rgba(94,224,160,.16);border-radius:12px;padding:18px 22px}
-.recipe-box .recipe-na{color:var(--muted2);font-size:15px}
+/* 获取建议（无合成配方的基础物品） */
+.howto-box{background:rgba(255,191,92,.06);border:1px solid rgba(255,191,92,.2);border-radius:12px;padding:18px 22px}
+.howto-main{margin:0 0 8px;font-size:15.5px;line-height:1.8;color:#ffe9c4;font-weight:600}
+.howto-sub{margin:0;font-size:13px;line-height:1.75;color:var(--muted)}
 .recipe-note{margin:12px 2px 0;font-size:12.5px;color:var(--muted2)}
 .effect-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .ef{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:18px 14px;text-align:center}
@@ -305,7 +306,7 @@ a.ing-link:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 @media (max-width:680px){
   .itemcard{padding:22px 18px}
   .item-name{font-size:26px}
-  .recipe-box{font-size:15px;padding:14px 16px}
+  .howto-main{font-size:14.5px}
   .effect-grid{grid-template-columns:repeat(2,1fr)}
   .treewrap{border-radius:12px;padding:14px 2px 6px}
   .rnode{padding:20px 6px 6px}
