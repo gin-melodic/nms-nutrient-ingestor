@@ -666,7 +666,9 @@ ALIASES = {
 }
 
 # ---- 数据集外但 Fandom 维基有页面的原料 → 物品页外链（nomanssky.fandom.com，2026-09 经 API 验证存在） ----
-_WIKI_BASE = "https://nomansky.fandom.com/wiki/"
+# 用 nms 子域名：同一 wiki 的 Fandom 别名子域。部分网络出口下 nomanssky 子域
+# 会报 "This wiki does not exist"（Fandom 边缘节点缺 wiki 映射，2026-09-15 用户实测），nms 子域稳定可达。
+_WIKI_BASE = "https://nms.fandom.com/wiki/"
 WIKI_PAGE = {
     # 通用合成资源（16）
     "Salt": "Salt",
