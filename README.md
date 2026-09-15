@@ -50,11 +50,16 @@ python3 -m http.server 8080                              # 打开 http://127.0.0
 
 ## 部署
 
-静态站点，用 Vercel CLI 部署：
+**推荐：推送到 GitHub 自动部署。** 向 `master` 分支提交后，`.github/workflows/vercel-deploy.yml` 会自动重建站点并部署到 Vercel 生产环境（`nms.ginmel.ai`）：
 
 ```bash
-vercel --prod
+python3 tools/build.py && python3 tools/build_site.py   # 本地生成
+git add -A && git commit -m "…" && git push origin master  # 触发自动部署
 ```
+
+仓库需配置 Secret：`VERCEL_TOKEN`（Vercel 个人访问令牌）。
+
+> 也可在本地用 Vercel CLI 手动部署：`vercel link --yes --project nms-nutrient-ingestor --team team_…` 后 `vercel deploy --prod --yes --archive=tgz`。
 
 ## 目录
 

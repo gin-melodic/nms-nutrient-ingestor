@@ -1,0 +1,41 @@
+name: Deploy to Vercel
+
+# push 到 master 即自动：重建静态站 → 部署到 Vercel 生产环境（nms.ginmel.ai）
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild static site
+        run: |
+          python -m pip install --quiet pillow
+          python tools/build.py
+          python tools/build_site.py
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Deploy to Vercel (production)
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npm install -g vercel@latest --no-fund --no-audit --silent
+          vercel link --yes --project nms-nutrient-ingestor --team team_MnAg8mL4XSEWwLQ4Yu9EKWuo
+          vercel deploy --prod --yes --archive=tgz --skip-hints
